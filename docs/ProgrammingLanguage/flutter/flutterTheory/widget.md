@@ -30,3 +30,18 @@ Widget들의 부모, 자식 관계를 나타내는걸 Widget Tree라고 함.<br>
 Parameter를 변경하면서 위젯을 통하지 않고 State 안에서 직접 실행함.
 ![lifeCycle](/docs/assets/img/flutter/statefullWidget/setState.png)
 
+## Shortcut
+- stless : stless까지 입력하고 Enter를 누르면 Stateless Widget이 자동으로 입력됨.
+
+![stless](/docs/assets/img/flutter/statefullWidget/stless.gif)
+
+- stful : stful까지 입력하고 Enter를 누르면 Stateful Widget이 자동으로 입력됨.
+
+![stful](/docs/assets/img/flutter/statefullWidget/stful.gif)
+
+- Stateless Widget > Stateful Widget : Stateless Widget을 드래그하고 "우클릭" > "Show Context Actions" (단축키 : Option + Enter) > "Convert to Stateful Widget"을 클릭하면 Stateless Widget에서 Stateful Widget으로 변함.
+
+![stless to stful](/docs/assets/img/flutter/statefullWidget/stlessToStful.gif)
+
+## Reference
+[참조 Source Code](https://github.com/rookedsysc/Flutter-Study/blob/main/flutterProject/flutter-lv1-theory-statefulwidget-before-main/lib/screen/home_screen.dart)
