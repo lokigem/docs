@@ -31,7 +31,6 @@ markdown_extensions:
 
 plugins:
   - search
-  - glightbox
 
 # Git 연동
 site_name: Rookedsysc's Docs
