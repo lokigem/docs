@@ -11,7 +11,7 @@ theme:
     - navigation.indexes
     - content.code.annotate
     - navigation.top
-
+    - navigation.sections
   palette:
     scheme: default
     primary: black
