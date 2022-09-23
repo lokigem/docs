@@ -10,7 +10,9 @@ theme:
     - navigation.prune
     - navigation.indexes
     - content.code.annotate
-    - toc.integrate    
+    - toc.integrate
+    - navigation.top
+
   palette:
     scheme: default
     primary: black
