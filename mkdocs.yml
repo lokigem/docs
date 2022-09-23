@@ -10,7 +10,6 @@ theme:
     - navigation.prune
     - navigation.indexes
     - content.code.annotate
-    - toc.integrate
     - navigation.top
 
   palette:
