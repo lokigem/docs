@@ -34,10 +34,10 @@ plugins:
   - glightbox
 
 # Git 연동
-site_name: Rookedsysc's Docks
-site_url: https://lokigem.github.io/docks
-repo_url: https://github.com/lokigem/docks
-repo_name: lokigem/docks
+site_name: Rookedsysc's Docs
+site_url: https://lokigem.github.io/docs
+repo_url: https://github.com/lokigem/docs
+repo_name: lokigem/docs
     
 nav: 
   - Flutter:
