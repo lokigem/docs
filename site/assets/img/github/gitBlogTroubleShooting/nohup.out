@@ -1,0 +1,9 @@
+[33mConfiguration file: none[0m
+            Source: /Users/rookedsysc/Desktop/Github/rookedsysc.github.io/assets/img/github/gitBlogTroubleShooting
+       Destination: /Users/rookedsysc/Desktop/Github/rookedsysc.github.io/assets/img/github/gitBlogTroubleShooting/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.034 seconds.
+ Auto-regeneration: enabled for '/Users/rookedsysc/Desktop/Github/rookedsysc.github.io/assets/img/github/gitBlogTroubleShooting'
+    Server address: http://127.0.0.1:4000
+  Server running... press ctrl-c to stop.

@@ -1,0 +1,49 @@
+site_name: Rookedsysc's Docs
+
+theme: 
+  name: material
+  features: 
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tracking
+    - navigation.expand
+    - navigation.prune
+    - navigation.indexes
+    - content.code.annotate 
+  palette:
+    scheme: slate
+    primary: black
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+  - toc:
+      toc_depth: 4
+
+plugins:
+  - search
+
+# Git 연동
+site_name: Rookedsysc's Docks
+site_url: https://lokigem.github.io/docks
+repo_url: https://github.com/lokigem/docks
+repo_name: lokigem/docks
+    
+nav: 
+  - Flutter:
+    - Dart Grammar:
+      - ProgrammingLanguage/flutter/dartGrammar/DartGrammar.md
+      - ProgrammingLanguage/flutter/dartGrammar/oopProgramming.md
+      - ProgrammingLanguage/flutter/dartGrammar/functionalProgramming.md
+      - ProgrammingLanguage/flutter/dartGrammar/asyncProgramming.md
+    - Flutter Theory:
+      - ProgrammingLanguage/flutter/flutterTheory/widget.md
+    - Flutter Packages:
+      - ProgrammingLanguage/flutter/flutterTheory/widget.md
+
