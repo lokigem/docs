@@ -49,6 +49,7 @@ nav:
       - ProgrammingLanguage/flutter/dartGrammar/functionalProgramming.md
       - ProgrammingLanguage/flutter/dartGrammar/asyncProgramming.md
     - Flutter Theory:
+      - ProgrammingLanguage/flutter/flutterTheory/row_and_column.md
       - ProgrammingLanguage/flutter/flutterTheory/widget.md
     - Flutter Packages:
       - ProgrammingLanguage/flutter/flutterPackages/web_view.md

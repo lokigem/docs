@@ -1,9 +1,7 @@
 ---
 title: "Web View"
 template: main.html
-
 ---
-# Error Fix
 ## web_view
 [Warning: The plugin webview_flutter_android requires Android SDK version 32.](#web_view){: .notice--danger}<br><br>
 라는 에러가 발생함. 에러 메시지를 잘 읽어보니 compileSdkVersion을 32로 바꾸라는 것 같아서 그렇게 해줌.<br>
