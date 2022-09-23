@@ -11,7 +11,7 @@ theme:
     - navigation.indexes
     - content.code.annotate 
   palette:
-    scheme: slate
+    scheme: default
     primary: black
   icon:
     repo: fontawesome/brands/github
@@ -25,9 +25,13 @@ markdown_extensions:
   - attr_list
   - toc:
       toc_depth: 4
+  - attr_list
+  - md_in_html
+
 
 plugins:
   - search
+  - glightbox
 
 # Git 연동
 site_name: Rookedsysc's Docks
@@ -45,5 +49,5 @@ nav:
     - Flutter Theory:
       - ProgrammingLanguage/flutter/flutterTheory/widget.md
     - Flutter Packages:
-      - ProgrammingLanguage/flutter/flutterTheory/widget.md
+      - ProgrammingLanguage/flutter/flutterPackages/web_view.md
 

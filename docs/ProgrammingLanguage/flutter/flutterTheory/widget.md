@@ -1,11 +1,11 @@
 ---
-title: "Widget:: Stateful Widget"
+title: "Widget: Stateful Widget"
 template: main.html
 ---
 ## Widget Tree란?
 Widget들의 부모, 자식 관계를 나타내는걸 Widget Tree라고 함.<br>
-![widgetTree](/assets/img/flutter/widgetTree/widgetTree.png)<br>
-![complexWidget](/assets/img/flutter/widgetTree/complexWidgetTree.png)<br>
+![widgetTree](/docs/assets/img/flutter/widgetTree/widgetTree.png)<br>
+![complexWidget](/docs/assets/img/flutter/widgetTree/complexWidgetTree.png)<br>
 
 ## Widget 이론
 - Widget은 모두 "불변"의 법칙을 갖고 있음.
@@ -18,15 +18,15 @@ Widget들의 부모, 자식 관계를 나타내는걸 Widget Tree라고 함.<br>
 - 이전 Container 예제와 마찬가지로 변경이 필요하면 새로운 위젯을 만들어버림.
 - 하나의 StatelessWidhget은 라이프 사이클동안 단 한번만 [build](https://github.com/rookedsysc/Flutter-Study/blob/main/flutterProject/splash_screen/lib/main.dart){: .notice--info} 함수를 실행함. (즉, 변경이 필요하면 현재 widget을 삭제하고 새로운 widget을 생성.)
 
-![lifeCycle](/assets/img/flutter/statefullWidget/statelessLifeCycle.png)
+![lifeCycle](/docs/assets/img/flutter/statefullWidget/statelessLifeCycle.png)
 
 ### StatefulWidget의 라이프 사이클
 상태를 관리할 수 있는 Widget. [build](https://github.com/rookedsysc/Flutter-Study/blob/main/flutterProject/splash_screen/lib/main.dart){: .notice--info} 함수를 여러번 바꿔줘야 하기 때문에 StatefullWidget과 State class로 나뉘었음.<br>
-![lifeCycle](/assets/img/flutter/statefullWidget/stateFulLifeCycle.png)
+![lifeCycle](/docs/assets/img/flutter/statefullWidget/stateFulLifeCycle.png)
 #### 파라미터가 바뀌었을 때 라이프 사이클
 원래 있던 State를 재활용 함.<br>
-![lifeCycle](/assets/img/flutter/statefullWidget/parameterDidChange.png)
+![lifeCycle](/docs/assets/img/flutter/statefullWidget/parameterDidChange.png)
 #### setState를 실행했을 때 라이프 사이클
 Parameter를 변경하면서 위젯을 통하지 않고 State 안에서 직접 실행함.
-![lifeCycle](/assets/img/flutter/statefullWidget/setState.png)
+![lifeCycle](/docs/assets/img/flutter/statefullWidget/setState.png)
 

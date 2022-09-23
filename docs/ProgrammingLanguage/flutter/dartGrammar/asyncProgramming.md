@@ -6,9 +6,9 @@ template: main.html
 기존의 cpu의 동작은 실행한 코드가 있으면 해당 코드가 실행이 될 때까지 다음 동작을 실행할 수 없었음.<br>
 이는 http 요청 같은 작업을 할 때 문제가 발생하는데, 서버에서 요청값을 받아오기 전까지 cpu가 수행할 수 있는 동작이 아무것도 없어진다는 문제점이 발생함.<br>
 다음은 기존 cpu의 동작 방식 👇<br>
-![cpu_work](/assets/img/flutter/DartGrammar/cpu_work.jpg)<br><br>
+![cpu_work](/docks/assets/img/flutter/DartGrammar/cpu_work.jpg)<br><br>
 이를 해결하기 위해서 등장한 방식이 바로 Async Programming인데, **비동기 프로그래밍**이라고도 불리며 현재 실행중인 동작이 완료되지 않더라도 다음 동작을 실행하는 것을 뜻함.<bR>
-![asynchronous.jpes](/assets/img/flutter/DartGrammar/asynchronous.jpeg)<br>
+![asynchronous.jpes](/docks/assets/img/flutter/DartGrammar/asynchronous.jpeg)<br>
 
 ## Future and await
 Future 데이터 타입으로 정의할 수 있으며, Future 관련 method 등을 써줄 수 있음.<br>
