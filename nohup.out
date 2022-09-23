@@ -173,3 +173,15 @@ INFO     -  [12:54:04] Browser connected: http://127.0.0.1:8000/docks/Programmin
 [33mWARNING  -  [0m[12:54:06] "GET /assets/img/flutter/DartGrammar/asynchronous.jpeg HTTP/1.1" code 404
 [33mWARNING  -  [0m[12:54:06] "GET /assets/img/flutter/DartGrammar/Stream.png HTTP/1.1" code 404
 INFO     -  [12:54:06] Browser connected: http://127.0.0.1:8000/docks/ProgrammingLanguage/flutter/dartGrammar/asyncProgramming/
+INFO     -  Building documentation...
+INFO     -  Cleaning site directory
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ProgrammingLanguage/flutter/index.md
+INFO     -  Documentation built in 0.98 seconds
+INFO     -  [13:35:40] Watching paths for changes: 'docs', 'mkdocs.yml'
+INFO     -  [13:35:40] Serving on http://127.0.0.1:8000/docks/
+[33mWARNING  -  [0m[13:35:41] "GET /docs/assets/img/flutter/DartGrammar/cpu_work.jpg HTTP/1.1" code 404
+[33mWARNING  -  [0m[13:35:41] "GET /docs/assets/img/flutter/DartGrammar/asynchronous.jpeg HTTP/1.1" code 404
+[33mWARNING  -  [0m[13:35:41] "GET /assets/img/flutter/DartGrammar/Stream.png HTTP/1.1" code 404
+INFO     -  [13:35:41] Browser connected: http://127.0.0.1:8000/docks/ProgrammingLanguage/flutter/dartGrammar/asyncProgramming/
