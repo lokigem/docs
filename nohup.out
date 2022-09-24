@@ -960,3 +960,76 @@ INFO     -  The following pages exist in the docs directory, but are not include
   - Flutter/index.md
 INFO     -  [02:30:49] Reloading browsers
 INFO     -  [02:30:49] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EB%94%94%EC%A7%80%ED%84%B8_%EB%85%BC%EB%A6%AC%ED%9A%8C%EB%A1%9C%EC%99%80_%EC%BB%B4%ED%93%A8%ED%84%B0/
+INFO     -  [02:34:15] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/아날로그_신호_디지털신호_변환.md
+  - Flutter/index.md
+INFO     -  [02:34:16] Reloading browsers
+INFO     -  [02:34:42] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/아날로그_신호_디지털신호_변환.md
+  - Flutter/index.md
+INFO     -  [02:34:42] Reloading browsers
+INFO     -  [02:36:07] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/아날로그_신호_디지털신호_변환.md
+  - Flutter/index.md
+INFO     -  [02:36:08] Reloading browsers
+INFO     -  [02:37:38] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/아날로그_신호_디지털신호_변환.md
+  - Flutter/index.md
+INFO     -  [02:37:39] Reloading browsers
+INFO     -  [02:38:42] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/아날로그_신호_디지털신호_변환.md
+  - Flutter/index.md
+INFO     -  [02:38:43] Reloading browsers
+INFO     -  [02:39:05] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:39:06] Reloading browsers
+INFO     -  [02:39:10] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:39:11] Reloading browsers
+INFO     -  [02:40:44] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:40:45] Reloading browsers
+INFO     -  [02:42:16] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:42:16] Reloading browsers
+INFO     -  [02:42:51] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:42:52] Reloading browsers
+INFO     -  [02:42:54] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:42:54] Reloading browsers
+[33mWARNING  -  [0m[02:42:57] "GET / HTTP/1.1" code 302
+INFO     -  [02:42:59] Browser connected: http://127.0.0.1:8000/docs/
