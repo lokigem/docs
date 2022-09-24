@@ -743,3 +743,145 @@ INFO     -  [01:32:54] Detected file changes
 INFO     -  Building documentation...
 [31mERROR    -  [0mConfig value: 'nav'. Error: Expected nav to be a list, got None
 Aborted with 1 Configuration Errors!
+INFO     -  Building documentation...
+INFO     -  Cleaning site directory
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  Documentation built in 1.10 seconds
+INFO     -  [01:43:14] Watching paths for changes: 'docs', 'mkdocs.yml'
+INFO     -  [01:43:14] Serving on http://127.0.0.1:8000/docs/
+INFO     -  [01:43:15] Browser connected: http://127.0.0.1:8000/docs/
+[33mWARNING  -  [0m[01:43:18] "GET / HTTP/1.1" code 302
+INFO     -  [01:43:18] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [01:44:18] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterPackages/web_view/
+INFO     -  [01:46:19] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/web_view.md
+  - Flutter/index.md
+INFO     -  [01:46:20] Reloading browsers
+INFO     -  [01:46:20] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterPackages/web_view/
+INFO     -  [01:46:20] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [01:47:43] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/디지털_논리회로와_컴퓨터.md
+  - Flutter/index.md
+INFO     -  [01:47:43] Reloading browsers
+INFO     -  [01:47:44] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [01:47:44] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterPackages/web_view/
+INFO     -  [01:57:14] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/디지털_논리회로와_컴퓨터.md
+  - Flutter/index.md
+INFO     -  [01:57:15] Reloading browsers
+INFO     -  [01:57:15] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterPackages/web_view/
+INFO     -  [01:57:15] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [01:58:07] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/디지털_논리회로와_컴퓨터.md
+  - Flutter/index.md
+INFO     -  [01:58:08] Reloading browsers
+INFO     -  [01:58:08] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterPackages/web_view/
+INFO     -  [01:58:08] Detected file changes
+INFO     -  [01:58:08] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/디지털_논리회로와_컴퓨터.md
+  - Flutter/index.md
+INFO     -  [01:58:09] Reloading browsers
+INFO     -  [01:58:09] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterPackages/web_view/
+INFO     -  [01:58:10] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [01:58:11] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [01:58:12] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterPackages/web_view/
+INFO     -  [01:58:14] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterPackages/web_view/
+INFO     -  [01:58:16] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterPackages/web_view/
+INFO     -  [01:58:17] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterPackages/web_view/
+INFO     -  [01:58:26] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/디지털_논리회로와_컴퓨터.md
+  - Flutter/index.md
+INFO     -  [01:58:27] Reloading browsers
+INFO     -  [01:58:27] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterPackages/web_view/
+INFO     -  [01:58:27] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/디지털_논리회로와_컴퓨터.md
+  - Flutter/index.md
+INFO     -  [01:58:29] Reloading browsers
+INFO     -  [01:58:29] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterPackages/web_view/
+INFO     -  [01:58:30] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterPackages/web_view/
+INFO     -  [01:58:43] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterPackages/web_view/
+INFO     -  [01:58:46] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterPackages/web_view/
+INFO     -  [01:59:20] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [01:59:21] Reloading browsers
+INFO     -  [01:59:22] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterPackages/web_view/
+INFO     -  [01:59:22] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterPackages/web_view/
+INFO     -  [01:59:24] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EB%94%94%EC%A7%80%ED%84%B8_%EB%85%BC%EB%A6%AC%ED%9A%8C%EB%A1%9C%EC%99%80_%EC%BB%B4%ED%93%A8%ED%84%B0/
+INFO     -  [01:59:25] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EB%94%94%EC%A7%80%ED%84%B8_%EB%85%BC%EB%A6%AC%ED%9A%8C%EB%A1%9C%EC%99%80_%EC%BB%B4%ED%93%A8%ED%84%B0/
+INFO     -  [01:59:41] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EB%94%94%EC%A7%80%ED%84%B8_%EB%85%BC%EB%A6%AC%ED%9A%8C%EB%A1%9C%EC%99%80_%EC%BB%B4%ED%93%A8%ED%84%B0/
+INFO     -  [01:59:48] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [01:59:49] Reloading browsers
+INFO     -  [01:59:50] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EB%94%94%EC%A7%80%ED%84%B8_%EB%85%BC%EB%A6%AC%ED%9A%8C%EB%A1%9C%EC%99%80_%EC%BB%B4%ED%93%A8%ED%84%B0/
+INFO     -  [02:00:44] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:00:45] Reloading browsers
+INFO     -  [02:00:46] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EB%94%94%EC%A7%80%ED%84%B8_%EB%85%BC%EB%A6%AC%ED%9A%8C%EB%A1%9C%EC%99%80_%EC%BB%B4%ED%93%A8%ED%84%B0/
+INFO     -  [02:01:52] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:01:53] Reloading browsers
+INFO     -  [02:01:53] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EB%94%94%EC%A7%80%ED%84%B8_%EB%85%BC%EB%A6%AC%ED%9A%8C%EB%A1%9C%EC%99%80_%EC%BB%B4%ED%93%A8%ED%84%B0/
+INFO     -  [02:02:08] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:02:09] Reloading browsers
+INFO     -  [02:02:09] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EB%94%94%EC%A7%80%ED%84%B8_%EB%85%BC%EB%A6%AC%ED%9A%8C%EB%A1%9C%EC%99%80_%EC%BB%B4%ED%93%A8%ED%84%B0/
+INFO     -  [02:02:23] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:02:24] Reloading browsers
+INFO     -  [02:02:24] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EB%94%94%EC%A7%80%ED%84%B8_%EB%85%BC%EB%A6%AC%ED%9A%8C%EB%A1%9C%EC%99%80_%EC%BB%B4%ED%93%A8%ED%84%B0/
+INFO     -  [02:02:57] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:02:58] Reloading browsers
+INFO     -  [02:02:58] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EB%94%94%EC%A7%80%ED%84%B8_%EB%85%BC%EB%A6%AC%ED%9A%8C%EB%A1%9C%EC%99%80_%EC%BB%B4%ED%93%A8%ED%84%B0/
+INFO     -  [02:02:59] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EB%94%94%EC%A7%80%ED%84%B8_%EB%85%BC%EB%A6%AC%ED%9A%8C%EB%A1%9C%EC%99%80_%EC%BB%B4%ED%93%A8%ED%84%B0/
+INFO     -  [02:03:03] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:03:04] Reloading browsers
+INFO     -  [02:03:04] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EB%94%94%EC%A7%80%ED%84%B8_%EB%85%BC%EB%A6%AC%ED%9A%8C%EB%A1%9C%EC%99%80_%EC%BB%B4%ED%93%A8%ED%84%B0/
