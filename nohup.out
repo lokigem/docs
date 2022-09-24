@@ -676,3 +676,70 @@ INFO     -  [03:49:16] Browser connected: http://127.0.0.1:8000/docs/Programming
 INFO     -  [03:49:16] Browser connected: http://127.0.0.1:8000/docs/ProgrammingLanguage/flutter/flutterTheory/widget/
 INFO     -  [03:49:18] Browser connected: http://127.0.0.1:8000/docs/ProgrammingLanguage/flutter/flutterTheory/widget/
 INFO     -  [03:49:19] Browser connected: http://127.0.0.1:8000/docs/ProgrammingLanguage/flutter/flutterTheory/widget/
+[33mWARNING  -  [0m[01:29:40] "GET / HTTP/1.1" code 302
+[33mWARNING  -  [0m[01:29:40] "GET /favicon.ico HTTP/1.1" code 404
+INFO     -  [01:29:40] Browser connected: http://127.0.0.1:8000/docs/
+[33mWARNING  -  [0m[01:30:39] "GET / HTTP/1.1" code 302
+INFO     -  [01:30:39] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [01:31:17] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+  - Flutter/dartGrammar/DartGrammar.md
+  - Flutter/dartGrammar/asyncProgramming.md
+  - Flutter/dartGrammar/functionalProgramming.md
+  - Flutter/dartGrammar/oopProgramming.md
+  - Flutter/flutterPackages/web_view.md
+  - Flutter/flutterTheory/row_and_column.md
+  - Flutter/flutterTheory/widget.md
+[33mWARNING  -  [0mA relative path to 'ProgrammingLanguage/flutter/dartGrammar/DartGrammar.md' is included in the 'nav' configuration, which is not found in the documentation files
+[33mWARNING  -  [0mA relative path to 'ProgrammingLanguage/flutter/dartGrammar/oopProgramming.md' is included in the 'nav' configuration, which is not found in the documentation files
+[33mWARNING  -  [0mA relative path to 'ProgrammingLanguage/flutter/dartGrammar/functionalProgramming.md' is included in the 'nav' configuration, which is not found in the documentation files
+[33mWARNING  -  [0mA relative path to 'ProgrammingLanguage/flutter/dartGrammar/asyncProgramming.md' is included in the 'nav' configuration, which is not found in the documentation files
+[33mWARNING  -  [0mA relative path to 'ProgrammingLanguage/flutter/flutterTheory/row_and_column.md' is included in the 'nav' configuration, which is not found in the documentation files
+[33mWARNING  -  [0mA relative path to 'ProgrammingLanguage/flutter/flutterTheory/widget.md' is included in the 'nav' configuration, which is not found in the documentation files
+[33mWARNING  -  [0mA relative path to 'ProgrammingLanguage/flutter/flutterPackages/web_view.md' is included in the 'nav' configuration, which is not found in the documentation files
+INFO     -  [01:31:18] Reloading browsers
+[33mWARNING  -  [0m[01:31:18] "GET /docs/ProgrammingLanguage/flutter/flutterTheory/widget/ HTTP/1.1" code 404
+INFO     -  [01:31:18] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [01:31:51] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+  - Flutter/dartGrammar/DartGrammar.md
+  - Flutter/dartGrammar/asyncProgramming.md
+  - Flutter/dartGrammar/functionalProgramming.md
+  - Flutter/dartGrammar/oopProgramming.md
+  - Flutter/flutterPackages/web_view.md
+  - Flutter/flutterTheory/row_and_column.md
+  - Flutter/flutterTheory/widget.md
+[33mWARNING  -  [0mA relative path to 'flutter/dartGrammar/DartGrammar.md' is included in the 'nav' configuration, which is not found in the documentation files
+[33mWARNING  -  [0mA relative path to 'flutter/dartGrammar/oopProgramming.md' is included in the 'nav' configuration, which is not found in the documentation files
+[33mWARNING  -  [0mA relative path to 'flutter/dartGrammar/functionalProgramming.md' is included in the 'nav' configuration, which is not found in the documentation files
+[33mWARNING  -  [0mA relative path to 'flutter/dartGrammar/asyncProgramming.md' is included in the 'nav' configuration, which is not found in the documentation files
+[33mWARNING  -  [0mA relative path to 'flutter/flutterTheory/row_and_column.md' is included in the 'nav' configuration, which is not found in the documentation files
+[33mWARNING  -  [0mA relative path to 'flutter/flutterTheory/widget.md' is included in the 'nav' configuration, which is not found in the documentation files
+[33mWARNING  -  [0mA relative path to 'flutter/flutterPackages/web_view.md' is included in the 'nav' configuration, which is not found in the documentation files
+INFO     -  [01:31:52] Reloading browsers
+INFO     -  [01:31:52] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [01:32:03] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [01:32:03] Reloading browsers
+INFO     -  [01:32:03] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [01:32:14] Browser connected: http://127.0.0.1:8000/docs/Flutter/dartGrammar/DartGrammar/
+INFO     -  [01:32:22] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [01:32:23] Reloading browsers
+INFO     -  [01:32:23] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [01:32:54] Detected file changes
+INFO     -  Building documentation...
+[31mERROR    -  [0mConfig value: 'nav'. Error: Expected nav to be a list, got None
+Aborted with 1 Configuration Errors!

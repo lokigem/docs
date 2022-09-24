@@ -44,13 +44,17 @@ repo_name: lokigem/docs
 nav: 
   - Flutter:
     - Dart Grammar:
-      - ProgrammingLanguage/flutter/dartGrammar/DartGrammar.md
-      - ProgrammingLanguage/flutter/dartGrammar/oopProgramming.md
-      - ProgrammingLanguage/flutter/dartGrammar/functionalProgramming.md
-      - ProgrammingLanguage/flutter/dartGrammar/asyncProgramming.md
+      - Flutter/dartGrammar/DartGrammar.md
+      - Flutter/dartGrammar/oopProgramming.md
+      - Flutter/dartGrammar/functionalProgramming.md
+      - Flutter/dartGrammar/asyncProgramming.md
     - Flutter Theory:
-      - ProgrammingLanguage/flutter/flutterTheory/row_and_column.md
-      - ProgrammingLanguage/flutter/flutterTheory/widget.md
+      - Flutter/flutterTheory/row_and_column.md
+      - Flutter/flutterTheory/widget.md
     - Flutter Packages:
-      - ProgrammingLanguage/flutter/flutterPackages/web_view.md
+      - Flutter/flutterPackages/web_view.md
+
+  - Computer Sience:
+    - 디지털 공학개론:
+      - Flutter/flutterPackages/web_view.md
 
