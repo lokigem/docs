@@ -1,5 +1,6 @@
 ---
 title: "객체지향 프로그래밍"
+date: 2022-09-18
 template: main.html
 ---
 ## 객체지향 프로그래밍
