@@ -55,8 +55,4 @@ nav:
     - Flutter Packages:
       - Flutter/flutterPackages/web_view.md
 
-  - Computer Sience:
-    - 디지털 공학개론:
-      - ComputerSience/디지털_공학개론/디지털_논리회로와_컴퓨터.md
-      - ComputerSience/디지털_공학개론/아날로그_신호_디지털신호_변환.md
-
+  
