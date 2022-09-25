@@ -31,6 +31,9 @@ Widget들의 부모, 자식 관계를 나타내는걸 Widget Tree라고 함.<br>
 Parameter를 변경하면서 위젯을 통하지 않고 State 안에서 직접 실행함.
 ![lifeCycle](/docs/assets/img/flutter/statefullWidget/setState.png)
 
+##### Reference
+[re-build 되어도 re-load되지 않는 const property](http://lokigem.github.io/docs/Flutter/dartGrammar/DartGrammar/#const-re-build)
+
 ## Shortcut
 - stless : stless까지 입력하고 Enter를 누르면 Stateless Widget이 자동으로 입력됨.
 

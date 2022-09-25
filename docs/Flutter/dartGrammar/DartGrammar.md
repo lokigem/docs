@@ -9,8 +9,15 @@ template: main.html
 [기본 자료형](https://github.com/rookedsysc/Flutter-Study/blob/dartGrammar/flutterGrammar/flutterDataType.dart)
 
 ## Final과 Const
+[Final과 Const](https://github.com/rookedsysc/Flutter-Study/blob/db4bc1b31c8eb0f5ca547b7d45ea031e2cf2ba3c/flutterGrammar/final_and_const.dart)
 
-[Final과 Const](https://github.com/rookedsysc/Flutter-Study/blob/dartGrammar/flutterGrammar/final_and_const.dart)
+### const re-build
+[const로 선언된 property](https://github.com/rookedsysc/Flutter-Study/blob/main/flutterProject/const_structor/lib/screen/home_screen.dart)는 re-build를 해도 다시 load되지 않음.<br>
+아래는 hot restart를 통해서 처음 build가 되고 난 이후에 "빌드" button을 눌려도 const로 선언된 label1 property는 다시 load되지 않는 현상 👇.<br>
+![rebuildFailed](/docs/assets/img/flutter/DartGrammar/constBuild.gif)
+#### Reference
+[setState란?](http://lokigem.github.io/docs/Flutter/flutterTheory/widget/#setstate)
+
 ## Operation:: is와 is!
 [Operation:: is와 is!](https://github.com/rookedsysc/Flutter-Study/commit/27eec1b2fad060393648e8f7ed6a8ada2e6a1440)
 ## List와 Map
