@@ -1033,3 +1033,306 @@ INFO     -  The following pages exist in the docs directory, but are not include
 INFO     -  [02:42:54] Reloading browsers
 [33mWARNING  -  [0m[02:42:57] "GET / HTTP/1.1" code 302
 INFO     -  [02:42:59] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [02:44:23] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - 디지털_논리회로와_컴퓨터.md
+  - Flutter/index.md
+INFO     -  [02:44:24] Reloading browsers
+INFO     -  [02:44:24] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [02:44:32] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:44:33] Reloading browsers
+INFO     -  [02:44:33] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [02:44:48] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [02:45:48] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+INFO     -  [02:45:49] Reloading browsers
+INFO     -  [02:45:50] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [02:46:14] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+INFO     -  [02:46:15] Reloading browsers
+INFO     -  [02:46:16] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [02:47:47] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+INFO     -  [02:47:48] Reloading browsers
+INFO     -  [02:47:49] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [02:47:59] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+INFO     -  [02:48:00] Reloading browsers
+INFO     -  [02:48:01] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [02:48:01] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+INFO     -  [02:48:02] Reloading browsers
+INFO     -  [02:48:02] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [02:49:32] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+INFO     -  [02:49:33] Reloading browsers
+INFO     -  [02:49:33] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [02:49:50] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+INFO     -  [02:49:51] Reloading browsers
+INFO     -  [02:49:52] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+[33mWARNING  -  [0m[02:50:10] "GET / HTTP/1.1" code 302
+INFO     -  [02:50:34] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+INFO     -  [02:50:35] Reloading browsers
+INFO     -  [02:50:35] Detected file changes
+INFO     -  Building documentation...
+INFO     -  [02:50:35] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+INFO     -  [02:50:36] Reloading browsers
+INFO     -  [02:50:37] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [03:05:42] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+INFO     -  [03:05:43] Reloading browsers
+INFO     -  [03:05:44] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [03:06:33] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+INFO     -  [03:06:35] Reloading browsers
+INFO     -  [03:06:35] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [03:06:55] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+INFO     -  [03:06:56] Reloading browsers
+INFO     -  [03:06:56] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [03:07:39] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+INFO     -  [03:07:40] Reloading browsers
+INFO     -  [03:07:40] Detected file changes
+INFO     -  Building documentation...
+INFO     -  [03:07:40] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+INFO     -  [03:07:41] Reloading browsers
+INFO     -  [03:07:41] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [03:07:44] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+INFO     -  [03:07:45] Reloading browsers
+INFO     -  [03:07:45] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [03:07:49] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+INFO     -  [03:07:51] Reloading browsers
+INFO     -  [03:07:51] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [03:07:54] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+INFO     -  [03:07:56] Reloading browsers
+INFO     -  [03:07:56] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+[33mWARNING  -  [0m[03:22:12] "GET / HTTP/1.1" code 302
+INFO     -  [03:22:13] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [03:23:13] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [03:26:16] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+INFO     -  [03:26:17] Reloading browsers
+INFO     -  [03:26:17] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [03:26:17] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [03:26:55] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - ComputerSience/디지털_공학개론/데이터_통신.md
+  - Flutter/index.md
+INFO     -  [03:26:56] Reloading browsers
+INFO     -  [03:26:56] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [03:26:56] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [03:27:32] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/데이터_통신.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+INFO     -  [03:27:32] Reloading browsers
+INFO     -  [03:27:33] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [03:27:33] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [03:29:09] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/데이터_통신.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+INFO     -  [03:29:10] Reloading browsers
+INFO     -  [03:29:10] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [03:29:10] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [03:30:01] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/데이터_통신.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+INFO     -  [03:30:01] Reloading browsers
+INFO     -  [03:30:02] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [03:30:02] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [03:30:42] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/데이터_통신.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+INFO     -  [03:30:43] Reloading browsers
+INFO     -  [03:30:43] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [03:30:43] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [04:04:04] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/데이터_통신.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+INFO     -  [04:04:05] Reloading browsers
+INFO     -  [04:04:06] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [04:04:06] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+[33mWARNING  -  [0m[04:05:32] "GET / HTTP/1.1" code 302
+INFO     -  [08:45:49] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/데이터_통신.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+INFO     -  [08:45:50] Reloading browsers
+INFO     -  [08:45:50] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [08:46:17] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/데이터_통신.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+  - Flutter/dartGrammar/Date.md
+INFO     -  [08:46:17] Reloading browsers
+INFO     -  [08:46:17] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [08:47:26] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/데이터_통신.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+  - Flutter/dartGrammar/Date.md
+INFO     -  [08:47:26] Reloading browsers
+INFO     -  [08:47:27] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [08:53:33] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/데이터_통신.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+  - Flutter/dartGrammar/Date.md
+INFO     -  [08:53:34] Reloading browsers
+INFO     -  [08:53:34] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [08:57:57] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/데이터_통신.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+  - Flutter/dartGrammar/Date.md
+INFO     -  [08:57:57] Reloading browsers
+INFO     -  [08:57:58] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [08:58:58] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/데이터_통신.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+  - Flutter/dartGrammar/Date.md
+INFO     -  [08:58:59] Reloading browsers
+INFO     -  [08:58:59] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  [08:59:49] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/데이터_통신.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+INFO     -  [08:59:49] Reloading browsers
+INFO     -  [08:59:49] Detected file changes
+INFO     -  [08:59:49] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - ComputerSience/데이터_통신.md
+  - ComputerSience/디지털_공학개론/기수법.md
+  - Flutter/index.md
+INFO     -  [08:59:50] Reloading browsers
+INFO     -  [08:59:50] Browser connected: http://127.0.0.1:8000/docs/ComputerSience/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B3%B5%ED%95%99%EA%B0%9C%EB%A1%A0/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8_%EC%8B%A0%ED%98%B8_%EB%94%94%EC%A7%80%ED%84%B8%EC%8B%A0%ED%98%B8_%EB%B3%80%ED%99%98/
