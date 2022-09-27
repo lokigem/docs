@@ -22,6 +22,18 @@ template: main.html
 [Operation:: is와 is!](https://github.com/rookedsysc/Flutter-Study/commit/27eec1b2fad060393648e8f7ed6a8ada2e6a1440)
 ## List와 Map
 [List와 Map](https://github.com/rookedsysc/Flutter-Study/commit/2046748443b5237be5c310587b533becee62de2c)
+
+### List To Map 
+asMap()을 사용하면 "Key = List index number" : "value = List Value" 형식으로 저장됨. 즉, asMap으로 만들어진 Map의 **Key값이 List의 index number**가 되는 것. 
+```dart 
+List.asMap()
+```
+- Reference :
+
+[예제코드](https://github.com/rookedsysc/Flutter-Study/blob/main/flutterGrammar/map_plus.dart)
+
+### entries
+Map 자료형에 .entries를 하면 MapEntry(key: value)로 모든 Map의 값들을 출력해줌.
 ## Set
 [Set](https://github.com/rookedsysc/Flutter-Study/commit/710622428dd3ecd1fd8183e4b96df4116eb975fd)
 ## 조건문

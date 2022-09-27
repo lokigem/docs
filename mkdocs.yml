@@ -52,6 +52,7 @@ nav:
     - Flutter Theory:
       - Flutter/flutterTheory/row_and_column.md
       - Flutter/flutterTheory/widget.md
+      - Flutter/flutterTheory/Button.md
     - Flutter Packages:
       - Flutter/flutterPackages/web_view.md
 

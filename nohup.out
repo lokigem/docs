@@ -1535,3 +1535,204 @@ INFO     -  The following pages exist in the docs directory, but are not include
   - index.md
   - Flutter/index.md
 INFO     -  [17:53:31] Reloading browsers
+INFO     -  Building documentation...
+INFO     -  Cleaning site directory
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  Documentation built in 1.56 seconds
+INFO     -  [02:07:22] Watching paths for changes: 'docs', 'mkdocs.yml'
+INFO     -  [02:07:22] Serving on http://127.0.0.1:8000/docs/
+[33mWARNING  -  [0m[02:07:23] "GET / HTTP/1.1" code 302
+INFO     -  [02:07:23] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [02:08:23] Browser connected: http://127.0.0.1:8000/docs/Flutter/dartGrammar/DartGrammar/
+INFO     -  [02:16:06] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:16:07] Reloading browsers
+INFO     -  [02:20:35] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:20:36] Reloading browsers
+INFO     -  [02:20:46] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:20:46] Reloading browsers
+[33mWARNING  -  [0m[07:04:51] "GET / HTTP/1.1" code 302
+INFO     -  [07:04:52] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [07:04:54] Browser connected: http://127.0.0.1:8000/docs/Flutter/dartGrammar/DartGrammar/
+INFO     -  [07:05:21] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+  - Flutter/flutterTheory/Button.md
+INFO     -  [07:05:22] Reloading browsers
+INFO     -  [07:05:22] Browser connected: http://127.0.0.1:8000/docs/Flutter/dartGrammar/DartGrammar/
+INFO     -  [07:23:56] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+  - Flutter/flutterTheory/Button.md
+INFO     -  [07:23:57] Reloading browsers
+INFO     -  [07:23:57] Browser connected: http://127.0.0.1:8000/docs/Flutter/dartGrammar/DartGrammar/
+INFO     -  [13:46:52] Browser connected: http://127.0.0.1:8000/docs/Flutter/dartGrammar/DartGrammar/
+INFO     -  [13:48:01] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [13:48:02] Reloading browsers
+INFO     -  [13:48:02] Browser connected: http://127.0.0.1:8000/docs/Flutter/dartGrammar/DartGrammar/
+INFO     -  [13:48:05] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [13:48:06] Reloading browsers
+INFO     -  [13:48:06] Browser connected: http://127.0.0.1:8000/docs/Flutter/dartGrammar/DartGrammar/
+INFO     -  [13:48:10] Browser connected: http://127.0.0.1:8000/docs/Flutter/dartGrammar/DartGrammar/
+INFO     -  [13:48:11] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterTheory/Button/
+INFO     -  [13:48:30] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [13:48:30] Reloading browsers
+INFO     -  [13:48:30] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterTheory/Button/
+INFO     -  [13:51:25] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [13:51:25] Reloading browsers
+INFO     -  [13:51:25] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterTheory/Button/
+INFO     -  [13:51:30] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterTheory/Button/
+INFO     -  [13:52:04] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [13:52:05] Reloading browsers
+INFO     -  [13:52:05] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterTheory/Button/
+INFO     -  [13:52:08] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [13:52:09] Reloading browsers
+INFO     -  [13:52:09] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterTheory/Button/
+INFO     -  [14:02:29] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [14:02:29] Reloading browsers
+INFO     -  [14:02:29] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterTheory/Button/
+INFO     -  [14:06:35] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [14:06:35] Reloading browsers
+INFO     -  [14:06:36] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterTheory/Button/
+INFO     -  [14:07:42] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [14:07:43] Reloading browsers
+INFO     -  [14:07:43] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterTheory/Button/
+INFO     -  [14:10:29] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [14:10:30] Reloading browsers
+INFO     -  [14:10:30] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterTheory/Button/
+[33mWARNING  -  [0m[14:12:26] "GET /assets/img/flutter/DartGrammar/Stream.png HTTP/1.1" code 404
+INFO     -  [14:12:30] Browser connected: http://127.0.0.1:8000/docs/Flutter/dartGrammar/asyncProgramming/
+INFO     -  [14:20:24] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [14:20:25] Reloading browsers
+INFO     -  [14:22:10] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [14:22:11] Reloading browsers
+[33mWARNING  -  [0m[14:22:22] "GET / HTTP/1.1" code 302
+INFO     -  [14:22:23] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [14:22:28] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterTheory/Button/
+INFO     -  [14:22:36] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterTheory/Button/
+INFO     -  [14:24:17] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [14:24:18] Reloading browsers
+INFO     -  [14:24:18] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterTheory/Button/
+INFO     -  [14:24:19] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterTheory/Button/
+INFO     -  [14:24:37] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [14:24:38] Reloading browsers
+INFO     -  [14:24:38] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterTheory/Button/
+INFO     -  [14:24:40] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterTheory/Button/
+INFO     -  [14:25:10] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [14:25:11] Reloading browsers
+INFO     -  [14:25:11] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterTheory/Button/
+INFO     -  [14:25:25] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [14:25:26] Reloading browsers
+INFO     -  [14:25:26] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterTheory/Button/
+INFO     -  [14:25:59] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [14:26:00] Reloading browsers
+INFO     -  [14:26:00] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterTheory/Button/
+INFO     -  [14:27:09] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [14:27:09] Reloading browsers
+INFO     -  [14:27:09] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterTheory/Button/
+INFO     -  [14:27:16] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterTheory/Button/
+INFO     -  [14:28:20] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [14:28:20] Reloading browsers
+INFO     -  [14:28:21] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterTheory/Button/
+INFO     -  [14:28:21] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterTheory/Button/
+INFO     -  [14:29:02] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [14:29:03] Reloading browsers
+INFO     -  [14:29:03] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterTheory/Button/
+INFO     -  [14:29:05] Browser connected: http://127.0.0.1:8000/docs/Flutter/flutterTheory/Button/
