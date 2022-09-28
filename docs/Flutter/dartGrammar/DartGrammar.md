@@ -6,13 +6,13 @@ template: main.html
 
 ## 기본자료형
 
-[기본 자료형](https://github.com/rookedsysc/Flutter-Study/blob/dartGrammar/flutterGrammar/flutterDataType.dart)
+[기본 자료형](https://github.com/rookedsysc/Flutter-Study/blob/dartGrammar/Grammar/DataType.dart)
 
 ## Final과 Const
-[Final과 Const](https://github.com/rookedsysc/Flutter-Study/blob/db4bc1b31c8eb0f5ca547b7d45ea031e2cf2ba3c/flutterGrammar/final_and_const.dart)
+[Final과 Const](https://github.com/rookedsysc/Flutter-Study/blob/db4bc1b31c8eb0f5ca547b7d45ea031e2cf2ba3c/Grammar/final_and_const.dart)
 
 ### const re-build
-[const로 선언된 property](https://github.com/rookedsysc/Flutter-Study/blob/main/flutterProject/const_structor/lib/screen/home_screen.dart)는 re-build를 해도 다시 load되지 않음.<br>
+[const로 선언된 property](https://github.com/rookedsysc/Flutter-Study/blob/main/Project/const_structor/lib/screen/home_screen.dart)는 re-build를 해도 다시 load되지 않음.<br>
 아래는 hot restart를 통해서 처음 build가 되고 난 이후에 "빌드" button을 눌려도 const로 선언된 label1 property는 다시 load되지 않는 현상 👇.<br>
 ![rebuildFailed](/docs/assets/img/flutter/DartGrammar/constBuild.gif)
 #### Reference
@@ -30,7 +30,7 @@ List.asMap()
 ```
 - Reference :
 
-[예제코드](https://github.com/rookedsysc/Flutter-Study/blob/main/flutterGrammar/map_plus.dart)
+[예제코드](https://github.com/rookedsysc/Flutter-Study/blob/main/Grammar/map_plus.dart)
 
 ### entries
 Map 자료형에 .entries를 하면 MapEntry(key: value)로 모든 Map의 값들을 출력해줌.
@@ -41,7 +41,7 @@ Map 자료형에 .entries를 하면 MapEntry(key: value)로 모든 Map의 값들
 ## 반복문
 [반복문](https://github.com/rookedsysc/Flutter-Study/commit/b7e1c0a26e2fdb5d1e1b66c0ea627b6e20ba42be)
 ## enum
-[enum](https://github.com/rookedsysc/Flutter-Study/commits/dartGrammar/flutterGrammar)
+[enum](https://github.com/rookedsysc/Flutter-Study/commits/dartGrammar/Grammar)
 ## 함수와 typedef
 signature: return 타입과 parameter의 형태를 signature라고 함 <br>
 typedef로 선언해놓은 함수에 같은 시그니처의 함수를 대입해주고 해당 typedef를 이용해서 연산을 수행해줌.

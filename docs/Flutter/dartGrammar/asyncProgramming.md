@@ -29,8 +29,8 @@ void main() async {
 }
 ```
 ### Future and await 참조
-[Future and await 참조 1](https://github.com/rookedsysc/Flutter-Study/blob/main/flutterGrammar/asyncProgramming/future.dart)<br>
-[Future and await 참조 2](https://github.com/rookedsysc/Flutter-Study/blob/main/flutterGrammar/asyncProgramming/await.dart)
+[Future and await 참조 1](https://github.com/rookedsysc/Flutter-Study/blob/main/Grammar/asyncProgramming/future.dart)<br>
+[Future and await 참조 2](https://github.com/rookedsysc/Flutter-Study/blob/main/Grammar/asyncProgramming/await.dart)
 ## Stream
 리스너를 생성해서 리스너가 리스닝을 하고 있는 동안 controller가 값을 넣어주면 함수가 실행됨. <br>
 이 때 return 되는 값들을 지속적으로 반환해줌.
@@ -63,5 +63,5 @@ void main() {
 }
 ```
 #### Reference
-[참조 1](https://github.com/rookedsysc/Flutter-Study/blob/main/flutterGrammar/asyncProgramming/test.dart)<br>
-[참조 2](https://github.com/rookedsysc/Flutter-Study/blob/main/flutterGrammar/asyncProgramming/test3.dart)
+[참조 1](https://github.com/rookedsysc/Flutter-Study/blob/main/Grammar/asyncProgramming/test.dart)<br>
+[참조 2](https://github.com/rookedsysc/Flutter-Study/blob/main/Grammar/asyncProgramming/test3.dart)

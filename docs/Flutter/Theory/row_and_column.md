@@ -72,7 +72,7 @@ Column(
 )
 ```
 ## Reference 
-[Commit 이력](https://github.com/rookedsysc/Flutter-Study/commits/main/flutterProject/row_and_column)
+[Commit 이력](https://github.com/rookedsysc/Flutter-Study/commits/main/Project/row_and_column)
 
 
 

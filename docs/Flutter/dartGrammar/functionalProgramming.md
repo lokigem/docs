@@ -10,7 +10,7 @@ template: main.html
 	code
 };
 ```
-[map 참조](https://github.com/rookedsysc/Flutter-Study/blob/main/flutterGrammar/functionalProgramming/map.dart)
+[map 참조](https://github.com/rookedsysc/Flutter-Study/blob/main/Grammar/functionalProgramming/map.dart)
 ## reduce 
 reduce 사용시 parameter의 data tyep과 return result의 data type이 같아야 함.<br>
 배열의 끝까지 loop 발생, 첫 번째는 prev + next 해주고 그 이후로는 total + next 해줌.
@@ -23,16 +23,16 @@ reduce와는 다르게 return tyep과 parameter type이 같지 않아도 됨.<br
 ```dart
 .fold<returnType>(0, (prev, next) => prev + next);
 ```
-[reduce and fold 참조](https://github.com/rookedsysc/Flutter-Study/blob/main/flutterGrammar/functionalProgramming/reduce.dart)
+[reduce and fold 참조](https://github.com/rookedsysc/Flutter-Study/blob/main/Grammar/functionalProgramming/reduce.dart)
 ## where
 where((x) => 조건); 조건이 true인 값만 return 해줌.<br>
 ```dart
 where((x) => 조건); 
 ```
-[where 참조](https://github.com/rookedsysc/Flutter-Study/blob/main/flutterGrammar/functionalProgramming/where.dart)
+[where 참조](https://github.com/rookedsysc/Flutter-Study/blob/main/Grammar/functionalProgramming/where.dart)
 ## cascading operator 
 List 이어주는 기능(?)<br>
-[cascading operator](https://github.com/rookedsysc/Flutter-Study/blob/main/flutterGrammar/functionalProgramming/cascading_oprator.dart)
+[cascading operator](https://github.com/rookedsysc/Flutter-Study/blob/main/Grammar/functionalProgramming/cascading_oprator.dart)
 ## functional programming 사용 예시
 <details>
 <summary>예시1</summary>

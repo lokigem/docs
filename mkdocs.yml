@@ -6,13 +6,11 @@ theme:
     - navigation.instant
     - navigation.tabs
     - navigation.tracking
-    - navigation.expand
     - navigation.prune
     - navigation.indexes
-    - content.code.annotate
     - navigation.top
-    - navigation.sections
-
+    - navigation.expand
+    - content.code.annotate
   palette:
     scheme: default
     primary: black
@@ -50,10 +48,12 @@ nav:
       - Flutter/dartGrammar/asyncProgramming.md
       - Flutter/dartGrammar/Date.md
     - Flutter Theory:
-      - Flutter/flutterTheory/row_and_column.md
-      - Flutter/flutterTheory/widget.md
-      - Flutter/flutterTheory/Button.md
+      - Flutter/Theory/row_and_column.md
+      - Flutter/Theory/widget.md
+      - Flutter/Theory/Button.md
+      - Flutter/Theory/Builder.md
+      - Flutter/Theory/Navigation.md
     - Flutter Packages:
-      - Flutter/flutterPackages/web_view.md
+      - Flutter/Packages/web_view.md
 
   

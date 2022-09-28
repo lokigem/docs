@@ -5,11 +5,11 @@ template: main.html
 ---
 
 
-[기본 자료형](https://github.com/rookedsysc/Flutter-Study/blob/dartGrammar/flutterGrammar/flutterDataType.dart)
+[기본 자료형](https://github.com/rookedsysc/Flutter-Study/blob/dartGrammar/Grammar/DataType.dart)
 
 ## Final과 Const
 
-[Final과 Const](https://github.com/rookedsysc/Flutter-Study/blob/dartGrammar/flutterGrammar/final_and_const.dart)
+[Final과 Const](https://github.com/rookedsysc/Flutter-Study/blob/dartGrammar/Grammar/final_and_const.dart)
 ## Operation:: is와 is!
 [Operation:: is와 is!](https://github.com/rookedsysc/Flutter-Study/commit/27eec1b2fad060393648e8f7ed6a8ada2e6a1440)
 ## List와 Map
@@ -21,7 +21,7 @@ template: main.html
 ## 반복문
 [반복문](https://github.com/rookedsysc/Flutter-Study/commit/b7e1c0a26e2fdb5d1e1b66c0ea627b6e20ba42be)
 ## enum
-[enum](https://github.com/rookedsysc/Flutter-Study/commits/dartGrammar/flutterGrammar)
+[enum](https://github.com/rookedsysc/Flutter-Study/commits/dartGrammar/Grammar)
 ## 함수와 typedef
 signature: return 타입과 parameter의 형태를 signature라고 함 <br>
 typedef로 선언해놓은 함수에 같은 시그니처의 함수를 대입해주고 해당 typedef를 이용해서 연산을 수행해줌.
@@ -74,4 +74,4 @@ targetTime.subtract(Duration(minutes: 5)); // 분 뺄셈
 ```
 
 ## Reference
-[Dart Date](https://github.com/rookedsysc/Flutter-Study/blob/dartGrammar/flutterGrammar/functionalProgramming/dartDate.dart)
+[Dart Date](https://github.com/rookedsysc/Flutter-Study/blob/dartGrammar/Grammar/functionalProgramming/dartDate.dart)
