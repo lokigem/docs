@@ -36,6 +36,13 @@ List.asMap()
 Map 자료형에 .entries를 하면 MapEntry(key: value)로 모든 Map의 값들을 출력해줌.
 ## Set
 [Set](https://github.com/rookedsysc/Flutter-Study/commit/710622428dd3ecd1fd8183e4b96df4116eb975fd)
+### .from
+.from에 넣어준 반복 가능한 instance에서 중복을 제거해줌.
+```dart
+Set<E>.from(
+Iterable elements
+)
+```
 ## 조건문
 [조건문](https://github.com/rookedsysc/Flutter-Study/commit/0c056730dd07ba90079adc20cd66f911d8855d58)
 ## 반복문
