@@ -33,8 +33,23 @@ void main() async {
 [Future and await 참조 2](https://github.com/rookedsysc/Flutter-Study/blob/main/Grammar/asyncProgramming/await.dart)
 ## Stream
 리스너를 생성해서 리스너가 리스닝을 하고 있는 동안 controller가 값을 넣어주면 함수가 실행됨. <br>
-이 때 return 되는 값들을 지속적으로 반환해줌.
-![Stream](/assets/img/flutter/DartGrammar/Stream.png)
+이 때 return 되는 값들을 지속적으로 반환해줌.<br>
+![Stream](/docs/assets/img/flutter/DartGrammar/Stream.png)
+```dart
+StreamBuilderBuilder<generic> {
+	stream: 실행할 함수
+}
+
+Stream<generic> 실행할 함수() async* {
+	yield 반환 값;
+}
+```
+
+### aysnc*
+stream을 사용할 때 사용해줘야 하는 키워드, 연산을 미리 다 하는게 아니라, 요청이 있을 때까지 기다리다가 요청이 들어오면 그 때 연산을 시작하는 것이라고 함.
+### yield
+return과 유사한 행위를 하지만 함수를 종료하지 않고 반복되는 return 값들을 전부 return 해줄 수 있음.
+
 ### 예시 
 ```dart
 import 'dart:async';
@@ -64,4 +79,5 @@ void main() {
 ```
 #### Reference
 [참조 1](https://github.com/rookedsysc/Flutter-Study/blob/main/Grammar/asyncProgramming/test.dart)<br>
-[참조 2](https://github.com/rookedsysc/Flutter-Study/blob/main/Grammar/asyncProgramming/test3.dart)
+[참조 2](https://github.com/rookedsysc/Flutter-Study/blob/main/Grammar/asyncProgramming/test3.dart)<br>
+[참조 3](https://github.com/rookedsysc/Flutter-Study/tree/main/Theory/future_and_stream_builder)
