@@ -12,8 +12,8 @@ theme:
     - navigation.expand
     - content.code.annotate
   palette:
-    scheme: default
-    primary: black
+    scheme: slate
+    primary: blue
   icon:
     repo: fontawesome/brands/github
 
@@ -36,8 +36,8 @@ plugins:
 # Git 연동
 site_name: Rookedsysc's Docs
 site_url: https://lokigem.github.io/docs
-repo_url: https://github.com/lokigem/docs
-repo_name: lokigem/docs
+repo_url: https://github.com/rookedsysc
+repo_name: rookedsysc
     
 nav: 
   - Flutter:
