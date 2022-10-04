@@ -6,10 +6,10 @@ template: main.html
 
 ## 기본자료형
 
-[기본 자료형](https://github.com/rookedsysc/Flutter-Study/blob/dartGrammar/Grammar/DataType.dart)
+[기본 자료형](https://github.com/rookedsysc/Flutter-Study/commit/86a5ec735d6aae7c77a42eedef279ca8c327aaf2)
 
 ## Final과 Const
-[Final과 Const](https://github.com/rookedsysc/Flutter-Study/blob/db4bc1b31c8eb0f5ca547b7d45ea031e2cf2ba3c/Grammar/final_and_const.dart)
+[Final과 Const](https://github.com/rookedsysc/Flutter-Study/commit/db4bc1b31c8eb0f5ca547b7d45ea031e2cf2ba3c)
 
 ### const re-build
 [const로 선언된 property](https://github.com/rookedsysc/Flutter-Study/blob/main/Project/const_structor/lib/screen/home_screen.dart)는 re-build를 해도 다시 load되지 않음.<br>
