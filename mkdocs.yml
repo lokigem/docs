@@ -53,6 +53,9 @@ nav:
       - Flutter/Theory/Button.md
       - Flutter/Theory/Builder.md
       - Flutter/Theory/Navigation.md
+      - Flutter/Theory/GestureDetector.md
+      - Flutter/Theory/SQL.md
+
     - Flutter Packages:
       - Flutter/Packages/web_view.md
 
