@@ -54,6 +54,30 @@ void main() {
   print(DateTime.parse(nowTime).runtimeType); // DateTime 출력
 }
 ```
+### DateTime을 문자열로 
+포맷 형식대로 DateTime을 포맷해서 문자열로 return 해줌. 포맷 형식은 구글링해보면 많이 나옴.
+```dart
+DateFormat( 포맷 형식 ).format( DateTime something )
+```
+#### 예시
+```dart
+import 'package:intl/intl.dart';
+
+void main() {
+  DateTime timeOfBirth = DateTime(2021,12,21,14,30);
+  DateTime birthDay = DateTime(2021,12,21);
+   
+  if (birthDay == timeOfBirth) {
+    print('birthDay and timeOfBirth is a same day'); // 출력 안됨
+  } else {
+    print('birthDay and timeOfBirth is not a same day'); // 출력
+  }
+  
+  if (DateFormat('yyyy-MM-dd').format(timeOfBirth) == DateFormat('yyyy-MM-dd').format(birthDay)) {
+    print('DateFormat is working'); // 출력
+  }
+}
+```
 
 
 
