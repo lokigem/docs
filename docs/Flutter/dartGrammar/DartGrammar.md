@@ -13,7 +13,7 @@ template: main.html
 
 ### const re-build
 [const로 선언된 property](https://github.com/rookedsysc/Flutter-Study/blob/main/Project/const_structor/lib/screen/home_screen.dart)는 re-build를 해도 다시 load되지 않음.<br>
-아래는 hot restart를 통해서 처음 build가 되고 난 이후에 "빌드" button을 눌려도 const로 선언된 label1 property는 다시 load되지 않는 현상 👇.<br>
+아래는 hot restart를 통해서 처음 build가 되고 난 이후에 "빌드" button을 눌려도 const로 선언된 label2 property는 다시 load되지 않는 현상 👇.<br>
 ![rebuildFailed](/docs/assets/img/flutter/DartGrammar/constBuild.gif)
 #### Reference
 [setState란?](http://lokigem.github.io/docs/Flutter/flutterTheory/widget/#setstate)

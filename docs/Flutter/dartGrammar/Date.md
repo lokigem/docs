@@ -68,9 +68,9 @@ void main() {
   DateTime birthDay = DateTime(2021,12,21);
    
   if (birthDay == timeOfBirth) {
-    print('birthDay and timeOfBirth is a same day'); // 출력 안됨
+    print('birthDay and timeOfBirth is a same time'); // 출력 안됨
   } else {
-    print('birthDay and timeOfBirth is not a same day'); // 출력
+    print('birthDay and timeOfBirth is not a same time'); // 출력
   }
   
   if (DateFormat('yyyy-MM-dd').format(timeOfBirth) == DateFormat('yyyy-MM-dd').format(birthDay)) {
