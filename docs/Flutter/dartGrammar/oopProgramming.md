@@ -164,7 +164,7 @@ class Idol {
 ```
 ### Getter와 Setter
 ```dart
-자료형 getter getterName {
+자료형 get getterName {
 	code
 }
 ```
