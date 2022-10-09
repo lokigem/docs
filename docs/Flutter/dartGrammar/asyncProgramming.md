@@ -31,6 +31,28 @@ void main() async {
 ### Future and await 참조
 [Future and await 참조 1](https://github.com/rookedsysc/Flutter-Study/blob/main/Grammar/asyncProgramming/future.dart)<br>
 [Future and await 참조 2](https://github.com/rookedsysc/Flutter-Study/blob/main/Grammar/asyncProgramming/await.dart)
+
+### ConnectionState
+FutureBuilder의 처리 상태에 따라서 어떤 조건을 넣고 수행해줄 수 있음.<br>
+
+- 아래와 같은 형태로 사용함.
+
+```dart 
+snapshot.connectionState
+```
+
+- State의 종류 
+
+```dart
+enum ConnectionState {
+	none, // Future 상태가 없음.
+	waiting, // Future 실행 후 로딩 중.
+	// Stream에서 하나 이상의 return 값을 반환 했지만 아직 완전히 끝나지 않았을 때	
+	active, 	
+	done, // Future 실행 완료.
+}
+```
+
 ## Stream
 리스너를 생성해서 리스너가 리스닝을 하고 있는 동안 controller가 값을 넣어주면 함수가 실행됨. <br>
 이 때 return 되는 값들을 지속적으로 반환해줌.<br>

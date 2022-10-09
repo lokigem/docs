@@ -2528,3 +2528,8 @@ INFO     -  The following pages exist in the docs directory, but are not include
   - index.md
   - Flutter/index.md
 INFO     -  [00:46:16] Reloading browsers
+INFO     -  [23:18:17] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
