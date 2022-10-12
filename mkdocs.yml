@@ -41,6 +41,7 @@ repo_name: rookedsysc
     
 nav: 
   - Flutter:
+    - Flutter/index.md 
     - Dart Grammar:
       - Flutter/dartGrammar/DartGrammar.md
       - Flutter/dartGrammar/oopProgramming.md
@@ -54,6 +55,7 @@ nav:
       - Flutter/Theory/Builder.md
       - Flutter/Theory/Navigation.md
       - Flutter/Theory/GestureDetector.md
+      - Flutter/Theory/scrollable_widget.md   
       - Flutter/Theory/SQL.md
 
     - Flutter Packages:

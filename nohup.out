@@ -2533,3 +2533,532 @@ INFO     -  Building documentation...
 INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
   - index.md
   - Flutter/index.md
+INFO     -  [23:18:18] Reloading browsers
+INFO     -  [01:10:22] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+  - Flutter/Theory/widget copy.md
+INFO     -  [01:10:26] Reloading browsers
+INFO     -  [02:09:31] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+  - Flutter/Theory/widget copy.md
+INFO     -  [02:09:35] Reloading browsers
+INFO     -  [02:12:00] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+  - Flutter/Theory/widget copy.md
+INFO     -  [02:12:15] Reloading browsers
+INFO     -  Building documentation...
+INFO     -  Cleaning site directory
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+  - Flutter/Theory/widget copy.md
+[33mWARNING  -  [0m[02:12:29] "GET / HTTP/1.1" code 302
+INFO     -  Documentation built in 5.13 seconds
+OSError: [Errno 48] Address already in use
+INFO     -  [02:12:33] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [02:12:50] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/Builder/
+INFO     -  [02:15:01] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+  - Flutter/Theory/scrollable_widget.md
+INFO     -  [02:15:03] Reloading browsers
+INFO     -  [02:15:03] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/Builder/
+INFO     -  [02:15:23] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:15:27] Reloading browsers
+INFO     -  [02:15:28] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/Builder/
+INFO     -  [02:15:30] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/Builder/
+INFO     -  [02:15:32] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:15:48] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:17:49] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+  - Flutter/Theory/widget copy.md
+INFO     -  [02:17:49] Reloading browsers
+INFO     -  [02:17:50] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:17:53] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:17:55] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:17:55] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:18:02] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+  - Flutter/Theory/widget copy.md
+INFO     -  [02:18:03] Reloading browsers
+INFO     -  [02:18:04] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:18:04] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:18:05] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:18:05] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:18:12] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+  - Flutter/Theory/widget copy.md
+INFO     -  [02:18:13] Reloading browsers
+INFO     -  [02:18:14] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:18:14] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:18:15] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:18:25] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:18:30] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:19:11] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+  - Flutter/Theory/widget copy.md
+INFO     -  [02:19:13] Reloading browsers
+INFO     -  [02:19:14] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:19:30] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+  - Flutter/Theory/widget copy.md
+INFO     -  [02:19:32] Reloading browsers
+INFO     -  [02:19:32] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:19:37] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+  - Flutter/Theory/widget copy.md
+[33mWARNING  -  [0mA relative path to 'Flutter/Theory/SQL.md' is included in the 'nav' configuration, which is not found in the documentation files
+INFO     -  [02:19:38] Reloading browsers
+INFO     -  [02:19:38] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:19:52] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+[33mWARNING  -  [0mA relative path to 'Flutter/Theory/SQL.md' is included in the 'nav' configuration, which is not found in the documentation files
+INFO     -  [02:19:53] Reloading browsers
+INFO     -  [02:19:53] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:21:01] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:21:02] Reloading browsers
+INFO     -  [02:21:02] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:21:12] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:21:13] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:21:40] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:21:42] Reloading browsers
+INFO     -  [02:21:42] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:21:43] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:21:46] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:21:53] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:21:54] Reloading browsers
+INFO     -  [02:21:54] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:21:55] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:23:45] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:23:47] Reloading browsers
+INFO     -  [02:23:47] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:24:03] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:24:06] Reloading browsers
+INFO     -  [02:24:06] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:24:26] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:24:28] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:24:28] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:25:18] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:25:20] Reloading browsers
+INFO     -  [02:25:20] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:25:22] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:25:23] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:25:48] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:25:50] Reloading browsers
+INFO     -  [02:25:50] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:25:50] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:26:03] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:26:06] Reloading browsers
+INFO     -  [02:26:06] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:30:35] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:30:37] Reloading browsers
+INFO     -  [02:30:38] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:30:38] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:40:52] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:40:52] Reloading browsers
+INFO     -  [02:40:53] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:41:14] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:41:15] Reloading browsers
+[33mWARNING  -  [0m[02:41:15] "GET /docs/assets/img/flutter/scrollable_widget/renderSimple.gif HTTP/1.1" code 404
+[33mWARNING  -  [0m[02:41:15] "GET /docs/assets/img/flutter/scrollable_widget/singleViewScroll.gif HTTP/1.1" code 404
+INFO     -  [02:41:15] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:45:16] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:45:16] Reloading browsers
+[33mWARNING  -  [0m[02:45:16] "GET /docs/assets/img/flutter/scrollable_widget/renderSimple.gif HTTP/1.1" code 404
+[33mWARNING  -  [0m[02:45:16] "GET /docs/assets/img/flutter/scrollable_widget/singleViewScroll.gif HTTP/1.1" code 404
+INFO     -  [02:45:17] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:45:47] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:45:49] Reloading browsers
+INFO     -  [02:45:49] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:45:50] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:52:13] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:52:15] Reloading browsers
+INFO     -  [02:52:15] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [02:53:44] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [02:53:47] Reloading browsers
+INFO     -  [02:53:47] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [03:31:26] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [03:31:28] Reloading browsers
+INFO     -  [03:31:55] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [03:31:59] Reloading browsers
+INFO     -  [03:32:07] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [03:32:09] Reloading browsers
+[33mWARNING  -  [0m[03:32:21] "GET / HTTP/1.1" code 302
+INFO     -  [03:32:22] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [09:56:32] Browser connected: http://127.0.0.1:8000/docs/
+[33mWARNING  -  [0m[10:17:38] "GET / HTTP/1.1" code 302
+[33mWARNING  -  [0m[11:08:18] "GET / HTTP/1.1" code 302
+[33mWARNING  -  [0m[11:37:15] "GET / HTTP/1.1" code 302
+[33mWARNING  -  [0m[19:59:48] "GET / HTTP/1.1" code 302
+INFO     -  [19:59:48] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [20:00:48] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [20:00:59] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [20:01:01] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [20:01:04] Reloading browsers
+INFO     -  [20:01:04] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [20:25:43] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [20:25:44] Reloading browsers
+INFO     -  [20:25:44] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [20:26:09] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [20:26:11] Reloading browsers
+INFO     -  [20:26:11] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [20:26:15] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [20:48:45] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [20:48:46] Reloading browsers
+INFO     -  [20:48:46] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [20:49:13] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [20:49:14] Reloading browsers
+INFO     -  [20:49:14] Detected file changes
+INFO     -  Building documentation...
+INFO     -  [20:49:14] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [20:49:15] Reloading browsers
+INFO     -  [20:49:15] Detected file changes
+INFO     -  Building documentation...
+INFO     -  [20:49:16] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [20:49:17] Reloading browsers
+INFO     -  [20:49:17] Detected file changes
+INFO     -  Building documentation...
+INFO     -  [20:49:17] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [20:49:18] Reloading browsers
+INFO     -  [20:49:18] Detected file changes
+INFO     -  [20:49:18] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [20:49:19] Reloading browsers
+INFO     -  [20:49:19] Detected file changes
+INFO     -  [20:49:19] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [20:49:20] Reloading browsers
+INFO     -  [20:49:20] Detected file changes
+INFO     -  Building documentation...
+INFO     -  [20:49:20] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [20:49:21] Reloading browsers
+INFO     -  [20:49:21] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [20:49:28] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [20:49:29] Reloading browsers
+INFO     -  [20:49:29] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [20:49:41] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [20:49:42] Reloading browsers
+[33mWARNING  -  [0m[20:49:42] "GET /docs/assets/img/flutter/Theory/scrollable_widget/ListView.mp4 HTTP/1.1" code 404
+INFO     -  [20:49:42] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [20:49:58] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [20:49:59] Reloading browsers
+INFO     -  [20:50:00] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [20:50:05] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [20:50:19] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [20:50:24] Reloading browsers
+INFO     -  [20:50:24] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [20:59:14] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [20:59:15] Reloading browsers
+INFO     -  [20:59:15] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [21:00:42] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [21:00:43] Reloading browsers
+INFO     -  [21:00:44] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [21:00:47] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [21:01:41] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [21:01:43] Reloading browsers
+INFO     -  [21:01:43] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [21:01:47] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [21:01:48] Reloading browsers
+INFO     -  [21:01:48] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [21:01:55] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [21:01:57] Reloading browsers
+INFO     -  [21:01:57] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [21:02:37] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [21:02:40] Reloading browsers
+INFO     -  [21:02:40] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [21:44:00] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [21:44:01] Reloading browsers
+INFO     -  [21:46:29] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [21:46:30] Reloading browsers
+INFO     -  [21:46:30] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [21:46:31] Reloading browsers
+INFO     -  [21:46:31] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [21:46:32] Reloading browsers
+INFO     -  [21:46:32] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [21:46:32] Reloading browsers
+INFO     -  [21:46:32] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [21:46:33] Reloading browsers
+INFO     -  [21:48:54] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [21:48:55] Reloading browsers
+INFO     -  [21:51:53] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [21:51:54] Reloading browsers
+[33mWARNING  -  [0m[22:12:10] "GET / HTTP/1.1" code 302
+INFO     -  [22:12:11] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [22:13:11] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [22:23:51] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [22:23:52] Reloading browsers
+INFO     -  [22:23:53] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+[33mWARNING  -  [0m[22:23:56] "GET / HTTP/1.1" code 302
+INFO     -  [22:23:57] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [22:23:58] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [22:24:10] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [22:24:12] Reloading browsers
+INFO     -  [22:24:12] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [22:24:12] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [22:24:20] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [22:24:21] Reloading browsers
+INFO     -  [22:24:21] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [22:24:21] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [22:24:22] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [22:26:22] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [22:26:23] Reloading browsers
+INFO     -  [22:26:24] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [22:26:24] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [22:28:02] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [22:28:03] Reloading browsers
+INFO     -  [22:28:03] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [22:28:04] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [22:40:26] Detected file changes
+INFO     -  Building documentation...
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/index.md
+INFO     -  [22:40:28] Reloading browsers
+INFO     -  [22:40:28] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [22:40:35] Browser connected: http://127.0.0.1:8000/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [22:40:35] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [22:40:36] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [22:40:52] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [22:40:53] Browser connected: http://127.0.0.1:8000/docs/
+INFO     -  [22:44:23] Detected file changes
+INFO     -  Building documentation...
+[31mERROR    -  [0mConfig value: 'theme'. Error: The path set in theme.custom_dir ('/Users/rookedsysc/Documents/Github/docs/overrides') does not exist.
+Aborted with 1 Configuration Errors!
