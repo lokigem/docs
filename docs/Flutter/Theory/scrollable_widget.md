@@ -170,3 +170,44 @@ gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
 <center>
 ![renderMaxExtent](/docs/assets/img/flutter/Theory/scrollable_widget/renderMaxExtent.gif){: width="50%" }
 </center>
+
+## Reorderable List View 
+재정렬 가능한 List View.
+builder를 통한 구현 👇
+```dart
+ReorderableListView.builder(
+  itemBuilder: (context, index) {
+    return RenderColorContainer( 
+        key: Key(
+          index.toString()), 
+          color: rainbowColors[renderNumbers[index] % rainbowColors.length], 
+          index: renderNumbers[index]);// (1)!
+  },
+  itemCount: renderNumbers.length,
+  onReorder: (int oldIndex, int newIndex) {
+    setState(() {
+      if (oldIndex < newIndex) {
+        newIndex -= 1;
+      } // (2)!
+      final item = renderNumbers.removeAt(oldIndex);
+      renderNumbers.insert(newIndex, item);
+    });
+  },
+)
+```
+
+1. index number가 이동하면 이동한 위치의 새로운 index number(3 > 5로 옮기고 나면 3자리에 3이 그대로 들어옴)가 됨, 그러나 해당 index에 있던 renderNumber는 바뀌게 됨(3자리에 있던 3을 5로 보내게 되면 3자리에 4가 들어옴). <br><br>
+즉, 3에 있던 renderNumber를 5로 보내면 여전히 3번째 인덱스를 봤을 때 3번째 인덱스로 보이지만 해당하는 인덱스에는 renderNumber의 다음 인덱스가 그 인덱스 번호를 차지하게 됨.
+
+2.  oldIndex와 newIndex 모두 이동이 되기 전에 산정됨. <br><br>
+[red, orange, yellow] <br>
+[0, 1, 2] <br><br>
+red를 yellow 다음으로 옮기고 싶을 경우 <br>
+oldIndex는 0으로 newIndex는 3으로 지정이 됨. <br>
+[orange, yellow, red] <br>
+옮기고 난 후의 Red의 index는 2번이 됨. <br>
+따라서 낮은 인덱스를 높은 인덱스로 옮길 때는 newIndex에 -1을 해줘야함. <br><br>
+[red, orange, yellow]<br>
+yellow를 맨 앞으로 옮기고 싶을 경우. <br>
+yellow : 2 oldIndex -> 0 newIndex <br>
+[yellow, red, orange] <br>
