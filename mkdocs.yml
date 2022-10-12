@@ -49,14 +49,16 @@ nav:
       - Flutter/dartGrammar/asyncProgramming.md
       - Flutter/dartGrammar/Date.md
     - Flutter Theory:
-      - Flutter/Theory/row_and_column.md
       - Flutter/Theory/widget.md
-      - Flutter/Theory/Button.md
-      - Flutter/Theory/Builder.md
-      - Flutter/Theory/Navigation.md
-      - Flutter/Theory/GestureDetector.md
-      - Flutter/Theory/scrollable_widget.md   
       - Flutter/Theory/SQL.md
+      - Design:
+        - Flutter/Theory/design/row_and_column.md
+        - Flutter/Theory/design/Button.md
+        - Flutter/Theory/design/Builder.md
+        - Flutter/Theory/design/Navigation.md
+        - Flutter/Theory/design/GestureDetector.md
+        - Flutter/Theory/design/scrollable_widget.md   
+        - Flutter/Theory/design/animatedOpacity.md   
 
     - Flutter Packages:
       - Flutter/Packages/web_view.md

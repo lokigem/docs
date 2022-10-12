@@ -3645,3 +3645,140 @@ INFO     -  The following pages exist in the docs directory, but are not include
 INFO     -  [01:12:54] Reloading browsers
 INFO     -  [01:12:55] Browser connected: http://127.0.0.1:8080/docs/Flutter/Theory/scrollable_widget/
 INFO     -  [01:13:13] Browser connected: http://172.20.10.2:8080/docs/Flutter/Theory/scrollable_widget/
+INFO     -  [01:14:24] Browser connected: http://127.0.0.1:8080/docs/Flutter/Theory/scrollable_widget/
+[33mWARNING  -  [0m[03:39:43] "GET / HTTP/1.1" code 302
+INFO     -  [03:39:44] Browser connected: http://0.0.0.0:8080/docs/
+INFO     -  [03:40:44] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/SQL/
+INFO     -  [03:42:01] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [03:42:05] Reloading browsers
+INFO     -  [03:42:06] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/SQL/
+INFO     -  [03:44:24] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/design/Builder.md
+  - Flutter/Theory/design/Button.md
+  - Flutter/Theory/design/GestureDetector.md
+  - Flutter/Theory/design/Navigation.md
+  - Flutter/Theory/design/SQL.md
+  - Flutter/Theory/design/row_and_column.md
+  - Flutter/Theory/design/scrollable_widget.md
+  - Flutter/Theory/design/widget.md
+[33mWARNING  -  [0mA relative path to 'Flutter/Theory/widget.md' is included in the 'nav' configuration, which is not found in the documentation files
+[33mWARNING  -  [0mA relative path to 'Flutter/Theory/row_and_column.md' is included in the 'nav' configuration, which is not found in the documentation files
+[33mWARNING  -  [0mA relative path to 'Flutter/Theory/Button.md' is included in the 'nav' configuration, which is not found in the documentation files
+[33mWARNING  -  [0mA relative path to 'Flutter/Theory/Builder.md' is included in the 'nav' configuration, which is not found in the documentation files
+[33mWARNING  -  [0mA relative path to 'Flutter/Theory/Navigation.md' is included in the 'nav' configuration, which is not found in the documentation files
+[33mWARNING  -  [0mA relative path to 'Flutter/Theory/GestureDetector.md' is included in the 'nav' configuration, which is not found in the documentation files
+[33mWARNING  -  [0mA relative path to 'Flutter/Theory/scrollable_widget.md' is included in the 'nav' configuration, which is not found in the documentation files
+[33mWARNING  -  [0mA relative path to 'Flutter/Theory/SQL.md' is included in the 'nav' configuration, which is not found in the documentation files
+INFO     -  [03:44:25] Reloading browsers
+[33mWARNING  -  [0m[03:44:26] "GET /docs/Flutter/Theory/SQL/ HTTP/1.1" code 404
+INFO     -  [03:44:35] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/design/Builder.md
+  - Flutter/Theory/design/Button.md
+  - Flutter/Theory/design/GestureDetector.md
+  - Flutter/Theory/design/Navigation.md
+  - Flutter/Theory/design/SQL.md
+  - Flutter/Theory/design/row_and_column.md
+  - Flutter/Theory/design/scrollable_widget.md
+[33mWARNING  -  [0mA relative path to 'Flutter/Theory/row_and_column.md' is included in the 'nav' configuration, which is not found in the documentation files
+[33mWARNING  -  [0mA relative path to 'Flutter/Theory/Button.md' is included in the 'nav' configuration, which is not found in the documentation files
+[33mWARNING  -  [0mA relative path to 'Flutter/Theory/Builder.md' is included in the 'nav' configuration, which is not found in the documentation files
+[33mWARNING  -  [0mA relative path to 'Flutter/Theory/Navigation.md' is included in the 'nav' configuration, which is not found in the documentation files
+[33mWARNING  -  [0mA relative path to 'Flutter/Theory/GestureDetector.md' is included in the 'nav' configuration, which is not found in the documentation files
+[33mWARNING  -  [0mA relative path to 'Flutter/Theory/scrollable_widget.md' is included in the 'nav' configuration, which is not found in the documentation files
+[33mWARNING  -  [0mA relative path to 'Flutter/Theory/SQL.md' is included in the 'nav' configuration, which is not found in the documentation files
+INFO     -  [03:44:37] Reloading browsers
+[33mWARNING  -  [0m[03:44:38] "GET /docs/Flutter/Theory/SQL/ HTTP/1.1" code 404
+INFO     -  [03:44:41] Browser connected: http://0.0.0.0:8080/docs/Flutter/
+INFO     -  [03:44:42] Browser connected: http://0.0.0.0:8080/docs/Flutter/
+[33mWARNING  -  [0m[03:44:44] "GET /docs/Flutter/Theory/row_and_column.md HTTP/1.1" code 404
+INFO     -  [03:46:38] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [03:46:41] Reloading browsers
+INFO     -  [03:47:23] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/widget/
+INFO     -  [03:47:28] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/row_and_column/
+INFO     -  [03:47:34] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/Navigation/
+INFO     -  [03:47:37] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/
+INFO     -  [03:47:38] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/SQL/
+INFO     -  [03:47:43] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/
+INFO     -  [03:48:02] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/SQL.md
+[33mWARNING  -  [0mA relative path to 'Flutter/Theory/design/SQL.md' is included in the 'nav' configuration, which is not found in the documentation files
+INFO     -  [03:48:06] Reloading browsers
+INFO     -  [03:48:07] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/
+INFO     -  [03:48:21] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [03:48:25] Reloading browsers
+INFO     -  [03:48:29] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/
+INFO     -  [03:48:32] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/
+INFO     -  [03:48:55] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/design/animatedOpacity.md
+INFO     -  [03:49:00] Reloading browsers
+INFO     -  [03:49:01] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/
+INFO     -  [03:52:20] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/design/animatedOpacity.md
+INFO     -  [03:52:24] Reloading browsers
+INFO     -  [03:52:26] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/
+INFO     -  [03:53:31] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/design/animatedOpacity.md
+INFO     -  [03:53:33] Reloading browsers
+INFO     -  [03:53:36] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/
+INFO     -  [03:53:39] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/
+INFO     -  [03:53:53] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/design/animatedOpacity.md
+[33mWARNING  -  [0mA relative path to 'Flutter/Theory/design/animated_opacity.md' is included in the 'nav' configuration, which is not found in the documentation files
+INFO     -  [03:53:55] Reloading browsers
+INFO     -  [03:53:56] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/
+INFO     -  [03:54:01] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/
+INFO     -  [03:54:32] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [03:54:34] Reloading browsers
+INFO     -  [03:54:35] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [03:54:41] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/
+INFO     -  [03:54:43] Reloading browsers
+INFO     -  [03:54:44] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/
+INFO     -  [03:54:49] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/animatedOpacity/
