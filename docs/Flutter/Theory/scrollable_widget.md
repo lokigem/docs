@@ -393,3 +393,49 @@ class _SliverFixedHeaderDelegate extends SliverPersistentHeaderDelegate {
   }
 }
 ```
+## Scrollbar  
+Scroll 가능한 위젯을 Widget(Scrollbar)로 감싸줌. 기본적으로 존재하지 않는 스크롤 바가 생김.
+```dart
+Scrollbar( // 동작 화면 (1) 
+  child: SingleChildScrollView(
+    child: Column(
+      children: renderNumbers
+          .map(
+            (e) => RenderColorContainer(
+              index: e,
+              color: rainbowColors[e % rainbowColors.length],
+            ),
+          )
+          .toList(),
+    ),
+  ),
+),
+```
+
+1. <center>
+![scrollBar](/docs/assets/img/flutter/Theory/scrollable_widget/scrollBar.gif){: width="50%" }
+</center>
+
+## Refresh Indicator
+Scrollable View의 최상단에서 아래로 당겼을 때 loading 창이 구현됨.<br>
+ScrollBar와 마찬가지로 Scrollable 위젯을 Refresh Indicator로 감싸고 onRefresh로 refresh 실행시 동작할 함수를 구현함.
+```dart
+RefreshIndicator(
+  // refresh 실행하면 실행될 함수 
+    onRefresh: () async {
+    await Future.delayed(Duration(seconds: 2));
+  },
+  child: ListView(
+    children: renderNumbers.map(
+      (e) => RenderColorContainer(
+        index: e,
+        color: rainbowColors[e % rainbowColors.length],
+      ),
+    ).toList(),
+  ),
+);// 실행 화면 : (1)
+```
+
+1. <center>
+![refresh](/docs/assets/img/flutter/Theory/scrollable_widget/refresh.gif){: width="50%" }
+</center>
