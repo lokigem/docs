@@ -43,7 +43,18 @@ SingleChildScrollView(
 ![singgleViewScroll](/docs/assets/img/flutter/Theory/scrollable_widget/singleViewScroll.gif){: width="50%" }
 </center>
 
-#### clipBehavior: 화면 잘림
+#### PageScroll 
+말로 설명하자면 어려운데 책장 넘기듯이 다음 페이지로 넘어가게끔 해주는 기능, 중간에 걸리거나 그러지 않고 다음 List로 넘어감.
+```dart
+physics: PageScrollPhysics(), // (1)
+```
+
+1. 적용 전 <br>
+![beforePageScroll](/docs/assets/img/flutter/Theory/scrollable_widget/beforePageScroll.gif){: width="50%" }<br><br>
+적용 후<br>
+![afterPageScroll](/docs/assets/img/flutter/Theory/scrollable_widget/afterPageScroll.gif){: width="50%" }
+
+### clipBehavior: 화면 잘림
 위에서 보면 화면이 스크롤 될 때 잘리는 것을 볼 수 있음. 이는 clipBehavior 속성을 추가해서 해결할 수 있음.
 ```dart
 clipBehavior: Clip.none
@@ -113,6 +124,21 @@ ListView.separated(
 <center>
 ![seperateRender](/docs/assets/img/flutter/Theory/scrollable_widget/seperateRender.gif){: width="50%" }
 </center>
+
+### ListTile
+[텍스트 또는 아이콘을 포함하는 고정 높이의 단일 행.](https://api.flutter.dev/flutter/material/ListTile-class.html)
+```dart
+ListTile(
+  tileColor: Colors.white,
+  selectedTileColor: lightColor,
+  selectedColor: Colors.black,
+  selected: e == '서울',
+  onTap: () {},
+  title: Text(e),
+), // (1)
+```
+
+1. ![spreadListTile](/docs/assets/img/flutter/DartGrammar/spreadListTile.gif)
 
 ## Grid View
 가로로 여러 개의 View를 표시할 수 있음.
@@ -393,8 +419,33 @@ class _SliverFixedHeaderDelegate extends SliverPersistentHeaderDelegate {
   }
 }
 ```
+
+### Sliver To Box Adaptor
+slivers = [] 안에는 Sliver 위젯들 밖에 들어올 수 없지만 Sliver To Box Adaptor를 사용하면 Card나 Container 등의 위젯이 들어올 수 있음.
+
+```dart title="Slvier To Box Adaptor"
+SliverToBoxAdapter(
+  child: Container(
+    color: Colors.white,
+    height: 200,
+    child: Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Text(
+          '이건 되지롱 !!!!!',
+          style: TextStyle(fontSize: 18, fontWeight: FontWeight.w700),
+          textAlign: TextAlign.center,
+          
+        ),
+      ],
+    ),
+  ),
+);
+```
+
 ## Scrollbar  
 Scroll 가능한 위젯을 Widget(Scrollbar)로 감싸줌. 기본적으로 존재하지 않는 스크롤 바가 생김.
+
 ```dart
 Scrollbar( // 동작 화면 (1) 
   child: SingleChildScrollView(
@@ -411,7 +462,6 @@ Scrollbar( // 동작 화면 (1)
   ),
 ),
 ```
-
 1. <center>
 ![scrollBar](/docs/assets/img/flutter/Theory/scrollable_widget/scrollBar.gif){: width="50%" }
 </center>

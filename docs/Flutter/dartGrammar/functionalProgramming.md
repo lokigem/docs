@@ -30,9 +30,47 @@ where((x) => 조건); 조건이 true인 값만 return 해줌.<br>
 where((x) => 조건); 
 ```
 [where 참조](https://github.com/rookedsysc/Flutter-Study/blob/main/Grammar/functionalProgramming/where.dart)
-## cascading operator 
-List 이어주는 기능(?)<br>
-[cascading operator](https://github.com/rookedsysc/Flutter-Study/blob/main/Grammar/functionalProgramming/cascading_oprator.dart)
+
+## Spread operator(...) 
+List 이어주는 기능(?)<br> 
++ 추가(22.10.14) : Collection 형태에 Collection 값을 대입할 때 사용. 목록의 모든 값을 다른 목록에 삽입해줌. <br>
+
+``` dart title="Spread Operator를 활용한 ListTile 출력" 
+Drawer(
+  backgroundColor: darkColor,
+  child: ListView(
+    children: [
+      DrawerHeader(
+        child: Text(
+          '지역 선택',
+          style: TextStyle(color: Colors.white, fontSize: 20.0),
+        ),
+      ),
+      // cas
+      ...regions
+          .map(
+            (e) => ListTile( // (1)
+              tileColor: Colors.white,
+              selectedTileColor: lightColor,
+              selectedColor: Colors.black,
+              selected: e == '서울',
+              onTap: () {},
+              title: Text(e),
+            ),
+          )
+          .toList(),
+    ],
+  ),
+); 
+```
+
+1. ![spreadListTile](/docs/assets/img/flutter/DartGrammar/spreadListTile.gif)
+
+
+### Reference
+[Spread oprator 공식 문서](https://dart.dev/guides/language/language-tour#spread-operator)<br>
+[Spread oprator github](https://github.com/dart-lang/language/blob/master/accepted/2.3/spread-collections/feature-specification.md)<br>
+
 ## functional programming 사용 예시
 <details>
 <summary>예시1</summary>
@@ -152,3 +190,4 @@ class Person {
 ```
 </div>
 </details>
+
