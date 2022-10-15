@@ -47,6 +47,7 @@ nav:
       - Flutter/dartGrammar/functionalProgramming.md
       - Flutter/dartGrammar/asyncProgramming.md
       - Flutter/dartGrammar/Date.md
+      - Flutter/dartGrammar/formatting.md
     - Flutter Theory:
       - Flutter/Theory/widget.md
       - Flutter/Theory/SQL.md
@@ -58,7 +59,8 @@ nav:
         - Flutter/Theory/design/GestureDetector.md
         - Flutter/Theory/design/scrollable_widget.md   
         - Flutter/Theory/design/animatedOpacity.md   
-        - Flutter/Theory/design/Snackbar.md
+        - Flutter/Theory/design/snackbar.md
+        - Flutter/Theory/design/drawer.md
 
     - Flutter Packages:
       - Flutter/Packages/web_view.md
