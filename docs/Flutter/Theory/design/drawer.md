@@ -15,3 +15,10 @@ Scaffold(
 <center>
 ![drawer](/docs/assets/img/flutter/Theory/drawer/drawer.gif){: width="50%" }
 </center>
+
+## drawer 닫는 방법
+drawer도 하나의 화면으로 취급하기 때문에, 
+```dart
+Navigation.of(context).pop();
+```
+으로 닫아줄 수 있음.

@@ -28,10 +28,6 @@ void main() async {
 	await 실행할함수();
 }
 ```
-### Future and await 참조
-[Future and await 참조 1](https://github.com/rookedsysc/Flutter-Study/blob/main/Grammar/asyncProgramming/future.dart)<br>
-[Future and await 참조 2](https://github.com/rookedsysc/Flutter-Study/blob/main/Grammar/asyncProgramming/await.dart)
-
 ### ConnectionState
 FutureBuilder의 처리 상태에 따라서 어떤 조건을 넣고 수행해줄 수 있음.<br>
 
@@ -52,6 +48,30 @@ enum ConnectionState {
 	done, // Future 실행 완료.
 }
 ```
+
+### Future 병렬로 데이터 처리하기
+Future들을 List에 넣어준 뒤 List를 한꺼번에 .wait()해서 데이터를 받아줌.<br>
+Future를 하나하나 실행시키고 기다리는 것이 아닌, Future를 모두 동시에 실행시키고 전부 끝날 때까지 기다려서 시간을 단축시킬 수 있음.
+```dart
+List<Future> futures = [];
+
+for(ItemCode itemCode in ItemCode.values) {
+  futures.add(
+    StatRepository.fetchData(
+    itemCode: itemCode,
+    ),
+  );
+}
+// futures에 들어있는 모든 Future이 실행될 때까지 기다림
+// 해당 Future 실행결과 값, 즉, List<StatModel>이 들어감
+final results = await Future.wait(futures);
+```
+
+### Future and await 참조
+[Future and await 참조 1](https://github.com/rookedsysc/Flutter-Study/blob/main/Grammar/asyncProgramming/future.dart)<br>
+[Future and await 참조 2](https://github.com/rookedsysc/Flutter-Study/blob/main/Grammar/asyncProgramming/await.dart)
+
+
 
 ## Stream
 리스너를 생성해서 리스너가 리스닝을 하고 있는 동안 controller가 값을 넣어주면 함수가 실행됨. <br>

@@ -48,7 +48,9 @@ Iterable elements
 ## 반복문
 [반복문](https://github.com/rookedsysc/Flutter-Study/commit/b7e1c0a26e2fdb5d1e1b66c0ea627b6e20ba42be)
 ## enum
-[enum](https://github.com/rookedsysc/Flutter-Study/commits/dartGrammar/Grammar)
+[enum](https://github.com/rookedsysc/Flutter-Study/blob/main/Grammar/enum.dart)
+
+### Value를 String으로 가져오기 (.name)
 ## 함수와 typedef
 signature: return 타입과 parameter의 형태를 signature라고 함 <br>
 typedef로 선언해놓은 함수에 같은 시그니처의 함수를 대입해주고 해당 typedef를 이용해서 연산을 수행해줌.
