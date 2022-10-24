@@ -185,6 +185,11 @@ Interface 앞에 **abstract** 키워드를 사용해서 해당 Interface를 통�
 [Interface와 abstract](https://github.com/rookedsysc/Flutter-Study/commit/4c324c49d1449f66c87cab17953d9dd04a8c5a5e)
 ### Generic (타입추론)
 class에 타입을 외부에서 받을 때 사용하며 외부에서 타입을 지정해줌.<br>
+아래는 기본형 👇
+```dart
+인스턴스명<Generic>() {
+}
+```
 [generic](https://github.com/rookedsysc/Flutter-Study/commit/f9a665156b1537bffbbb1df0839f2adc98d3b1b1)
 ## 변수 선언
 ### Private 변수

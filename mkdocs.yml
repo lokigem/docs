@@ -2,6 +2,7 @@ site_name: Rookedsysc's Docs
 
 theme: 
   name: material
+  language: kr
   features: 
     - navigation.instant
     - navigation.tabs
@@ -16,6 +17,7 @@ theme:
     primary: indigo
   icon:
     repo: fontawesome/brands/github
+
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -51,18 +53,25 @@ nav:
     - Flutter Theory:
       - Flutter/Theory/widget.md
       - Flutter/Theory/SQL.md
+      - Flutter/Theory/CodeGeneration.md
+      - Flutter/Theory/text_form_field.md
+      - Flutter/Theory/Navigation.md
+      - Flutter/Theory/notification.md
       - Design:
         - Flutter/Theory/design/row_and_column.md
         - Flutter/Theory/design/Button.md
         - Flutter/Theory/design/Builder.md
-        - Flutter/Theory/design/Navigation.md
         - Flutter/Theory/design/GestureDetector.md
-        - Flutter/Theory/design/scrollable_widget.md   
+        - Scrollable_widget: 
+          - Flutter/Theory/design/scrollable_widget/index.md   
+          - Flutter/Theory/design/scrollable_widget/scrollListner.md
         - Flutter/Theory/design/animatedOpacity.md   
-        - Flutter/Theory/design/snackbar.md
         - Flutter/Theory/design/drawer.md
+        - Flutter/Theory/design/size.md
 
     - Flutter Packages:
       - Flutter/Packages/web_view.md
+      - Flutter/Packages/drift.md
+      - Flutter/Packages/Hive.md
 
   

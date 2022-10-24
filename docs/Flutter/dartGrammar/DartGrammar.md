@@ -18,10 +18,54 @@ template: main.html
 #### Reference
 [setState란?](http://lokigem.github.io/docs/Flutter/flutterTheory/widget/#setstate)
 
-## Operation:: is와 is!
+## 타입
+### 타입 검사 (is)
 [Operation:: is와 is!](https://github.com/rookedsysc/Flutter-Study/commit/27eec1b2fad060393648e8f7ed6a8ada2e6a1440)
+
+### 캐스팅(as)
+기본 사용법 👇
+```dart
+인스턴스 as type // (1)
+```
+인스턴스를 type으로 변환해줌. 타입을 명시할 때도 사용함.
+
+- 다운 캐스팅 :
+
+부모 클래스를 자식 클래스로 타입 캐스팅
+
+- 업 캐스팅 : 
+
+자식 클래스를 부모 클래스로 타입 캐스팅 하는 것을 업 캐스팅이라고 함
 ## List와 Map
 [List와 Map](https://github.com/rookedsysc/Flutter-Study/commit/2046748443b5237be5c310587b533becee62de2c)
+
+### sublist(List 범위)
+start와 end 사이의 요소가 포함 된 새 목록을 반환함. <br>
+end에 써져 있는 인덱스는 포함하지 않음.
+```dart
+List.sublist(start index >= , end index < )
+```
+
+<details>
+<summary>예시</summary>
+<div markdown="1">
+```dart
+for(StatModel stat in value) {
+  // key 값에 dataTime을 넣어줌으로써 데이터가 절대로 중복되지 않음
+  box.put(stat.dataTime.toString(), stat);
+
+  final allKeys = box.keys.toList();
+
+  if(allKeys.length > 24) {
+    final deleteKeys = allKeys.sublist(0, allKeys.length - 24); // 마지막 24개 남기고 다 지움
+    box.deleteAll(deleteKeys);
+  }
+}
+```
+
+</div>
+</details>
+
 
 ### List To Map 
 asMap()을 사용하면 "Key = List index number" : "value = List Value" 형식으로 저장됨. 즉, asMap으로 만들어진 Map의 **Key값이 List의 index number**가 되는 것. 

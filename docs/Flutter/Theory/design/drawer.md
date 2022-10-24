@@ -1,5 +1,5 @@
 ---
-title: "Snackbar: 알림창"
+title: "Drawer"
 date: 2022-10-15
 template: main.html
 ---
@@ -12,7 +12,7 @@ Scaffold(
     )
 )
 ```
-<center>
+<center>ㅏ
 ![drawer](/docs/assets/img/flutter/Theory/drawer/drawer.gif){: width="50%" }
 </center>
 

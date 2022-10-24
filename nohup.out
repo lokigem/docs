@@ -4688,3 +4688,761 @@ INFO     -  [14:53:38] Serving on http://0.0.0.0:8080/docs/
 [33mWARNING  -  [0m[14:53:38] "GET / HTTP/1.1" code 302
 INFO     -  [14:53:39] Browser connected: http://127.0.0.1:8080/docs/
 INFO     -  [14:54:39] Browser connected: http://127.0.0.1:8080/docs/Flutter/dartGrammar/DartGrammar/
+nohup: mkdocs: No such file or directory
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  Building documentation...
+INFO     -  Cleaning site directory
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/design/Snackbar.md
+[33mWARNING  -  [0mA relative path to 'Flutter/Theory/design/snackbar.md' is included in the 'nav' configuration, which is not found in the documentation files
+INFO     -  Documentation built in 0.28 seconds
+INFO     -  [02:50:59] Watching paths for changes: 'docs', 'mkdocs.yml'
+INFO     -  [02:50:59] Serving on http://0.0.0.0:8080/docs/
+[33mWARNING  -  [0m[02:51:00] "GET / HTTP/1.1" code 302
+INFO     -  [02:51:01] Browser connected: http://0.0.0.0:8080/docs/
+[33mWARNING  -  [0m[02:51:26] "GET /docs/Flutter/Theory/design/snackbar.md HTTP/1.1" code 404
+INFO     -  [02:52:01] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/widget/
+INFO     -  [03:43:44] Detected file changes
+INFO     -  Building documentation...
+[31mERROR    -  [0mConfig value: 'nav'. Error: Expected nav to be a list, got None
+Aborted with 1 Configuration Errors!
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  Building documentation...
+INFO     -  Cleaning site directory
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/design/Size.md
+INFO     -  Documentation built in 0.43 seconds
+INFO     -  [04:19:15] Watching paths for changes: 'docs', 'mkdocs.yml'
+INFO     -  [04:19:15] Serving on http://0.0.0.0:8080/docs/
+INFO     -  [04:19:21] Browser connected: http://0.0.0.0:8080/docs/?query=margin
+INFO     -  [04:19:54] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/design/szie.md
+INFO     -  [04:19:55] Reloading browsers
+INFO     -  [04:19:55] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/DartGrammar/
+INFO     -  [04:19:59] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/design/size.md
+INFO     -  [04:20:00] Reloading browsers
+INFO     -  [04:20:00] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/DartGrammar/
+INFO     -  [04:20:05] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [04:20:06] Reloading browsers
+INFO     -  [04:20:06] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/DartGrammar/
+INFO     -  [04:20:07] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/DartGrammar/
+INFO     -  [04:20:08] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/DartGrammar/
+[33mWARNING  -  [0m[04:20:12] "GET /assets/img/flutter/Theory/scrollable_widget/kToolBar_before.png HTTP/1.1" code 404
+INFO     -  [04:20:12] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/size/
+INFO     -  [04:20:20] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [04:20:21] Reloading browsers
+[33mWARNING  -  [0m[04:20:21] "GET /assets/img/flutter/Theory/scrollable_widget/kToolBar_before.png HTTP/1.1" code 404
+[33mWARNING  -  [0m[04:20:21] "GET /assets/img/flutter/Theory/scrollable_widget/kToolBar_before.png HTTP/1.1" code 404
+INFO     -  [04:20:21] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/size/
+[33mWARNING  -  [0m[04:20:55] "GET /assets/img/flutter/Theory/scrollable_widget/kToolBar_before.png HTTP/1.1" code 404
+[33mWARNING  -  [0m[04:20:55] "GET /assets/img/flutter/Theory/scrollable_widget/kToolBar_before.png HTTP/1.1" code 404
+INFO     -  [04:20:55] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/size/
+[33mWARNING  -  [0m[04:20:55] "GET /assets/img/flutter/Theory/scrollable_widget/kToolBar_before.png HTTP/1.1" code 404
+INFO     -  [04:20:55] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/size/
+[33mWARNING  -  [0m[04:20:57] "GET /assets/img/flutter/Theory/scrollable_widget/kToolBar_before.png HTTP/1.1" code 404
+[33mWARNING  -  [0m[04:20:57] "GET /assets/img/flutter/Theory/scrollable_widget/kToolBar_before.png HTTP/1.1" code 404
+INFO     -  [04:20:57] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/size/
+INFO     -  [04:21:05] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [04:21:05] Reloading browsers
+INFO     -  [04:21:05] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/size/
+INFO     -  [04:21:30] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [04:21:31] Reloading browsers
+INFO     -  [04:21:31] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/size/
+INFO     -  [04:22:05] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/size/
+INFO     -  [04:22:12] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [04:22:13] Reloading browsers
+INFO     -  [04:22:13] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/size/
+INFO     -  [04:22:13] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/size/
+INFO     -  [04:22:14] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/size/
+INFO     -  [04:22:22] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [04:22:23] Reloading browsers
+INFO     -  [04:22:23] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/size/
+INFO     -  [04:22:23] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/size/
+INFO     -  [04:22:24] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/size/
+INFO     -  [04:24:15] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [04:24:15] Reloading browsers
+INFO     -  [04:24:15] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/size/
+INFO     -  [04:39:40] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/design/scrollable_widget/scrollListner.md
+INFO     -  [04:39:40] Reloading browsers
+INFO     -  [04:39:40] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/size/
+INFO     -  [04:40:14] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/design/scrollable_widget/scrollListner.md
+INFO     -  [04:40:14] Reloading browsers
+INFO     -  [04:40:14] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/size/
+[33mWARNING  -  [0m[19:31:15] "GET / HTTP/1.1" code 302
+INFO     -  [19:31:15] Browser connected: http://0.0.0.0:8080/docs/
+INFO     -  [19:41:55] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/design/scrollable_widget/scrollListner.md
+INFO     -  [19:41:56] Reloading browsers
+INFO     -  [19:41:56] Browser connected: http://0.0.0.0:8080/docs/
+INFO     -  [19:43:27] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/design/scrollable_widget/scrollListner.md
+INFO     -  [19:43:27] Reloading browsers
+INFO     -  [19:43:27] Browser connected: http://0.0.0.0:8080/docs/
+INFO     -  [19:43:31] Browser connected: http://0.0.0.0:8080/docs/
+INFO     -  [19:44:13] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/design/scrollable_widget/scrollListner.md
+[33mWARNING  -  [0mA relative path to 'Flutter/Theory/design/scrollable_widget/scrollListener.md' is included in the 'nav' configuration, which is not found in the documentation files
+INFO     -  [19:44:14] Reloading browsers
+INFO     -  [19:44:14] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/
+INFO     -  [19:44:24] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/
+[33mWARNING  -  [0m[19:44:33] "GET /docs/Flutter/Theory/design/scrollable_widget/scrollListener.md HTTP/1.1" code 404
+[33mWARNING  -  [0m[19:44:44] "GET /docs/Flutter/Theory/design/scrollable_widget/scrollListener.md HTTP/1.1" code 404
+INFO     -  [19:45:04] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [19:45:05] Reloading browsers
+[33mWARNING  -  [0m[19:45:05] "GET /docs/Flutter/Theory/design/scrollable_widget/scrollListener.md HTTP/1.1" code 404
+[33mWARNING  -  [0m[19:45:06] "GET /docs/Flutter/Theory/design/scrollable_widget/scrollListener.md HTTP/1.1" code 404
+INFO     -  [19:45:37] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [19:45:37] Reloading browsers
+INFO     -  [19:45:38] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/scrollListner/
+INFO     -  [19:45:39] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/scrollListner/
+INFO     -  [19:45:48] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/scrollListner/
+INFO     -  [19:45:53] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [19:45:54] Reloading browsers
+INFO     -  [19:45:54] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/scrollListner/
+INFO     -  [19:45:54] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/scrollListner/
+INFO     -  [19:53:03] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [19:53:04] Reloading browsers
+INFO     -  [19:53:04] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/scrollListner/
+INFO     -  [19:53:32] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [19:53:33] Reloading browsers
+INFO     -  [19:53:33] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/scrollListner/
+INFO     -  [19:54:07] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [19:54:07] Reloading browsers
+INFO     -  [19:54:07] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/scrollListner/
+INFO     -  [19:54:34] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [19:54:34] Reloading browsers
+INFO     -  [19:54:34] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/scrollListner/
+INFO     -  [19:55:02] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [19:55:03] Reloading browsers
+INFO     -  [19:55:03] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/scrollListner/
+INFO     -  [20:22:51] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/scrollListner/
+INFO     -  [20:22:52] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/scrollListner/
+INFO     -  [20:22:53] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/scrollListner/
+INFO     -  [20:22:54] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/scrollListner/
+INFO     -  [20:30:42] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/scrollListner/
+INFO     -  [21:14:43] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/Navigation/
+INFO     -  [23:13:53] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/CodeGeneration.md
+INFO     -  [23:13:54] Reloading browsers
+INFO     -  [23:13:54] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/Navigation/
+INFO     -  [23:17:53] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/CodeGeneration.md
+INFO     -  [23:17:54] Reloading browsers
+INFO     -  [23:17:54] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/Navigation/
+INFO     -  [23:18:54] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/CodeGeneration.md
+INFO     -  [23:18:54] Reloading browsers
+INFO     -  [23:18:54] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/Navigation/
+INFO     -  [23:19:14] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [23:19:14] Reloading browsers
+INFO     -  [23:19:14] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/Navigation/
+INFO     -  [23:19:22] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/Navigation/
+INFO     -  [23:19:24] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/Navigation/
+INFO     -  [23:19:29] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/CodeGeneration/
+INFO     -  [23:20:37] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Packages/Hive.md
+INFO     -  [23:20:37] Reloading browsers
+INFO     -  [23:20:38] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/CodeGeneration/
+INFO     -  [23:22:41] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Packages/Hive.md
+INFO     -  [23:22:41] Reloading browsers
+INFO     -  [23:22:41] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/CodeGeneration/
+INFO     -  [23:22:43] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/CodeGeneration/
+INFO     -  [23:22:58] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [23:22:59] Reloading browsers
+INFO     -  [23:22:59] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/CodeGeneration/
+INFO     -  [23:44:16] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/Hive/
+INFO     -  [23:47:16] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/functionalProgramming/
+INFO     -  [00:50:11] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/functionalProgramming/
+INFO     -  [00:51:11] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/oopProgramming/
+INFO     -  [01:07:37] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/DartGrammar/
+INFO     -  [01:08:37] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/functionalProgramming/
+INFO     -  [01:09:32] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/DartGrammar/
+INFO     -  [01:09:40] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/DartGrammar/
+INFO     -  [01:10:40] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/oopProgramming/
+INFO     -  [01:15:52] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [01:15:53] Reloading browsers
+INFO     -  [01:15:53] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/DartGrammar/
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  Building documentation...
+INFO     -  Cleaning site directory
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  Documentation built in 0.42 seconds
+INFO     -  [18:07:32] Watching paths for changes: 'docs', 'mkdocs.yml'
+INFO     -  [18:07:32] Serving on http://0.0.0.0:8080/docs/
+[33mWARNING  -  [0m[18:07:34] "GET / HTTP/1.1" code 302
+INFO     -  [18:07:35] Browser connected: http://0.0.0.0:8080/docs/
+INFO     -  [18:08:35] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/Snackbar/
+INFO     -  [18:09:35] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/size/
+INFO     -  [18:17:15] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [18:17:15] Reloading browsers
+INFO     -  [18:17:16] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/Snackbar/
+INFO     -  [18:17:45] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [18:17:45] Reloading browsers
+INFO     -  [18:17:45] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/Snackbar/
+INFO     -  [18:19:13] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [18:19:13] Reloading browsers
+INFO     -  [18:19:13] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/Snackbar/
+INFO     -  [18:19:27] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [18:19:28] Reloading browsers
+INFO     -  [18:19:28] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/Snackbar/
+INFO     -  [18:19:32] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/Snackbar/
+INFO     -  [18:19:50] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [18:19:51] Reloading browsers
+INFO     -  [18:19:51] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/Snackbar/
+INFO     -  [18:19:52] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/Snackbar/
+INFO     -  [18:20:00] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [18:20:00] Reloading browsers
+INFO     -  [18:20:00] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/Snackbar/
+INFO     -  [18:20:01] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/Snackbar/
+INFO     -  [19:00:01] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/
+INFO     -  [21:08:26] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/functionalProgramming/
+INFO     -  [21:12:26] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/Hive/
+INFO     -  [21:12:49] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Packages/drift.md
+INFO     -  [21:12:50] Reloading browsers
+INFO     -  [21:12:50] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/Hive/
+INFO     -  [21:31:12] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Packages/Drift.md
+INFO     -  [21:31:13] Reloading browsers
+INFO     -  [21:31:13] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/Hive/
+INFO     -  [21:31:55] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Packages/drift.md
+INFO     -  [21:31:56] Reloading browsers
+INFO     -  [21:31:56] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/Hive/
+INFO     -  [21:32:11] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [21:32:11] Reloading browsers
+INFO     -  [21:32:11] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/Hive/
+INFO     -  [21:32:16] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [21:32:17] Reloading browsers
+INFO     -  [21:32:17] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/Hive/
+INFO     -  [21:32:19] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/Hive/
+INFO     -  [21:32:23] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/drift/
+INFO     -  [21:32:30] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/drift/
+INFO     -  [21:32:31] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/drift/
+INFO     -  [21:32:38] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [21:32:39] Reloading browsers
+INFO     -  [21:32:39] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/drift/
+INFO     -  [22:20:42] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/drift/
+INFO     -  [22:20:44] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [22:20:45] Reloading browsers
+INFO     -  [22:20:45] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/drift/
+INFO     -  [23:56:31] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [23:56:31] Reloading browsers
+INFO     -  [23:56:31] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/drift/
+INFO     -  [00:00:48] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [00:00:49] Reloading browsers
+INFO     -  [00:00:49] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/drift/
+INFO     -  [00:01:11] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [00:01:12] Reloading browsers
+INFO     -  [00:01:12] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/drift/
+INFO     -  [00:01:13] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/drift/
+INFO     -  [00:01:32] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [00:01:33] Reloading browsers
+INFO     -  [00:01:33] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/drift/
+INFO     -  [00:01:47] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [00:01:47] Reloading browsers
+INFO     -  [00:01:47] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/drift/
+INFO     -  [00:01:58] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [00:01:59] Reloading browsers
+INFO     -  [00:01:59] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/drift/
+INFO     -  [00:02:23] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [00:02:23] Reloading browsers
+INFO     -  [00:02:23] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/drift/
+INFO     -  [00:02:35] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/drift/
+INFO     -  [00:03:03] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/CodeGeneration/
+INFO     -  [00:03:05] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/CodeGeneration/
+INFO     -  [00:09:11] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [00:09:11] Reloading browsers
+INFO     -  [00:09:11] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/drift/
+INFO     -  [00:09:12] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/drift/
+INFO     -  [00:58:15] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/Navigation/
+INFO     -  [01:17:15] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/Button/
+INFO     -  [02:08:46] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/drift/
+INFO     -  [03:35:24] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [03:35:24] Reloading browsers
+INFO     -  [03:35:24] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/drift/
+INFO     -  [03:35:29] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/drift/
+INFO     -  [03:46:00] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [03:46:01] Reloading browsers
+INFO     -  [03:46:01] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/drift/
+INFO     -  [03:47:53] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [03:47:54] Reloading browsers
+INFO     -  [03:47:54] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/drift/
+INFO     -  [03:53:38] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [03:53:38] Reloading browsers
+INFO     -  [03:53:39] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/drift/
+INFO     -  [03:58:39] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/row_and_column/
+INFO     -  [15:48:25] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/size/
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  Building documentation...
+INFO     -  Cleaning site directory
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  Documentation built in 0.48 seconds
+INFO     -  [16:38:56] Watching paths for changes: 'docs', 'mkdocs.yml'
+INFO     -  [16:38:56] Serving on http://0.0.0.0:8080/docs/
+[33mWARNING  -  [0m[16:39:03] "GET / HTTP/1.1" code 302
+INFO     -  [16:39:03] Browser connected: http://0.0.0.0:8080/docs/
+INFO     -  [16:40:03] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/size/
+[33mWARNING  -  [0m[17:43:57] "GET / HTTP/1.1" code 302
+INFO     -  [17:43:57] Browser connected: http://0.0.0.0:8080/docs/
+INFO     -  [17:44:57] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/drift/
+INFO     -  [18:20:00] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/CodeGeneration/
+INFO     -  [18:44:00] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/Date/
+INFO     -  [23:02:02] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/formatting/
+INFO     -  [00:16:03] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/asyncProgramming/
+INFO     -  [01:05:54] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/asyncProgramming/
+INFO     -  [01:26:54] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/CodeGeneration/
+[33mWARNING  -  [0m[02:00:20] "GET / HTTP/1.1" code 302
+INFO     -  [02:00:21] Browser connected: http://0.0.0.0:8080/docs/
+INFO     -  [02:01:21] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/DartGrammar/
+INFO     -  [02:07:21] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/Date/
+INFO     -  [03:44:47] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/widget copy.md
+INFO     -  [03:44:48] Reloading browsers
+INFO     -  [03:44:48] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/CodeGeneration/
+INFO     -  [03:45:00] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/text_form_field.md
+INFO     -  [03:45:01] Reloading browsers
+INFO     -  [03:45:01] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/CodeGeneration/
+INFO     -  [03:45:01] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/Date/
+INFO     -  [03:58:27] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/text_form_field.md
+INFO     -  [03:58:28] Reloading browsers
+INFO     -  [03:58:28] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/CodeGeneration/
+INFO     -  [03:58:29] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/text_form_field.md
+INFO     -  [03:58:29] Reloading browsers
+INFO     -  [03:58:29] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/CodeGeneration/
+INFO     -  [03:58:29] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/Date/
+INFO     -  [03:59:02] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [03:59:02] Reloading browsers
+INFO     -  [03:59:03] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/CodeGeneration/
+INFO     -  [03:59:06] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/Date/
+INFO     -  [03:59:06] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/CodeGeneration/
+INFO     -  [03:59:08] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/text_form_field/
+INFO     -  [04:00:13] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [04:00:14] Reloading browsers
+INFO     -  [04:00:14] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/text_form_field/
+INFO     -  [04:00:34] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/Date/
+[33mWARNING  -  [0m[14:59:54] "GET / HTTP/1.1" code 302
+INFO     -  [14:59:54] Browser connected: http://0.0.0.0:8080/docs/
+INFO     -  [15:00:54] Browser connected: http://0.0.0.0:8080/docs/Flutter/Packages/Hive/
+[33mWARNING  -  [0m[16:06:13] "GET / HTTP/1.1" code 302
+INFO     -  [16:06:14] Browser connected: http://0.0.0.0:8080/docs/
+INFO     -  [16:07:14] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/
+INFO     -  [16:45:14] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/drawer/
+INFO     -  [17:01:15] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/size/
+[33mWARNING  -  [0m[18:53:28] "GET / HTTP/1.1" code 302
+[33mWARNING  -  [0m[18:53:28] "GET /favicon.ico HTTP/1.1" code 404
+INFO     -  [18:53:28] Browser connected: http://0.0.0.0:8080/docs/
+INFO     -  [18:54:28] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/scrollable_widget/
+[33mWARNING  -  [0m[20:17:43] "GET / HTTP/1.1" code 302
+INFO     -  [20:17:43] Browser connected: http://0.0.0.0:8080/docs/
+INFO     -  [20:18:43] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/row_and_column/
+[33mWARNING  -  [0m[22:54:44] "GET / HTTP/1.1" code 302
+INFO     -  [22:54:44] Browser connected: http://0.0.0.0:8080/docs/
+[33mWARNING  -  [0m[23:05:08] "GET / HTTP/1.1" code 302
+INFO     -  [23:05:09] Browser connected: http://0.0.0.0:8080/docs/
+INFO     -  [23:06:09] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/asyncProgramming/
+INFO     -  [23:07:02] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/asyncProgramming/
+INFO     -  [23:08:02] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/Date/
+[33mWARNING  -  [0m[01:04:58] "GET / HTTP/1.1" code 302
+INFO     -  [01:04:59] Browser connected: http://0.0.0.0:8080/docs/
+INFO     -  [01:05:59] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/Date/
+[33mWARNING  -  [0m[02:18:36] "GET / HTTP/1.1" code 302
+INFO     -  [02:18:37] Browser connected: http://0.0.0.0:8080/docs/
+INFO     -  [02:19:37] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/Date/
+[33mWARNING  -  [0m[17:22:29] "GET / HTTP/1.1" code 302
+INFO     -  [17:22:29] Browser connected: http://0.0.0.0:8080/docs/
+INFO     -  [18:57:48] Browser connected: http://0.0.0.0:8080/docs/Flutter/dartGrammar/asyncProgramming/
+[33mWARNING  -  [0m[01:32:17] "GET / HTTP/1.1" code 302
+INFO     -  [01:32:18] Browser connected: http://0.0.0.0:8080/docs/
+INFO     -  [01:33:18] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/Snackbar/
+INFO     -  [01:45:01] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/text_form_field/
+INFO     -  [01:46:43] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/Navigation.md
+[33mWARNING  -  [0mA relative path to 'Flutter/Theory/design/Navigation.md' is included in the 'nav' configuration, which is not found in the documentation files
+INFO     -  [01:46:44] Reloading browsers
+INFO     -  [01:46:44] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/text_form_field/
+INFO     -  [01:46:44] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/Snackbar/
+INFO     -  [01:46:53] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/Navigation.md
+  - Flutter/Theory/notification/Snackbar.md
+[33mWARNING  -  [0mA relative path to 'Flutter/Theory/design/Navigation.md' is included in the 'nav' configuration, which is not found in the documentation files
+[33mWARNING  -  [0mA relative path to 'Flutter/Theory/design/Snackbar.md' is included in the 'nav' configuration, which is not found in the documentation files
+INFO     -  [01:46:53] Reloading browsers
+[33mWARNING  -  [0m[01:46:53] "GET /docs/Flutter/Theory/design/Snackbar/ HTTP/1.1" code 404
+INFO     -  [01:46:53] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/text_form_field/
+INFO     -  [01:48:28] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [01:48:29] Reloading browsers
+INFO     -  [01:48:29] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/text_form_field/
+INFO     -  [01:48:33] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/text_form_field/
+INFO     -  [01:48:35] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/Navigation/
+INFO     -  [01:48:38] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/notification/Snackbar/
+INFO     -  [01:49:38] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/animatedOpacity/
+INFO     -  [01:49:47] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/notification/Snackbar copy.md
+INFO     -  [01:49:47] Reloading browsers
+INFO     -  [01:49:47] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/animatedOpacity/
+INFO     -  [01:50:03] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/notification/show_dialog.md
+INFO     -  [01:50:04] Reloading browsers
+INFO     -  [01:50:04] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/animatedOpacity/
+INFO     -  [01:54:10] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/notification/show_dialog.md
+INFO     -  [01:54:11] Reloading browsers
+INFO     -  [01:54:11] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/animatedOpacity/
+INFO     -  [01:54:55] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/notification/show_dialog.md
+INFO     -  [01:54:55] Reloading browsers
+INFO     -  [01:54:56] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/animatedOpacity/
+INFO     -  [01:54:58] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/design/animatedOpacity/
+INFO     -  [01:55:01] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/notification/Snackbar/
+INFO     -  [01:55:20] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [01:55:20] Reloading browsers
+INFO     -  [01:55:20] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/notification/Snackbar/
+INFO     -  [01:55:21] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/notification/Snackbar/
+INFO     -  [01:55:22] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/notification/show_dialog/
+INFO     -  [01:55:48] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/notification/notification.md
+[33mWARNING  -  [0mA relative path to 'Flutter/Theory/notification/Snackbar.md' is included in the 'nav' configuration, which is not found in the documentation files
+INFO     -  [01:55:49] Reloading browsers
+INFO     -  [01:55:49] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/notification/show_dialog/
+INFO     -  [01:56:34] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/notification.md
+[33mWARNING  -  [0mA relative path to 'Flutter/Theory/notification/Snackbar.md' is included in the 'nav' configuration, which is not found in the documentation files
+INFO     -  [01:56:35] Reloading browsers
+INFO     -  [01:56:35] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/notification/show_dialog/
+INFO     -  [01:56:39] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - Flutter/Theory/notification.md
+[33mWARNING  -  [0mA relative path to 'Flutter/Theory/notification/Snackbar.md' is included in the 'nav' configuration, which is not found in the documentation files
+[33mWARNING  -  [0mA relative path to 'Flutter/Theory/notification/show_dialog.md' is included in the 'nav' configuration, which is not found in the documentation files
+INFO     -  [01:56:40] Reloading browsers
+[33mWARNING  -  [0m[01:56:40] "GET /docs/Flutter/Theory/notification/show_dialog/ HTTP/1.1" code 404
+INFO     -  [01:57:50] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [01:57:50] Reloading browsers
+INFO     -  [01:57:58] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/notification/
+INFO     -  [01:58:09] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [01:58:10] Reloading browsers
+INFO     -  [01:58:10] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/notification/
+INFO     -  [01:58:10] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/notification/
+INFO     -  [01:58:22] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [01:58:23] Reloading browsers
+INFO     -  [01:58:23] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/notification/
+INFO     -  [02:58:17] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [02:58:17] Reloading browsers
+INFO     -  [02:58:18] Browser connected: http://0.0.0.0:8080/docs/Flutter/Theory/notification/
+[33mWARNING  -  [0m[20:20:35] "GET / HTTP/1.1" code 302
+INFO     -  [20:20:35] Browser connected: http://127.0.0.1:8080/docs/
