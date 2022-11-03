@@ -1,5 +1,5 @@
 ---
-title: "notification"
+title: "Notification"
 date: 2022-10-13
 template: main.html
 ---

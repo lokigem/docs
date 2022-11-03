@@ -55,23 +55,25 @@ nav:
       - Flutter/Theory/SQL.md
       - Flutter/Theory/CodeGeneration.md
       - Flutter/Theory/text_form_field.md
+      - Flutter/Theory/dropdown_button.md
       - Flutter/Theory/Navigation.md
       - Flutter/Theory/notification.md
-      - Design:
-        - Flutter/Theory/design/row_and_column.md
-        - Flutter/Theory/design/Button.md
-        - Flutter/Theory/design/Builder.md
-        - Flutter/Theory/design/GestureDetector.md
-        - Scrollable_widget: 
-          - Flutter/Theory/design/scrollable_widget/index.md   
-          - Flutter/Theory/design/scrollable_widget/scrollListner.md
-        - Flutter/Theory/design/animatedOpacity.md   
-        - Flutter/Theory/design/drawer.md
-        - Flutter/Theory/design/size.md
-
     - Flutter Packages:
       - Flutter/Packages/web_view.md
       - Flutter/Packages/drift.md
       - Flutter/Packages/Hive.md
+    - Flutter Design:
+      - Flutter/design/row_and_column.md
+      - Flutter/design/Button.md
+      - Flutter/design/Builder.md
+      - Flutter/design/GestureDetector.md
+      - Scrollable_widget: 
+        - Flutter/design/scrollable_widget/index.md   
+        - Flutter/design/scrollable_widget/scrollListner.md
+      - Flutter/design/animatedOpacity.md   
+      - Flutter/design/drawer.md
+      - Flutter/design/modal_bottom_sheet.md
+      - Flutter/design/size.md
 
-  
+
+
