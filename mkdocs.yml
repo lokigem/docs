@@ -58,6 +58,7 @@ nav:
       - Flutter/Theory/dropdown_button.md
       - Flutter/Theory/Navigation.md
       - Flutter/Theory/notification.md
+      - Flutter/Theory/error_fix.md
     - Flutter Packages:
       - Flutter/Packages/web_view.md
       - Flutter/Packages/drift.md
