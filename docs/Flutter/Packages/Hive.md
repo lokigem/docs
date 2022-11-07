@@ -10,7 +10,7 @@ NoSQL을 사용할 수 있게 해주는 Flutter 패키지
 ## How To Install(dependencies)
 [hive](https://pub.dev/packages/hive)<br>
 [hive-flutter](https://pub.dev/packages/hive_flutter)<br>
-[hive-generator](https://pub.dev/packages/hive_generator)<br> - dev_dependencies에 등록
+[hive-generator](https://pub.dev/packages/hive_generator) - dev_dependencies에 등록
 
 ## Custom Object 생성
 Custom Object를 생성해줄 때마다 Hive Type을 설정해줘야 하며, 이는 곂치면 **절대로** 안됨.<br>
@@ -50,3 +50,4 @@ void main() async {
     Hive.registerAdapter<Users>(UsersAdapter()); 
     final person = await Hive.openBox<Users>('users'); // Custom Object 
 }
+```
