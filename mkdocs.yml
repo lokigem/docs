@@ -60,9 +60,11 @@ nav:
       - Flutter/Theory/notification.md
       - Flutter/Theory/error_fix.md
     - Flutter Packages:
+      - Flutter/Packages/riverpod.md
+      - Flutter/Packages/Hive.md
+      - Flutter/Packages/google_maps.md
       - Flutter/Packages/web_view.md
       - Flutter/Packages/drift.md
-      - Flutter/Packages/Hive.md
     - Flutter Design:
       - Flutter/design/row_and_column.md
       - Flutter/design/Button.md
