@@ -6,7 +6,7 @@ template: main.html
 ## 객체지향 프로그래밍
 객체지향 프로그래밍(OOP, Object Oriented Programming)이란? <br>
 Class의 인스턴스를 생성해서 할당을 해주면 해당하는 인스턴스를 무한히 생성가능.<br>
-![dartClass](/docs/assets/img/flutter/DartGrammar/dartClass.png)
+![](/docs/assets/img/flutter/DartGrammar/dartClass.png)
 ### 객체지향 프로그래밍(OOP)인 이유
 class를 기본적으로 생성해주면 hashCode, runtimeType, toString, noSuchMethod 등이 기본적으로 할당이 됨. 이는 class가 생성될 때 **모든 class는 최상위 부모 class로 Object를 가지고 있기 때문**. 그리고 이 Object의 기본적으로 제공이 되는 기능이 저 4가지 기능임.
 ```dart

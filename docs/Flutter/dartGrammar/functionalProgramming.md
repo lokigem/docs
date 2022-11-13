@@ -1,5 +1,5 @@
 ---
-title: "Functional Programming"
+title: "함수형 프롤그래밍"
 date: 2022-09-23
 template: main.html
 ---
