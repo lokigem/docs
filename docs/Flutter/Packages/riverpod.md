@@ -327,24 +327,7 @@ final familyModifierProvider = FutureProvider.family<List<int>, int>(
 final state = ref.watch(familyModifierProvider(5));
 ```
 
-
-
-### ChangeNotifierProvider 
-Provider 패키지에서 마이그레이션 용도
-
-## Provider 사용방법
-
-방법 1. update 사용 
-```dart
-ref.read([specificProvider].notifier).update((state) => state + 1);
-```
-방법 2. state 값 직접 가져와서 변경
-```dart
-ref.read([specificProvider].notifier).state 
-    = ref.read([specificProvider].notifier).state - 1;
-```
-
-### autodispose: 캐시 삭제
+### .autodispose : 캐시 삭제
 provider는 최초 실행되고 나면 실행된 값을 가지고 있는데 autodispose는 메모리에서 실행 결과를 자동으로 dispose 해줘서 실행할 때마다 매번 실행되게 해주는 방법임.<br>
 사용방법은 다른 provider와 같음.
 ```dart title='선언'
@@ -363,7 +346,23 @@ autodispose 한 Future Provider <br>
 ![](/docs/assets/img/flutter/Theory/riverpod/autodispose_future_provider.gif)
 
 
-### Provider Listen
+
+### ChangeNotifierProvider 
+Provider 패키지에서 마이그레이션 용도
+
+## Provider 사용방법
+
+방법 1. update 사용 
+```dart
+ref.read([specificProvider].notifier).update((state) => state + 1);
+```
+방법 2. state 값 직접 가져와서 변경
+```dart
+ref.read([specificProvider].notifier).state 
+    = ref.read([specificProvider].notifier).state - 1;
+```
+
+### .listen
 Listen Provider는 선언시에 뭔가를 해주는게 아니라 값을 받을 때 .listen을 붙이는데 내가 이해한 바로는 프로바이더가 어떠한 동작이 있을 때 다음에 나올 값을 next에 넣어주고 현재의 값을 previous에 넣어주는 형식임.
 ```dart
 final listenProvider = StateProvider<int>((ref) => 0,); // 선언
@@ -427,9 +426,62 @@ class _ListProviederScreenState extends ConsumerState<ListenProviederScreen>
   }
 }
 ```
-
 </div>
 </details>
+
+### .select
+```dart title='선언'
+final selectProvider = StateNotifierProvider<SelectNotifier, ShoppingItemModel>(
+  (ref) => SelectNotifier(),
+);
+
+class SelectNotifier extends StateNotifier<ShoppingItemModel> {
+  SelectNotifier() : super(
+    ShoppingItemModel(name: '김치', quantity: 3, hasBought: false, isSpicy: true)
+  );
+
+  toggleHasBought() {
+    state = state.copyWith(hasBought: !state.hasBought);
+  }
+
+  toggleIsSpicy() {
+    state = state.copyWith(isSpicy: !state.isSpicy);
+  }
+}
+```
+provider 뒤에 .select를 붙여서 사용, 특정한 메서드의 값만 관측하고 싶을 때 사용하는 옵션.
+```dart title='사용'
+// watch에 활용 (1)
+final state = ref.watch(selectProvider.select((value) => value.isSpicy));
+// listen과 함께 활용 (2)
+ref.listen(selectProvider.select((value) => value.hasBought), (previous, next) { 
+  print("previoud : $previous, next : $next");
+});
+```
+
+1. ![](/docs/assets/img/flutter/Theory/riverpod/select_with_watch.gif)
+2. ![](/docs/assets/img/flutter/Theory/riverpod/select_with_listen.gif)
+
+### stf widget > consumer widget
+State 앞에 Consumer 붙이면 됨.
+```dart
+class Test extends ConsumerStatefulWidget { // 여기 변경
+  const Test({Key? key}) : super(key: key);
+
+  @override
+  //여기 변경
+  ConsumerState<Test> createState() => _TestState(); 
+}
+
+class _TestState extends ConsumerState<Test> { // 여기 변경
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
+```
+
+
 
 ## .notifier의 의미
 값을 참조할 때 provider 뒤에 .notifier를 붙이면 해당 class가 그대로 옴, 이를 통해서 해당 class 내부에 선언 된 함수에 바로 접근이 가능하게 됨.
