@@ -1,4 +1,3 @@
-site_name: Rookedsysc's Docs
 
 theme: 
   name: material
@@ -15,8 +14,7 @@ theme:
     - content.tabs.link
 
   palette:
-    scheme: slate
-    primary: indigo
+    primary: black
   icon:
     repo: fontawesome/brands/github
 
@@ -68,6 +66,7 @@ nav:
       - Flutter/Packages/Hive.md
       - Flutter/Packages/google_maps.md
       - Flutter/Packages/web_view.md
+      - Flutter/Packages/easy_localization.md
       - Flutter/Packages/drift.md
     - Flutter Design:
       - Flutter/design/row_and_column.md
