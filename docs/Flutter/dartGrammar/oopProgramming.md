@@ -204,3 +204,50 @@ class _Idol {
 	_Idol(this.name, this.members);
 }
 ```
+
+## Cusotm Copywith
+.copywith 함수를 custom으로 구현해보기. <br>
+구현하는 이유: class에는 final로 함수가 선언되어 있기 때문에 해당하는 값을 변경할 수 없음. 그래서 class_instance에 .copywith 메서드를 사용해서 해당 값을 불러온 후 바꿀값만 바꿔서 새로운 instance로 할당해서 사용하는 방식을 사용함.<br>
+
+=== "선언"
+  ```dart
+  class ShoppingItemModel {
+    final String name; // 이름
+    final int quantity; // 갯수
+    final bool hasBought; // 구매 했는지
+    final bool isSpicy; // 매운지;
+    ShoppingItemModel(
+        {required this.name,
+        required this.quantity,
+        required this.hasBought,
+        required this.isSpicy});
+
+    ShoppingItemModel copyWith({
+      String? name,
+      int? quantity,
+      bool? hasBought,
+      bool? isSpicy,
+    }) {
+      return ShoppingItemModel(
+          name: name ?? this.name,
+          quantity: quantity ?? this.quantity,
+          hasBought: hasBought ?? this.hasBought,
+          isSpicy: isSpicy ?? this.isSpicy);
+    }
+  }
+  ```
+=== "실행 결과"
+
+  ```dart
+  void main() {
+    ShoppingItemModel _item1 = ShoppingItemModel(name: '김치', quantity: 5, hasBought: true, isSpicy: true);
+    ShoppingItemModel _item2 = _item1.copywith(name: "Spaghetti", isSpicy: false, hasBought: false);
+    
+    // 김치 5 true true
+    print("${_item1.name} ${_item1.quantity} ${_item1.hasBought} ${_item1.isSpicy}");
+    // Spaghetti 5 false false
+    print("${_item2.name} ${_item2.quantity} ${_item2.hasBought} ${_item2.isSpicy}");
+  }
+  ```
+
+

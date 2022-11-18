@@ -462,6 +462,9 @@ ref.listen(selectProvider.select((value) => value.hasBought), (previous, next) {
 1. ![](/docs/assets/img/flutter/Theory/riverpod/select_with_watch.gif)
 2. ![](/docs/assets/img/flutter/Theory/riverpod/select_with_listen.gif)
 
+### Provider 안에 Provider
+Provider 안에서 Provider를 호출해서 사용할 수도 있음.
+
 ### stf widget > consumer widget
 State 앞에 Consumer 붙이면 됨.
 ```dart
@@ -480,7 +483,6 @@ class _TestState extends ConsumerState<Test> { // 여기 변경
   }
 }
 ```
-
 
 
 ## .notifier의 의미
