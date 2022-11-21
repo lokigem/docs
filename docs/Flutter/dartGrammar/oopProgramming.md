@@ -70,6 +70,39 @@ class Idol {
 }
 ```
 
+#### Constructor
+
+##### Named Constructor 
+
+```dart
+class Employee {
+  int empID;
+  String empName;
+
+  Employee.ID(this.empID); // Named Constructor Creation
+  Employee.name(this.empName);
+}
+
+main() {
+  var myEmployee01 = new Employee.ID(15);
+  var myEmployee03 = new Employee.name("rookedsysc");
+
+  print(myEmployee01.empID); // 15
+  print(myEmployee03.empName); // rookedsysc
+}
+```
+
+##### Factory Contsructor
+https://stackoverflow.com/questions/60133252/what-is-the-purpose-of-a-factory-method-in-flutter-dart
+```dart
+class DBHelper{
+  static final DbHelper _dbHelper = DbHelper._internal();
+  DbHelper._internal();
+  factory DbHelper() => _dbHelper;
+}
+```
+다음 코드에서 factory 키워드를 DBHelper 메서드 앞에서 써놓으면 DBHelper 메서드의 인스턴스는 딱 한 번만 생성될 수 있음.<br>
+
 #### immutable 프로그래밍: final
 한 번 값을 선언하고 나면 값을 변형할 수 없도록 해줌.<br>
 ```dart
