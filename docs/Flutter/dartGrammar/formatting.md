@@ -28,3 +28,11 @@ String getTimeFormat(int number) {
   return number.toString().padLeft(2, '0'); // 채울 갯수, 채울 글자
 }
 ```
+
+## 숫자형 포매팅
+### String to Int
+int.parse(<String>으로 쓰여진 문자열 데이터)
+```dart
+String ten = '10';
+print(int.parse(ten).runtimeType); // int 출력
+```

@@ -6882,3 +6882,20 @@ INFO     -  [13:45:30] Browser connected: http://0.0.0.0:8000/docs/Flutter/Packa
 INFO     -  [16:31:32] Browser connected: http://0.0.0.0:8000/docs/Flutter/design/scrollable_widget/
 INFO     -  [19:25:34] Browser connected: http://0.0.0.0:8000/docs/Flutter/Packages/easy_localization/
 INFO     -  [15:14:50] Browser connected: http://0.0.0.0:8000/docs/Flutter/dartGrammar/Date/
+[33mWARNING  -  [0m[21:21:42] "GET / HTTP/1.1" code 302
+[33mWARNING  -  [0m[21:21:42] "GET /favicon.ico HTTP/1.1" code 404
+INFO     -  [21:21:43] Browser connected: http://0.0.0.0:8000/docs/
+INFO     -  [21:22:43] Browser connected: http://0.0.0.0:8000/docs/Flutter/dartGrammar/immutable_data/
+[33mWARNING  -  [0m[02:45:55] "GET / HTTP/1.1" code 302
+INFO     -  [02:45:56] Browser connected: http://61.102.126.18:8000/docs/
+INFO     -  [02:46:56] Browser connected: http://61.102.126.18:8000/docs/Flutter/dartGrammar/Date/
+[33mWARNING  -  [0m[03:31:38] "GET / HTTP/1.1" code 302
+[33mWARNING  -  [0m[03:31:49] "POST /GponForm/diag_Form?images/ HTTP/1.1" code 404
+[33mWARNING  -  [0m[03:35:02] "GET / HTTP/1.1" code 302
+[33mWARNING  -  [0m[03:39:34] "GET / HTTP/1.0" code 302
+[33mWARNING  -  [0m[06:26:47] "GET / HTTP/1.1" code 302
+[33mWARNING  -  [0m[06:28:32] "GET /assets/images/favicon.png HTTP/1.1" code 404
+[33mWARNING  -  [0m[06:28:33] "GET / HTTP/1.1" code 302
+[33mWARNING  -  [0m[06:34:50] "GET / HTTP/1.1" code 302
+[33mWARNING  -  [0m[09:07:17] "GET / HTTP/1.1" code 302
+INFO     -  [09:39:07] Browser connected: http://0.0.0.0:8000/docs/Flutter/dartGrammar/formatting/
