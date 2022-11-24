@@ -1,0 +1,1765 @@
+
+<!doctype html>
+<html lang="kr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://lokigem.github.io/docs/Flutter/design/scrollable_widget/">
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Scrollable Widget - Rookedsysc's Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.472b142f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.08040f6c.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#000000">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#single-child-scroll-view" class="md-skip">
+          콘텐츠로 이동
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Rookedsysc&#39;s Docs" class="md-header__button md-logo" aria-label="Rookedsysc's Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Rookedsysc's Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Scrollable Widget
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="검색" placeholder="검색" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="검색">
+        
+        <button type="reset" class="md-search__icon md-icon" title="지우기" aria-label="지우기" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            검색 초기화
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/rookedsysc" title="저장소로 이동" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    rookedsysc
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../dartGrammar/DartGrammar/" class="md-tabs__link md-tabs__link--active">
+        Flutter
+      </a>
+    </li>
+  
+
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Rookedsysc&#39;s Docs" class="md-nav__button md-logo" aria-label="Rookedsysc's Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Rookedsysc's Docs
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/rookedsysc" title="저장소로 이동" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    rookedsysc
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          Flutter
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Flutter" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Flutter
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1" type="checkbox" id="__nav_1_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1">
+          Dart Grammar
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Dart Grammar" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Dart Grammar
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dartGrammar/DartGrammar/" class="md-nav__link">
+        Basic Grammar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dartGrammar/oopProgramming/" class="md-nav__link">
+        객체지향 프로그래밍
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dartGrammar/functionalProgramming/" class="md-nav__link">
+        함수형 프롤그래밍
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dartGrammar/asyncProgramming/" class="md-nav__link">
+        비동기 프로그래밍
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dartGrammar/immutable_data/" class="md-nav__link">
+        immutable data
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dartGrammar/Date/" class="md-nav__link">
+        Dart Date
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dartGrammar/formatting/" class="md-nav__link">
+        Formatting
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_2" type="checkbox" id="__nav_1_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_2">
+          Flutter Theory
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Flutter Theory" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Flutter Theory
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Theory/widget/" class="md-nav__link">
+        Widget: Stateful Widget
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Theory/SQL/" class="md-nav__link">
+        SQL
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Theory/CodeGeneration/" class="md-nav__link">
+        Code Generation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Theory/text_form_field/" class="md-nav__link">
+        Text Form Field
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Theory/dropdown_button/" class="md-nav__link">
+        Dropdown Buttom
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Theory/Navigation/" class="md-nav__link">
+        Navigation Push/Pop
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Theory/notification/" class="md-nav__link">
+        Notification
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Theory/error_fix/" class="md-nav__link">
+        Error Fix
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3" type="checkbox" id="__nav_1_3" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_3">
+          Flutter Packages
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Flutter Packages" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          Flutter Packages
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Packages/riverpod/" class="md-nav__link">
+        Riverpod
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Packages/Hive/" class="md-nav__link">
+        Hive
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Packages/google_maps/" class="md-nav__link">
+        Google Maps / GeoLocator
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Packages/web_view/" class="md-nav__link">
+        Web View
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Packages/easy_localization/" class="md-nav__link">
+        Easy Localization
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Packages/drift/" class="md-nav__link">
+        Drift
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4" type="checkbox" id="__nav_1_4" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_4">
+          Flutter Design
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Flutter Design" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          Flutter Design
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../row_and_column/" class="md-nav__link">
+        Row and Column
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Button/" class="md-nav__link">
+        Button
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Builder/" class="md-nav__link">
+        Builder
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../GestureDetector/" class="md-nav__link">
+        Gesture Detector
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_5" type="checkbox" id="__nav_1_4_5" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index md-nav__link--active">
+          <a href="./">Scrollable_widget</a>
+          
+            <label for="__nav_1_4_5">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Scrollable_widget" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_5">
+          <span class="md-nav__icon md-icon"></span>
+          Scrollable_widget
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="scrollListner/" class="md-nav__link">
+        현재 scroll 위치 구하기
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="move_to_top/" class="md-nav__link">
+        Scroll 이동 Button 구현
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../animatedOpacity/" class="md-nav__link">
+        Animated Opacity: 화면 전환
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../drawer/" class="md-nav__link">
+        Drawer
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modal_bottom_sheet/" class="md-nav__link">
+        Modal Bottom Sheet
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../size/" class="md-nav__link">
+        크기 구하기 Tip
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="목차">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      목차
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#single-child-scroll-view" class="md-nav__link">
+    Single Child Scroll View
+  </a>
+  
+    <nav class="md-nav" aria-label="Single Child Scroll View">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#physics" class="md-nav__link">
+    physics: 스크롤 스타일
+  </a>
+  
+    <nav class="md-nav" aria-label="physics: 스크롤 스타일">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pagescroll" class="md-nav__link">
+    PageScroll
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clipbehavior" class="md-nav__link">
+    clipBehavior: 화면 잘림
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#list-view" class="md-nav__link">
+    List View
+  </a>
+  
+    <nav class="md-nav" aria-label="List View">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#builder-build-view" class="md-nav__link">
+    Builder: Build되는 View만 생성
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#seperate-view" class="md-nav__link">
+    seperate: 사이사이에 view 생성
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#listtile" class="md-nav__link">
+    ListTile
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grid-view" class="md-nav__link">
+    Grid View
+  </a>
+  
+    <nav class="md-nav" aria-label="Grid View">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#count" class="md-nav__link">
+    Count
+  </a>
+  
+    <nav class="md-nav" aria-label="Count">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#axisspacing" class="md-nav__link">
+    AxisSpacing
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#builder" class="md-nav__link">
+    builder: 화면에 보이는 갯수만큼
+  </a>
+  
+    <nav class="md-nav" aria-label="builder: 화면에 보이는 갯수만큼">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#delegatecrossaxiscount" class="md-nav__link">
+    (delegate)CrossAxisCount: 지정한 갯수 기준
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#delegatecrossaxisentent" class="md-nav__link">
+    (delegate)CrossAxisEntent: 최대 사이즈 기준
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reorderable-list-view" class="md-nav__link">
+    Reorderable List View
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#custom-scroll-view" class="md-nav__link">
+    Custom Scroll View
+  </a>
+  
+    <nav class="md-nav" aria-label="Custom Scroll View">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sliver-list" class="md-nav__link">
+    Sliver List
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sliver-grid" class="md-nav__link">
+    Sliver Grid
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sliver-appbar" class="md-nav__link">
+    Sliver Appbar
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sliver-header" class="md-nav__link">
+    Sliver Header
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sliver-to-box-adaptor" class="md-nav__link">
+    Sliver To Box Adaptor
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scrollbar" class="md-nav__link">
+    Scrollbar
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#refresh-indicator" class="md-nav__link">
+    Refresh Indicator
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <a href="https://github.com/rookedsysc/edit/master/docs/Flutter/design/scrollable_widget/index.md" title="이 페이지를 편집" class="md-content__button md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+  <h1>Scrollable Widget</h1>
+
+<h2 id="single-child-scroll-view">Single Child Scroll View</h2>
+<p>기본은 스크롤이 안되지만, 화면이 길어지면 Scroll이 가능함.<br>
+뷰를 호출할 때 전체 리스트를 한꺼번에 불러온다는 문제점이 있음. 이는 성능 이슈로 이어질 수 있음.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">SingleChildScrollView</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span><span class="nl">child:</span><span class="w"> </span><span class="n">Column</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="nl">children:</span><span class="w"></span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">        </span><span class="n">rainbowColors</span><span class="p">.</span><span class="n">map</span><span class="p">((</span><span class="n">e</span><span class="p">)</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">RenderColorContainer</span><span class="p">(</span><span class="nl">color:</span><span class="w"> </span><span class="n">e</span><span class="p">)).</span><span class="n">toList</span><span class="p">(),</span><span class="w"></span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">  </span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="p">)</span><span class="w"></span>
+</code></pre></div>
+<center>
+<img alt="renderSimple" src="/docs/assets/img/flutter/Theory/scrollable_widget/renderSimple.gif" width="50%" />
+</center></p>
+<h3 id="physics">physics: 스크롤 스타일</h3>
+<p>개체가 화면을 넘어가지 않으면 scroll이 불가능 하지만 이를 억지로 가능하게 해주는 방법도 있음. 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">SingleChildScrollView</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">  </span><span class="cm">/* </span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="cm">    Single Child ScrollView가 어떤 방식으로 작용하는지 정할 수 있음.</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="cm">    AlwaysScrollableScrollPhysics() - 항상 스크롤 가능</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="cm">    NeverScrollableScrollPhysics()- 절대 스크롤 불가능</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="cm">    BouncingScrollPhysics() - iOS Style (튕김.)</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="cm">    ClampingScrollPhysics() - Android Style (튕기지 않음.)</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="cm">  */</span><span class="w"></span>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">  </span><span class="nl">physics:</span><span class="w"> </span><span class="n">AlwaysScrollableScrollPhysics</span><span class="p">(),</span><span class="w"></span>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">  </span><span class="nl">child:</span><span class="w"> </span><span class="n">Column</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="w">    </span><span class="nl">children:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="w">      </span><span class="n">RenderColorContainer</span><span class="p">(</span><span class="nl">color:</span><span class="w"> </span><span class="n">Colors</span><span class="p">.</span><span class="n">black</span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="w">    </span><span class="p">],</span><span class="w"></span>
+<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="w">  </span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="p">);</span><span class="w"></span>
+</code></pre></div>
+<center>
+<img alt="singgleViewScroll" src="/docs/assets/img/flutter/Theory/scrollable_widget/singleViewScroll.gif" width="50%" />
+</center></p>
+<h4 id="pagescroll">PageScroll</h4>
+<p>말로 설명하자면 어려운데 책장 넘기듯이 다음 페이지로 넘어가게끔 해주는 기능, 중간에 걸리거나 그러지 않고 다음 List로 넘어감.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nl">physics:</span><span class="w"> </span><span class="n">PageScrollPhysics</span><span class="p">(),</span><span class="w"> </span><span class="c1">// (1)</span><span class="w"></span>
+</code></pre></div></p>
+<ol>
+<li>적용 전 <br>
+<img alt="beforePageScroll" src="/docs/assets/img/flutter/Theory/scrollable_widget/beforePageScroll.gif" width="50%" /><br><br>
+적용 후<br>
+<img alt="afterPageScroll" src="/docs/assets/img/flutter/Theory/scrollable_widget/afterPageScroll.gif" width="50%" /></li>
+</ol>
+<h3 id="clipbehavior">clipBehavior: 화면 잘림</h3>
+<p>위에서 보면 화면이 스크롤 될 때 잘리는 것을 볼 수 있음. 이는 clipBehavior 속성을 추가해서 해결할 수 있음.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="nl">clipBehavior:</span><span class="w"> </span><span class="n">Clip</span><span class="p">.</span><span class="n">none</span><span class="w"></span>
+</code></pre></div>
+전체 적용 👇
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">SingleChildScrollView</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">  </span><span class="nl">physics:</span><span class="w"> </span><span class="n">AlwaysScrollableScrollPhysics</span><span class="p">(),</span><span class="w"></span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">  </span><span class="c1">// Clip.none : 화면 잘리지 않게 해줌.</span><span class="w"></span>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">  </span><span class="nl">clipBehavior:</span><span class="w"> </span><span class="n">Clip</span><span class="p">.</span><span class="n">none</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="w">  </span><span class="nl">child:</span><span class="w"> </span><span class="n">Column</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="w">    </span><span class="nl">children:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="w">      </span><span class="n">RenderColorContainer</span><span class="p">(</span><span class="nl">color:</span><span class="w"> </span><span class="n">Colors</span><span class="p">.</span><span class="n">black</span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="w">    </span><span class="p">],</span><span class="w"></span>
+<a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a><span class="w">  </span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a><span class="p">);</span><span class="w"></span>
+</code></pre></div>
+<center>
+<img alt="renderClip" src="/docs/assets/img/flutter/Theory/scrollable_widget/renderClip.gif" width="50%" />
+</center></p>
+<h2 id="list-view">List View</h2>
+<p>모든 뷰를 한 번에 보여주는 방법, 기본적인 사용 방법이지만 이는 위의 Single Child List View와 같이 성능 이슈로 이어질 가능성이 있음.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="n">ListView</span><span class="w"> </span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="w">  </span><span class="nl">children:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="w">  </span><span class="p">]</span><span class="w"></span>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="p">)</span><span class="w"></span>
+</code></pre></div>
+<center>
+<img alt="ListView" src="/docs/assets/img/flutter/Theory/scrollable_widget/listView.gif" width="50%" />
+</center></p>
+<h3 id="builder-build-view">Builder: Build되는 View만 생성</h3>
+<p>Build 되는 View만 생성하므로 성능 이슈 안정화.<br>
+<img alt="listViewBuilder" src="/docs/assets/img/flutter/Theory/scrollable_widget/listViewBuilder.gif" width="100%" />
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="n">ListView</span><span class="p">.</span><span class="n">builder</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="w">  </span><span class="nl">itemCount:</span><span class="w"> </span><span class="m">100</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="w">  </span><span class="nl">itemBuilder:</span><span class="w"> </span><span class="p">(</span><span class="n">context</span><span class="p">,</span><span class="w"> </span><span class="n">index</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="w">    </span><span class="n">print</span><span class="p">(</span><span class="n">index</span><span class="p">);</span><span class="w"> </span><span class="c1">// 새로운 뷰가 호출될 때마다 생성</span><span class="w"></span>
+<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">RenderColorContainer</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a><span class="w">      </span><span class="nl">color:</span><span class="w"> </span><span class="n">rainbowColors</span><span class="p">[</span><span class="n">index</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="n">rainbowColors</span><span class="p">.</span><span class="n">length</span><span class="p">],</span><span class="w"></span>
+<a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a><span class="w">      </span><span class="nl">index:</span><span class="w"> </span><span class="n">index</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a><span class="w">    </span><span class="p">);</span><span class="w"></span>
+<a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a><span class="w">  </span><span class="p">},</span><span class="w"></span>
+<a id="__codelineno-6-10" name="__codelineno-6-10" href="#__codelineno-6-10"></a><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h3 id="seperate-view">seperate: 사이사이에 view 생성</h3>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="n">ListView</span><span class="p">.</span><span class="n">separated</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="w">  </span><span class="nl">itemBuilder:</span><span class="w"> </span><span class="p">(</span><span class="n">context</span><span class="p">,</span><span class="w"> </span><span class="n">index</span><span class="p">){</span><span class="w"></span>
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">RenderColorContainer</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="w">      </span><span class="c1">// 랜더하고 싶은 뷰</span><span class="w"></span>
+<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="w">      </span><span class="nl">color:</span><span class="w"> </span><span class="n">rainbowColors</span><span class="p">[</span><span class="n">index</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="n">rainbowColors</span><span class="p">.</span><span class="n">length</span><span class="p">]);</span><span class="w">   </span>
+<a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a><span class="w">    </span><span class="p">},</span><span class="w"> </span>
+<a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a><span class="w">  </span><span class="nl">separatorBuilder:</span><span class="w"> </span><span class="p">(</span><span class="n">context</span><span class="p">,</span><span class="w"> </span><span class="n">index</span><span class="p">){</span><span class="w"></span>
+<a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">RenderColorContainer</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a><span class="w">      </span><span class="c1">// 사이사이에 렌더하고 싶은 뷰</span><span class="w"></span>
+<a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a><span class="w">      </span><span class="nl">color:</span><span class="w"> </span><span class="n">Colors</span><span class="p">.</span><span class="n">black</span><span class="p">,</span><span class="w"> </span>
+<a id="__codelineno-7-11" name="__codelineno-7-11" href="#__codelineno-7-11"></a><span class="w">      </span><span class="nl">height:</span><span class="w"> </span><span class="m">50</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-7-12" name="__codelineno-7-12" href="#__codelineno-7-12"></a><span class="w">      </span><span class="p">);</span><span class="w"></span>
+<a id="__codelineno-7-13" name="__codelineno-7-13" href="#__codelineno-7-13"></a><span class="w">    </span><span class="p">},</span><span class="w"> </span><span class="nl">itemCount:</span><span class="w"> </span><span class="m">100</span><span class="p">);</span><span class="w"></span>
+<a id="__codelineno-7-14" name="__codelineno-7-14" href="#__codelineno-7-14"></a><span class="p">}</span><span class="w"></span>
+</code></pre></div>
+<center>
+<img alt="seperateRender" src="/docs/assets/img/flutter/Theory/scrollable_widget/seperateRender.gif" width="50%" />
+</center></p>
+<h3 id="listtile">ListTile</h3>
+<p><a href="https://api.flutter.dev/flutter/material/ListTile-class.html">텍스트 또는 아이콘을 포함하는 고정 높이의 단일 행.</a>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="n">ListTile</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="w">  </span><span class="nl">tileColor:</span><span class="w"> </span><span class="n">Colors</span><span class="p">.</span><span class="n">white</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a><span class="w">  </span><span class="nl">selectedTileColor:</span><span class="w"> </span><span class="n">lightColor</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a><span class="w">  </span><span class="nl">selectedColor:</span><span class="w"> </span><span class="n">Colors</span><span class="p">.</span><span class="n">black</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a><span class="w">  </span><span class="nl">selected:</span><span class="w"> </span><span class="n">e</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s1">&#39;서울&#39;</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a><span class="w">  </span><span class="nl">onTap:</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="p">{},</span><span class="w"></span>
+<a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a><span class="w">  </span><span class="nl">title:</span><span class="w"> </span><span class="n">Text</span><span class="p">(</span><span class="n">e</span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a><span class="p">),</span><span class="w"> </span><span class="c1">// (1)</span><span class="w"></span>
+</code></pre></div></p>
+<ol>
+<li><img alt="spreadListTile" src="/docs/assets/img/flutter/DartGrammar/spreadListTile.gif" /></li>
+</ol>
+<h2 id="grid-view">Grid View</h2>
+<p>가로로 여러 개의 View를 표시할 수 있음.</p>
+<h3 id="count">Count</h3>
+<p>뷰를 한 번에 다 그려낸다는 단점이 있음.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="n">crossAxisCount</span><span class="w"> </span>
+</code></pre></div>
+에 가로로 표시될 뷰의 갯수를 넣어줄 수 있음. 전체 코드 👇
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="n">GridView</span><span class="p">.</span><span class="n">count</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="w">  </span><span class="nl">crossAxisCount:</span><span class="w"> </span><span class="m">2</span><span class="p">,</span><span class="w"> </span><span class="c1">// 가로 뷰 갯수</span><span class="w"></span>
+<a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a><span class="w">  </span><span class="nl">crossAxisSpacing:</span><span class="w"> </span><span class="m">12.0</span><span class="p">,</span><span class="w"> </span><span class="c1">// 가로 간격</span><span class="w"></span>
+<a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a><span class="w">  </span><span class="nl">mainAxisSpacing:</span><span class="w"> </span><span class="m">12.0</span><span class="p">,</span><span class="w"> </span><span class="c1">// 가로 간격</span><span class="w"></span>
+<a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a><span class="w">  </span><span class="nl">children:</span><span class="w"> </span><span class="n">numbers</span><span class="w"></span>
+<a id="__codelineno-10-6" name="__codelineno-10-6" href="#__codelineno-10-6"></a><span class="w">      </span><span class="p">.</span><span class="n">map</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-10-7" name="__codelineno-10-7" href="#__codelineno-10-7"></a><span class="w">        </span><span class="p">(</span><span class="n">e</span><span class="p">)</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">RenderColorContainer</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-10-8" name="__codelineno-10-8" href="#__codelineno-10-8"></a><span class="w">      </span><span class="nl">color:</span><span class="w"> </span><span class="n">rainbowColors</span><span class="p">[</span><span class="n">e</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="n">rainbowColors</span><span class="p">.</span><span class="n">length</span><span class="p">],</span><span class="w"></span>
+<a id="__codelineno-10-9" name="__codelineno-10-9" href="#__codelineno-10-9"></a><span class="w">      </span><span class="nl">index:</span><span class="w"> </span><span class="n">e</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-10-10" name="__codelineno-10-10" href="#__codelineno-10-10"></a><span class="w">    </span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-10-11" name="__codelineno-10-11" href="#__codelineno-10-11"></a><span class="w">  </span><span class="p">).</span><span class="n">toList</span><span class="p">(),</span><span class="w"></span>
+<a id="__codelineno-10-12" name="__codelineno-10-12" href="#__codelineno-10-12"></a><span class="p">);</span><span class="w"></span>
+</code></pre></div>
+<center>
+<img alt="renderCount" src="/docs/assets/img/flutter/Theory/scrollable_widget/renderCount.gif" width="50%" />
+</center></p>
+<h4 id="axisspacing">AxisSpacing</h4>
+<ul>
+<li>crossAxisSpacing : 가로로 간격 나눔 (float)</li>
+<li>mainAxisSpacing : 세로로 간격 나눔 (float)</li>
+</ul>
+<h3 id="builder">builder: 화면에 보이는 갯수만큼</h3>
+<h4 id="delegatecrossaxiscount">(delegate)CrossAxisCount: 지정한 갯수 기준</h4>
+<p>가로로 지정한 갯수만큼 뷰를 보여줌.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="n">GridView</span><span class="p">.</span><span class="n">builder</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a><span class="w">  </span><span class="nl">gridDelegate:</span><span class="w"> </span><span class="n">SliverGridDelegateWithFixedCrossAxisCount</span><span class="p">(</span><span class="w"> </span>
+<a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a><span class="w">      </span><span class="nl">crossAxisCount:</span><span class="w"> </span><span class="m">2</span><span class="w"> </span><span class="c1">// 가로로 뷰 갯수 고정함</span><span class="w"></span>
+<a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a><span class="w">  </span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a><span class="w">  </span><span class="nl">itemBuilder:</span><span class="p">(</span><span class="n">context</span><span class="p">,</span><span class="w"> </span><span class="n">index</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<a id="__codelineno-11-6" name="__codelineno-11-6" href="#__codelineno-11-6"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">RenderColorContainer</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-11-7" name="__codelineno-11-7" href="#__codelineno-11-7"></a><span class="w">      </span><span class="nl">color:</span><span class="w"> </span><span class="n">rainbowColors</span><span class="p">[</span><span class="n">index</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="n">rainbowColors</span><span class="p">.</span><span class="n">length</span><span class="p">],</span><span class="w"></span>
+<a id="__codelineno-11-8" name="__codelineno-11-8" href="#__codelineno-11-8"></a><span class="w">      </span><span class="nl">index:</span><span class="w"> </span><span class="n">index</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-11-9" name="__codelineno-11-9" href="#__codelineno-11-9"></a><span class="w">    </span><span class="p">);</span><span class="w"></span>
+<a id="__codelineno-11-10" name="__codelineno-11-10" href="#__codelineno-11-10"></a><span class="w">  </span><span class="p">},</span><span class="w"></span>
+<a id="__codelineno-11-11" name="__codelineno-11-11" href="#__codelineno-11-11"></a><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="delegatecrossaxisentent">(delegate)CrossAxisEntent: 최대 사이즈 기준</h4>
+<p>지정한 최대 크기 기준으로 그 최대 크기를 넘지 않는 선에서 가로로 최대로 뷰 갯수를 채움.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="nl">gridDelegate:</span><span class="w"> </span><span class="n">SliverGridDelegateWithMaxCrossAxisExtent</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="w">  </span><span class="nl">maxCrossAxisExtent:</span><span class="w"> </span><span class="m">50</span><span class="p">,</span><span class="w"> </span><span class="c1">// 최대 크기가 50이 되는 한도 내에서 가로로 꽉 채움.</span><span class="w"></span>
+<a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a><span class="p">)</span><span class="w"></span>
+</code></pre></div>
+<center>
+<img alt="renderMaxExtent" src="/docs/assets/img/flutter/Theory/scrollable_widget/renderMaxExtent.gif" width="50%" />
+</center></p>
+<h2 id="reorderable-list-view">Reorderable List View</h2>
+<p>재정렬 가능한 List View.
+builder를 통한 구현 👇
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="n">ReorderableListView</span><span class="p">.</span><span class="n">builder</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="w">  </span><span class="nl">itemBuilder:</span><span class="w"> </span><span class="p">(</span><span class="n">context</span><span class="p">,</span><span class="w"> </span><span class="n">index</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">RenderColorContainer</span><span class="p">(</span><span class="w"> </span>
+<a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a><span class="w">        </span><span class="nl">key:</span><span class="w"> </span><span class="n">Key</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a><span class="w">          </span><span class="n">index</span><span class="p">.</span><span class="n">toString</span><span class="p">()),</span><span class="w"> </span>
+<a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a><span class="w">          </span><span class="nl">color:</span><span class="w"> </span><span class="n">rainbowColors</span><span class="p">[</span><span class="n">renderNumbers</span><span class="p">[</span><span class="n">index</span><span class="p">]</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="n">rainbowColors</span><span class="p">.</span><span class="n">length</span><span class="p">],</span><span class="w"> </span>
+<a id="__codelineno-13-7" name="__codelineno-13-7" href="#__codelineno-13-7"></a><span class="w">          </span><span class="nl">index:</span><span class="w"> </span><span class="n">renderNumbers</span><span class="p">[</span><span class="n">index</span><span class="p">]);</span><span class="c1">// (1)!</span><span class="w"></span>
+<a id="__codelineno-13-8" name="__codelineno-13-8" href="#__codelineno-13-8"></a><span class="w">  </span><span class="p">},</span><span class="w"></span>
+<a id="__codelineno-13-9" name="__codelineno-13-9" href="#__codelineno-13-9"></a><span class="w">  </span><span class="nl">itemCount:</span><span class="w"> </span><span class="n">renderNumbers</span><span class="p">.</span><span class="n">length</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-13-10" name="__codelineno-13-10" href="#__codelineno-13-10"></a><span class="w">  </span><span class="nl">onReorder:</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">oldIndex</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">newIndex</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<a id="__codelineno-13-11" name="__codelineno-13-11" href="#__codelineno-13-11"></a><span class="w">    </span><span class="n">setState</span><span class="p">(()</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<a id="__codelineno-13-12" name="__codelineno-13-12" href="#__codelineno-13-12"></a><span class="w">      </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">oldIndex</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">newIndex</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<a id="__codelineno-13-13" name="__codelineno-13-13" href="#__codelineno-13-13"></a><span class="w">        </span><span class="n">newIndex</span><span class="w"> </span><span class="o">-=</span><span class="w"> </span><span class="m">1</span><span class="p">;</span><span class="w"></span>
+<a id="__codelineno-13-14" name="__codelineno-13-14" href="#__codelineno-13-14"></a><span class="w">      </span><span class="p">}</span><span class="w"> </span><span class="c1">// (2)!</span><span class="w"></span>
+<a id="__codelineno-13-15" name="__codelineno-13-15" href="#__codelineno-13-15"></a><span class="w">      </span><span class="kd">final</span><span class="w"> </span><span class="n">item</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">renderNumbers</span><span class="p">.</span><span class="n">removeAt</span><span class="p">(</span><span class="n">oldIndex</span><span class="p">);</span><span class="w"></span>
+<a id="__codelineno-13-16" name="__codelineno-13-16" href="#__codelineno-13-16"></a><span class="w">      </span><span class="n">renderNumbers</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="n">newIndex</span><span class="p">,</span><span class="w"> </span><span class="n">item</span><span class="p">);</span><span class="w"></span>
+<a id="__codelineno-13-17" name="__codelineno-13-17" href="#__codelineno-13-17"></a><span class="w">    </span><span class="p">});</span><span class="w"></span>
+<a id="__codelineno-13-18" name="__codelineno-13-18" href="#__codelineno-13-18"></a><span class="w">  </span><span class="p">},</span><span class="w"></span>
+<a id="__codelineno-13-19" name="__codelineno-13-19" href="#__codelineno-13-19"></a><span class="p">)</span><span class="w"></span>
+</code></pre></div></p>
+<ol>
+<li>index number가 이동하면 이동한 위치의 새로운 index number(3 &gt; 5로 옮기고 나면 3자리에 3이 그대로 들어옴)가 됨, 그러나 해당 index에 있던 renderNumber는 바뀌게 됨(3자리에 있던 3을 5로 보내게 되면 3자리에 4가 들어옴). <br><br>
+즉, 3에 있던 renderNumber를 5로 보내면 여전히 3번째 인덱스를 봤을 때 3번째 인덱스로 보이지만 해당하는 인덱스에는 renderNumber의 다음 인덱스가 그 인덱스 번호를 차지하게 됨.</li>
+<li>oldIndex와 newIndex 모두 이동이 되기 전에 산정됨. <br><br>
+[red, orange, yellow] <br>
+[0, 1, 2] <br><br>
+red를 yellow 다음으로 옮기고 싶을 경우 <br>
+oldIndex는 0으로 newIndex는 3으로 지정이 됨. <br>
+[orange, yellow, red] <br>
+옮기고 난 후의 Red의 index는 2번이 됨. <br>
+따라서 낮은 인덱스를 높은 인덱스로 옮길 때는 newIndex에 -1을 해줘야함. <br><br>
+[red, orange, yellow]<br>
+yellow를 맨 앞으로 옮기고 싶을 경우. <br>
+yellow : 2 oldIndex -&gt; 0 newIndex <br>
+[yellow, red, orange] <br></li>
+</ol>
+<p><center>
+<img alt="reorderable" src="/docs/assets/img/flutter/Theory/scrollable_widget/reorderable.gif" width="50%" />
+</center></p>
+<h2 id="custom-scroll-view">Custom Scroll View</h2>
+<p>Grid View와 List View를 연속해서 써야할 일이 있거나할 때 Custom해서 사용자가 정의한 방식대로 동작하는 Scroll View.</p>
+<h3 id="sliver-list">Sliver List</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="nd">@override</span><span class="w"></span>
+<a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a><span class="n">Widget</span><span class="w"> </span><span class="n">build</span><span class="p">(</span><span class="n">BuildContext</span><span class="w"> </span><span class="n">context</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a><span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="n">Scaffold</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-14-4" name="__codelineno-14-4" href="#__codelineno-14-4"></a><span class="w">    </span><span class="nl">body:</span><span class="w"> </span><span class="n">CustomScrollView</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-14-5" name="__codelineno-14-5" href="#__codelineno-14-5"></a><span class="w">      </span><span class="nl">slivers:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
+<a id="__codelineno-14-6" name="__codelineno-14-6" href="#__codelineno-14-6"></a><span class="w">        </span><span class="n">renderSliverAppBar</span><span class="p">(),</span><span class="w"></span>
+<a id="__codelineno-14-7" name="__codelineno-14-7" href="#__codelineno-14-7"></a><span class="w">        </span><span class="n">renderBuilderSliverList</span><span class="p">(),</span><span class="w"></span>
+<a id="__codelineno-14-8" name="__codelineno-14-8" href="#__codelineno-14-8"></a><span class="w">      </span><span class="p">],</span><span class="w"></span>
+<a id="__codelineno-14-9" name="__codelineno-14-9" href="#__codelineno-14-9"></a><span class="w">    </span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-14-10" name="__codelineno-14-10" href="#__codelineno-14-10"></a><span class="w">  </span><span class="p">);</span><span class="w"></span>
+<a id="__codelineno-14-11" name="__codelineno-14-11" href="#__codelineno-14-11"></a><span class="p">}</span><span class="w"></span>
+<a id="__codelineno-14-12" name="__codelineno-14-12" href="#__codelineno-14-12"></a>
+<a id="__codelineno-14-13" name="__codelineno-14-13" href="#__codelineno-14-13"></a><span class="n">SliverList</span><span class="w"> </span><span class="n">renderBuilderSliverList</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<a id="__codelineno-14-14" name="__codelineno-14-14" href="#__codelineno-14-14"></a><span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="n">SliverList</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-14-15" name="__codelineno-14-15" href="#__codelineno-14-15"></a><span class="w">    </span><span class="nl">delegate:</span><span class="w"> </span><span class="n">SliverChildBuilderDelegate</span><span class="p">(</span><span class="w"> </span><span class="c1">// delegate 지정해줘야함.</span><span class="w"></span>
+<a id="__codelineno-14-16" name="__codelineno-14-16" href="#__codelineno-14-16"></a><span class="w">    </span><span class="p">(</span><span class="n">context</span><span class="p">,</span><span class="w"> </span><span class="n">index</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<a id="__codelineno-14-17" name="__codelineno-14-17" href="#__codelineno-14-17"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">RenderColorContainer</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-14-18" name="__codelineno-14-18" href="#__codelineno-14-18"></a><span class="w">            </span><span class="nl">index:</span><span class="w"> </span><span class="n">index</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-14-19" name="__codelineno-14-19" href="#__codelineno-14-19"></a><span class="w">            </span><span class="nl">color:</span><span class="w"> </span><span class="n">rainbowColors</span><span class="p">[</span><span class="n">index</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="n">rainbowColors</span><span class="p">.</span><span class="n">length</span><span class="p">]);</span><span class="w"></span>
+<a id="__codelineno-14-20" name="__codelineno-14-20" href="#__codelineno-14-20"></a><span class="w">      </span><span class="p">},</span><span class="c1">// (1)!</span><span class="w"></span>
+<a id="__codelineno-14-21" name="__codelineno-14-21" href="#__codelineno-14-21"></a><span class="w">      </span><span class="nl">childCount:</span><span class="w"> </span><span class="m">100</span><span class="p">,</span><span class="w"> </span><span class="c1">// itemCount와 같음, view 최대 갯수 지정</span><span class="w"></span>
+<a id="__codelineno-14-22" name="__codelineno-14-22" href="#__codelineno-14-22"></a><span class="w">    </span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-14-23" name="__codelineno-14-23" href="#__codelineno-14-23"></a><span class="w">  </span><span class="p">);</span><span class="w"></span>
+<a id="__codelineno-14-24" name="__codelineno-14-24" href="#__codelineno-14-24"></a><span class="p">}</span><span class="w"></span>
+</code></pre></div>
+<ol>
+<li>ListView에서는 itemBuilder의 파라미터로 들어갔지만 여기에선 Delegate에 함수 형태로 들어가게 됨.</li>
+</ol>
+<h3 id="sliver-grid">Sliver Grid</h3>
+<p>Sliver List에서 gridDelegate가 추가됨.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="n">Widget</span><span class="w"> </span><span class="n">build</span><span class="p">(</span><span class="n">BuildContext</span><span class="w"> </span><span class="n">context</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a><span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="n">Scaffold</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a><span class="w">    </span><span class="nl">body:</span><span class="w"> </span><span class="n">CustomScrollView</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-15-4" name="__codelineno-15-4" href="#__codelineno-15-4"></a><span class="w">      </span><span class="nl">slivers:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
+<a id="__codelineno-15-5" name="__codelineno-15-5" href="#__codelineno-15-5"></a><span class="w">        </span><span class="n">renderSliverAppBar</span><span class="p">(),</span><span class="w"></span>
+<a id="__codelineno-15-6" name="__codelineno-15-6" href="#__codelineno-15-6"></a><span class="w">        </span><span class="n">renderSliverGrid</span><span class="p">(),</span><span class="w"></span>
+<a id="__codelineno-15-7" name="__codelineno-15-7" href="#__codelineno-15-7"></a><span class="w">      </span><span class="p">],</span><span class="w"></span>
+<a id="__codelineno-15-8" name="__codelineno-15-8" href="#__codelineno-15-8"></a><span class="w">    </span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-15-9" name="__codelineno-15-9" href="#__codelineno-15-9"></a><span class="w">  </span><span class="p">);</span><span class="w"></span>
+<a id="__codelineno-15-10" name="__codelineno-15-10" href="#__codelineno-15-10"></a><span class="p">}</span><span class="w"></span>
+<a id="__codelineno-15-11" name="__codelineno-15-11" href="#__codelineno-15-11"></a>
+<a id="__codelineno-15-12" name="__codelineno-15-12" href="#__codelineno-15-12"></a><span class="n">SliverGrid</span><span class="w"> </span><span class="n">renderSliverGrid</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<a id="__codelineno-15-13" name="__codelineno-15-13" href="#__codelineno-15-13"></a><span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="n">SliverGrid</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-15-14" name="__codelineno-15-14" href="#__codelineno-15-14"></a><span class="w">    </span><span class="nl">delegate:</span><span class="w"> </span><span class="n">SliverChildBuilderDelegate</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-15-15" name="__codelineno-15-15" href="#__codelineno-15-15"></a><span class="w">          </span><span class="p">(</span><span class="n">context</span><span class="p">,</span><span class="w"> </span><span class="n">index</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<a id="__codelineno-15-16" name="__codelineno-15-16" href="#__codelineno-15-16"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">RenderColorContainer</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-15-17" name="__codelineno-15-17" href="#__codelineno-15-17"></a><span class="w">            </span><span class="nl">index:</span><span class="w"> </span><span class="n">index</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-15-18" name="__codelineno-15-18" href="#__codelineno-15-18"></a><span class="w">            </span><span class="nl">color:</span><span class="w"> </span><span class="n">rainbowColors</span><span class="p">[</span><span class="n">index</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="n">rainbowColors</span><span class="p">.</span><span class="n">length</span><span class="p">]);</span><span class="w"></span>
+<a id="__codelineno-15-19" name="__codelineno-15-19" href="#__codelineno-15-19"></a><span class="w">      </span><span class="p">},</span><span class="w"></span>
+<a id="__codelineno-15-20" name="__codelineno-15-20" href="#__codelineno-15-20"></a><span class="w">      </span><span class="nl">childCount:</span><span class="w"> </span><span class="m">100</span><span class="p">,</span><span class="w"> </span><span class="c1">// itemCount와 유사함</span><span class="w"></span>
+<a id="__codelineno-15-21" name="__codelineno-15-21" href="#__codelineno-15-21"></a><span class="w">    </span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-15-22" name="__codelineno-15-22" href="#__codelineno-15-22"></a><span class="w">    </span><span class="nl">gridDelegate:</span><span class="w"></span>
+<a id="__codelineno-15-23" name="__codelineno-15-23" href="#__codelineno-15-23"></a><span class="w">    </span><span class="n">SliverGridDelegateWithFixedCrossAxisCount</span><span class="p">(</span><span class="nl">crossAxisCount:</span><span class="w"> </span><span class="m">2</span><span class="p">),</span><span class="w"> </span>
+<a id="__codelineno-15-24" name="__codelineno-15-24" href="#__codelineno-15-24"></a><span class="w">  </span><span class="p">);</span><span class="w"> </span><span class="c1">// (1)!</span><span class="w"></span>
+<a id="__codelineno-15-25" name="__codelineno-15-25" href="#__codelineno-15-25"></a><span class="p">}</span><span class="w"> </span>
+</code></pre></div></p>
+<ol>
+<li>Grid View에서 추가하는 Delegate에 Sliver만 붙임.</li>
+</ol>
+<h3 id="sliver-appbar">Sliver Appbar</h3>
+<p>커스텀 Appbar, Default 설정으로 자동으로 없어지게 끔 되어 있음.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="n">SliverAppBar</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a><span class="w">  </span><span class="nl">floating:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">   </span>
+<a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a><span class="w">  </span><span class="nl">snap:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="c1">// (1)!</span><span class="w"></span>
+<a id="__codelineno-16-4" name="__codelineno-16-4" href="#__codelineno-16-4"></a>
+<a id="__codelineno-16-5" name="__codelineno-16-5" href="#__codelineno-16-5"></a><span class="w">  </span><span class="nl">stretch:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"> </span>
+<a id="__codelineno-16-6" name="__codelineno-16-6" href="#__codelineno-16-6"></a><span class="w">  </span><span class="nl">pinned:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"> </span><span class="c1">// (2)!</span><span class="w"></span>
+<a id="__codelineno-16-7" name="__codelineno-16-7" href="#__codelineno-16-7"></a>
+<a id="__codelineno-16-8" name="__codelineno-16-8" href="#__codelineno-16-8"></a><span class="w">  </span><span class="nl">expandedHeight:</span><span class="w"> </span><span class="m">400</span><span class="p">,</span><span class="w"> </span><span class="c1">// 최대로 늘어나는 사이즈</span><span class="w"></span>
+<a id="__codelineno-16-9" name="__codelineno-16-9" href="#__codelineno-16-9"></a><span class="w">  </span><span class="nl">collapsedHeight:</span><span class="w"> </span><span class="m">100</span><span class="p">,</span><span class="w"> </span><span class="c1">// 접혔을 때 사이즈</span><span class="w"></span>
+<a id="__codelineno-16-10" name="__codelineno-16-10" href="#__codelineno-16-10"></a>
+<a id="__codelineno-16-11" name="__codelineno-16-11" href="#__codelineno-16-11"></a><span class="w">  </span><span class="nl">flexibleSpace:</span><span class="w"> </span><span class="n">FlexibleSpaceBar</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-16-12" name="__codelineno-16-12" href="#__codelineno-16-12"></a><span class="w">    </span><span class="nl">background:</span><span class="w"> </span><span class="n">Image</span><span class="p">.</span><span class="n">asset</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-16-13" name="__codelineno-16-13" href="#__codelineno-16-13"></a><span class="w">      </span><span class="s1">&#39;asset/img/image_1.jpeg&#39;</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-16-14" name="__codelineno-16-14" href="#__codelineno-16-14"></a><span class="w">      </span><span class="nl">fit:</span><span class="w"> </span><span class="n">BoxFit</span><span class="p">.</span><span class="n">cover</span><span class="w"></span>
+<a id="__codelineno-16-15" name="__codelineno-16-15" href="#__codelineno-16-15"></a><span class="w">    </span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-16-16" name="__codelineno-16-16" href="#__codelineno-16-16"></a><span class="w">    </span><span class="nl">title:</span><span class="w"> </span><span class="n">Text</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-16-17" name="__codelineno-16-17" href="#__codelineno-16-17"></a><span class="w">      </span><span class="s1">&#39;FlexibleSpaceBar&#39;</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-16-18" name="__codelineno-16-18" href="#__codelineno-16-18"></a><span class="w">      </span><span class="nl">style:</span><span class="w"> </span><span class="n">TextStyle</span><span class="p">(</span><span class="nl">color:</span><span class="w"> </span><span class="n">Colors</span><span class="p">.</span><span class="n">black</span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-16-19" name="__codelineno-16-19" href="#__codelineno-16-19"></a><span class="w">    </span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-16-20" name="__codelineno-16-20" href="#__codelineno-16-20"></a><span class="w">  </span><span class="p">),</span><span class="w"> </span><span class="c1">// (3)!</span><span class="w"></span>
+<a id="__codelineno-16-21" name="__codelineno-16-21" href="#__codelineno-16-21"></a><span class="w">  </span><span class="nl">title:</span><span class="w"> </span><span class="n">Text</span><span class="p">(</span><span class="s1">&#39;Custom Scroll View Screen&#39;</span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-16-22" name="__codelineno-16-22" href="#__codelineno-16-22"></a><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<ol>
+<li>
+<p>floating : true로 하면위로 잠깐 스크롤하면 AppBar 나타남. <br>
+snap : flaoting True 상태로 사용, true시 조금만 스크롤해도 AppBar 움직임.</p>
+</li>
+<li>
+<p>stretch : 맨 위에서 한계 이상으로 스크롤 했을 때 Scaffold 대신 Appbar가 차지함.<br> 
+pinned : true로 하면 위에 AppBar 고정됨.
+<center>
+고정 전 <br>
+<img alt="stretch_false" src="/docs/assets/img/flutter/Theory/scrollable_widget/stretch_false.gif" width="50%" />
+</center>
+<center>
+고정 후 <br>
+<img alt="stretch_true" src="/docs/assets/img/flutter/Theory/scrollable_widget/stretch_true.gif" width="50%" />
+</center></p>
+</li>
+<li><center>
+늘어났을 때 보여지는 공간 <br>
+<img alt="appFlexibleSpace" src="/docs/assets/img/flutter/Theory/scrollable_widget/appFlexibleSpace.gif" width="50%" />
+</center></li>
+</ol>
+<h3 id="sliver-header">Sliver Header</h3>
+<p>Sliver Header는 Custom Scroll View 사이사이에 Header를 넣을 수 있는 기능임. <br>
+<div class="highlight"><span class="filename">SliverPersistentHeader</span><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="n">SliverPersistentHeader</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a><span class="w">  </span><span class="nl">pinned:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"> </span><span class="c1">// 상단에 고정함</span><span class="w"></span>
+<a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a><span class="w">  </span><span class="c1">// Delegate에서 실제 동작 구현 </span><span class="w"></span>
+<a id="__codelineno-17-4" name="__codelineno-17-4" href="#__codelineno-17-4"></a><span class="w">  </span><span class="c1">//(1)!</span><span class="w"></span>
+<a id="__codelineno-17-5" name="__codelineno-17-5" href="#__codelineno-17-5"></a><span class="w">  </span><span class="nl">delegate:</span><span class="w"> </span><span class="n">_SliverFixedHeaderDelegate</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-17-6" name="__codelineno-17-6" href="#__codelineno-17-6"></a><span class="w">    </span><span class="nl">child:</span><span class="w"> </span><span class="n">Container</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-17-7" name="__codelineno-17-7" href="#__codelineno-17-7"></a><span class="w">        </span><span class="nl">color:</span><span class="w"> </span><span class="n">Colors</span><span class="p">.</span><span class="n">black</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-17-8" name="__codelineno-17-8" href="#__codelineno-17-8"></a><span class="w">        </span><span class="nl">child:</span><span class="w"> </span><span class="n">Center</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-17-9" name="__codelineno-17-9" href="#__codelineno-17-9"></a><span class="w">          </span><span class="nl">child:</span><span class="w"> </span><span class="n">Text</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-17-10" name="__codelineno-17-10" href="#__codelineno-17-10"></a><span class="w">            </span><span class="s1">&#39;신기하지~&#39;</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-17-11" name="__codelineno-17-11" href="#__codelineno-17-11"></a><span class="w">            </span><span class="nl">style:</span><span class="w"> </span><span class="n">TextStyle</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-17-12" name="__codelineno-17-12" href="#__codelineno-17-12"></a><span class="w">              </span><span class="nl">color:</span><span class="w"> </span><span class="n">Colors</span><span class="p">.</span><span class="n">white</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-17-13" name="__codelineno-17-13" href="#__codelineno-17-13"></a><span class="w">            </span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-17-14" name="__codelineno-17-14" href="#__codelineno-17-14"></a><span class="w">          </span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-17-15" name="__codelineno-17-15" href="#__codelineno-17-15"></a><span class="w">        </span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-17-16" name="__codelineno-17-16" href="#__codelineno-17-16"></a><span class="w">      </span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-17-17" name="__codelineno-17-17" href="#__codelineno-17-17"></a><span class="w">      </span><span class="nl">maxHeight:</span><span class="w"> </span><span class="m">200</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-17-18" name="__codelineno-17-18" href="#__codelineno-17-18"></a><span class="w">      </span><span class="nl">minHeigt:</span><span class="w"> </span><span class="m">10</span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-17-19" name="__codelineno-17-19" href="#__codelineno-17-19"></a><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<ol>
+<li><center>
+동작 화면<br>
+<img alt="renderHeader" src="/docs/assets/img/flutter/Theory/scrollable_widget/renderHeader.gif" width="50%" />
+</center></li>
+</ol>
+<div class="highlight"><span class="filename">Delegate Class (실제로 동작하는 부분)</span><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a><span class="kd">class</span><span class="w"> </span><span class="nc">_SliverFixedHeaderDelegate</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">SliverPersistentHeaderDelegate</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a><span class="w">  </span><span class="kd">final</span><span class="w"> </span><span class="n">Widget</span><span class="w"> </span><span class="n">child</span><span class="p">;</span><span class="w"></span>
+<a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a><span class="w">  </span><span class="kd">final</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">maxHeight</span><span class="p">;</span><span class="w"></span>
+<a id="__codelineno-18-4" name="__codelineno-18-4" href="#__codelineno-18-4"></a><span class="w">  </span><span class="kd">final</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">minHeigt</span><span class="p">;</span><span class="w"></span>
+<a id="__codelineno-18-5" name="__codelineno-18-5" href="#__codelineno-18-5"></a>
+<a id="__codelineno-18-6" name="__codelineno-18-6" href="#__codelineno-18-6"></a><span class="w">  </span><span class="n">_SliverFixedHeaderDelegate</span><span class="p">({</span><span class="w"></span>
+<a id="__codelineno-18-7" name="__codelineno-18-7" href="#__codelineno-18-7"></a><span class="w">    </span><span class="kd">required</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="n">child</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-18-8" name="__codelineno-18-8" href="#__codelineno-18-8"></a><span class="w">    </span><span class="kd">required</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="n">maxHeight</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-18-9" name="__codelineno-18-9" href="#__codelineno-18-9"></a><span class="w">    </span><span class="kd">required</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="n">minHeigt</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-18-10" name="__codelineno-18-10" href="#__codelineno-18-10"></a><span class="w">  </span><span class="p">});</span><span class="w"></span>
+<a id="__codelineno-18-11" name="__codelineno-18-11" href="#__codelineno-18-11"></a>
+<a id="__codelineno-18-12" name="__codelineno-18-12" href="#__codelineno-18-12"></a><span class="w">  </span><span class="c1">// 실제로 build 하는 부분</span><span class="w"></span>
+<a id="__codelineno-18-13" name="__codelineno-18-13" href="#__codelineno-18-13"></a><span class="w">  </span><span class="nd">@override</span><span class="w"></span>
+<a id="__codelineno-18-14" name="__codelineno-18-14" href="#__codelineno-18-14"></a><span class="w">  </span><span class="n">Widget</span><span class="w"> </span><span class="n">build</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-18-15" name="__codelineno-18-15" href="#__codelineno-18-15"></a><span class="w">      </span><span class="n">BuildContext</span><span class="w"> </span><span class="n">context</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">shrinkOffset</span><span class="p">,</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="n">overlapsContent</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<a id="__codelineno-18-16" name="__codelineno-18-16" href="#__codelineno-18-16"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">SizedBox</span><span class="p">.</span><span class="n">expand</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-18-17" name="__codelineno-18-17" href="#__codelineno-18-17"></a><span class="w">      </span><span class="nl">child:</span><span class="w"> </span><span class="n">child</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-18-18" name="__codelineno-18-18" href="#__codelineno-18-18"></a><span class="w">    </span><span class="p">);</span><span class="w"></span>
+<a id="__codelineno-18-19" name="__codelineno-18-19" href="#__codelineno-18-19"></a><span class="w">  </span><span class="p">}</span><span class="w"></span>
+<a id="__codelineno-18-20" name="__codelineno-18-20" href="#__codelineno-18-20"></a>
+<a id="__codelineno-18-21" name="__codelineno-18-21" href="#__codelineno-18-21"></a><span class="w">  </span><span class="c1">// 최대 높이</span><span class="w"></span>
+<a id="__codelineno-18-22" name="__codelineno-18-22" href="#__codelineno-18-22"></a><span class="w">  </span><span class="nd">@override</span><span class="w"></span>
+<a id="__codelineno-18-23" name="__codelineno-18-23" href="#__codelineno-18-23"></a><span class="w">  </span><span class="kt">double</span><span class="w"> </span><span class="kd">get</span><span class="w"> </span><span class="n">maxExtent</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">maxHeight</span><span class="p">;</span><span class="w"></span>
+<a id="__codelineno-18-24" name="__codelineno-18-24" href="#__codelineno-18-24"></a>
+<a id="__codelineno-18-25" name="__codelineno-18-25" href="#__codelineno-18-25"></a><span class="w">  </span><span class="c1">// 최소 높이</span><span class="w"></span>
+<a id="__codelineno-18-26" name="__codelineno-18-26" href="#__codelineno-18-26"></a><span class="w">  </span><span class="nd">@override</span><span class="w"></span>
+<a id="__codelineno-18-27" name="__codelineno-18-27" href="#__codelineno-18-27"></a><span class="w">  </span><span class="kt">double</span><span class="w"> </span><span class="kd">get</span><span class="w"> </span><span class="n">minExtent</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">minHeigt</span><span class="p">;</span><span class="w"></span>
+<a id="__codelineno-18-28" name="__codelineno-18-28" href="#__codelineno-18-28"></a>
+<a id="__codelineno-18-29" name="__codelineno-18-29" href="#__codelineno-18-29"></a><span class="w">  </span><span class="c1">// oldDelegate - build가 실행이 됐을 때 이전 Delegate</span><span class="w"></span>
+<a id="__codelineno-18-30" name="__codelineno-18-30" href="#__codelineno-18-30"></a><span class="w">  </span><span class="c1">// return 값이 true면 재빌드 함</span><span class="w"></span>
+<a id="__codelineno-18-31" name="__codelineno-18-31" href="#__codelineno-18-31"></a><span class="w">  </span><span class="nd">@override</span><span class="w"></span>
+<a id="__codelineno-18-32" name="__codelineno-18-32" href="#__codelineno-18-32"></a><span class="w">  </span><span class="kt">bool</span><span class="w"> </span><span class="n">shouldRebuild</span><span class="p">(</span><span class="n">_SliverFixedHeaderDelegate</span><span class="w"> </span><span class="n">oldDelegate</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<a id="__codelineno-18-33" name="__codelineno-18-33" href="#__codelineno-18-33"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">oldDelegate</span><span class="p">.</span><span class="n">minHeigt</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="n">minHeigt</span><span class="w"> </span><span class="o">||</span><span class="w"></span>
+<a id="__codelineno-18-34" name="__codelineno-18-34" href="#__codelineno-18-34"></a><span class="w">        </span><span class="n">oldDelegate</span><span class="p">.</span><span class="n">maxHeight</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="n">maxHeight</span><span class="w"> </span><span class="o">||</span><span class="w"></span>
+<a id="__codelineno-18-35" name="__codelineno-18-35" href="#__codelineno-18-35"></a><span class="w">        </span><span class="n">oldDelegate</span><span class="p">.</span><span class="n">child</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="n">child</span><span class="p">;</span><span class="w"></span>
+<a id="__codelineno-18-36" name="__codelineno-18-36" href="#__codelineno-18-36"></a><span class="w">  </span><span class="p">}</span><span class="w"></span>
+<a id="__codelineno-18-37" name="__codelineno-18-37" href="#__codelineno-18-37"></a><span class="p">}</span><span class="w"></span>
+</code></pre></div>
+<h3 id="sliver-to-box-adaptor">Sliver To Box Adaptor</h3>
+<p>slivers = [] 안에는 Sliver 위젯들 밖에 들어올 수 없지만 Sliver To Box Adaptor를 사용하면 Card나 Container 등의 위젯이 들어올 수 있음.</p>
+<div class="highlight"><span class="filename">Slvier To Box Adaptor</span><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="n">SliverToBoxAdapter</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a><span class="w">  </span><span class="nl">child:</span><span class="w"> </span><span class="n">Container</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-19-3" name="__codelineno-19-3" href="#__codelineno-19-3"></a><span class="w">    </span><span class="nl">color:</span><span class="w"> </span><span class="n">Colors</span><span class="p">.</span><span class="n">white</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-19-4" name="__codelineno-19-4" href="#__codelineno-19-4"></a><span class="w">    </span><span class="nl">height:</span><span class="w"> </span><span class="m">200</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-19-5" name="__codelineno-19-5" href="#__codelineno-19-5"></a><span class="w">    </span><span class="nl">child:</span><span class="w"> </span><span class="n">Column</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-19-6" name="__codelineno-19-6" href="#__codelineno-19-6"></a><span class="w">      </span><span class="nl">mainAxisAlignment:</span><span class="w"> </span><span class="n">MainAxisAlignment</span><span class="p">.</span><span class="n">center</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-19-7" name="__codelineno-19-7" href="#__codelineno-19-7"></a><span class="w">      </span><span class="nl">children:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
+<a id="__codelineno-19-8" name="__codelineno-19-8" href="#__codelineno-19-8"></a><span class="w">        </span><span class="n">Text</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-19-9" name="__codelineno-19-9" href="#__codelineno-19-9"></a><span class="w">          </span><span class="s1">&#39;이건 되지롱 !!!!!&#39;</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-19-10" name="__codelineno-19-10" href="#__codelineno-19-10"></a><span class="w">          </span><span class="nl">style:</span><span class="w"> </span><span class="n">TextStyle</span><span class="p">(</span><span class="nl">fontSize:</span><span class="w"> </span><span class="m">18</span><span class="p">,</span><span class="w"> </span><span class="nl">fontWeight:</span><span class="w"> </span><span class="n">FontWeight</span><span class="p">.</span><span class="n">w700</span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-19-11" name="__codelineno-19-11" href="#__codelineno-19-11"></a><span class="w">          </span><span class="nl">textAlign:</span><span class="w"> </span><span class="n">TextAlign</span><span class="p">.</span><span class="n">center</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-19-12" name="__codelineno-19-12" href="#__codelineno-19-12"></a>
+<a id="__codelineno-19-13" name="__codelineno-19-13" href="#__codelineno-19-13"></a><span class="w">        </span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-19-14" name="__codelineno-19-14" href="#__codelineno-19-14"></a><span class="w">      </span><span class="p">],</span><span class="w"></span>
+<a id="__codelineno-19-15" name="__codelineno-19-15" href="#__codelineno-19-15"></a><span class="w">    </span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-19-16" name="__codelineno-19-16" href="#__codelineno-19-16"></a><span class="w">  </span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-19-17" name="__codelineno-19-17" href="#__codelineno-19-17"></a><span class="p">);</span><span class="w"></span>
+</code></pre></div>
+<h2 id="scrollbar">Scrollbar</h2>
+<p>Scroll 가능한 위젯을 Widget(Scrollbar)로 감싸줌. 기본적으로 존재하지 않는 스크롤 바가 생김.</p>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a><span class="n">Scrollbar</span><span class="p">(</span><span class="w"> </span><span class="c1">// 동작 화면 (1) </span><span class="w"></span>
+<a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a><span class="w">  </span><span class="nl">child:</span><span class="w"> </span><span class="n">SingleChildScrollView</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-20-3" name="__codelineno-20-3" href="#__codelineno-20-3"></a><span class="w">    </span><span class="nl">child:</span><span class="w"> </span><span class="n">Column</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-20-4" name="__codelineno-20-4" href="#__codelineno-20-4"></a><span class="w">      </span><span class="nl">children:</span><span class="w"> </span><span class="n">renderNumbers</span><span class="w"></span>
+<a id="__codelineno-20-5" name="__codelineno-20-5" href="#__codelineno-20-5"></a><span class="w">          </span><span class="p">.</span><span class="n">map</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-20-6" name="__codelineno-20-6" href="#__codelineno-20-6"></a><span class="w">            </span><span class="p">(</span><span class="n">e</span><span class="p">)</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">RenderColorContainer</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-20-7" name="__codelineno-20-7" href="#__codelineno-20-7"></a><span class="w">              </span><span class="nl">index:</span><span class="w"> </span><span class="n">e</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-20-8" name="__codelineno-20-8" href="#__codelineno-20-8"></a><span class="w">              </span><span class="nl">color:</span><span class="w"> </span><span class="n">rainbowColors</span><span class="p">[</span><span class="n">e</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="n">rainbowColors</span><span class="p">.</span><span class="n">length</span><span class="p">],</span><span class="w"></span>
+<a id="__codelineno-20-9" name="__codelineno-20-9" href="#__codelineno-20-9"></a><span class="w">            </span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-20-10" name="__codelineno-20-10" href="#__codelineno-20-10"></a><span class="w">          </span><span class="p">)</span><span class="w"></span>
+<a id="__codelineno-20-11" name="__codelineno-20-11" href="#__codelineno-20-11"></a><span class="w">          </span><span class="p">.</span><span class="n">toList</span><span class="p">(),</span><span class="w"></span>
+<a id="__codelineno-20-12" name="__codelineno-20-12" href="#__codelineno-20-12"></a><span class="w">    </span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-20-13" name="__codelineno-20-13" href="#__codelineno-20-13"></a><span class="w">  </span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-20-14" name="__codelineno-20-14" href="#__codelineno-20-14"></a><span class="p">),</span><span class="w"></span>
+</code></pre></div>
+1. <center>
+<img alt="scrollBar" src="/docs/assets/img/flutter/Theory/scrollable_widget/scrollBar.gif" width="50%" />
+</center></p>
+<h2 id="refresh-indicator">Refresh Indicator</h2>
+<p>Scrollable View의 최상단에서 아래로 당겼을 때 loading 창이 구현됨.<br>
+ScrollBar와 마찬가지로 Scrollable 위젯을 Refresh Indicator로 감싸고 onRefresh로 refresh 실행시 동작할 함수를 구현함.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a><span class="n">RefreshIndicator</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a><span class="w">  </span><span class="c1">// refresh 실행하면 실행될 함수 </span><span class="w"></span>
+<a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a><span class="w">    </span><span class="nl">onRefresh:</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="kd">async</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<a id="__codelineno-21-4" name="__codelineno-21-4" href="#__codelineno-21-4"></a><span class="w">    </span><span class="kd">await</span><span class="w"> </span><span class="n">Future</span><span class="p">.</span><span class="n">delayed</span><span class="p">(</span><span class="n">Duration</span><span class="p">(</span><span class="nl">seconds:</span><span class="w"> </span><span class="m">2</span><span class="p">));</span><span class="w"></span>
+<a id="__codelineno-21-5" name="__codelineno-21-5" href="#__codelineno-21-5"></a><span class="w">  </span><span class="p">},</span><span class="w"></span>
+<a id="__codelineno-21-6" name="__codelineno-21-6" href="#__codelineno-21-6"></a><span class="w">  </span><span class="nl">child:</span><span class="w"> </span><span class="n">ListView</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-21-7" name="__codelineno-21-7" href="#__codelineno-21-7"></a><span class="w">    </span><span class="nl">children:</span><span class="w"> </span><span class="n">renderNumbers</span><span class="p">.</span><span class="n">map</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-21-8" name="__codelineno-21-8" href="#__codelineno-21-8"></a><span class="w">      </span><span class="p">(</span><span class="n">e</span><span class="p">)</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">RenderColorContainer</span><span class="p">(</span><span class="w"></span>
+<a id="__codelineno-21-9" name="__codelineno-21-9" href="#__codelineno-21-9"></a><span class="w">        </span><span class="nl">index:</span><span class="w"> </span><span class="n">e</span><span class="p">,</span><span class="w"></span>
+<a id="__codelineno-21-10" name="__codelineno-21-10" href="#__codelineno-21-10"></a><span class="w">        </span><span class="nl">color:</span><span class="w"> </span><span class="n">rainbowColors</span><span class="p">[</span><span class="n">e</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="n">rainbowColors</span><span class="p">.</span><span class="n">length</span><span class="p">],</span><span class="w"></span>
+<a id="__codelineno-21-11" name="__codelineno-21-11" href="#__codelineno-21-11"></a><span class="w">      </span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-21-12" name="__codelineno-21-12" href="#__codelineno-21-12"></a><span class="w">    </span><span class="p">).</span><span class="n">toList</span><span class="p">(),</span><span class="w"></span>
+<a id="__codelineno-21-13" name="__codelineno-21-13" href="#__codelineno-21-13"></a><span class="w">  </span><span class="p">),</span><span class="w"></span>
+<a id="__codelineno-21-14" name="__codelineno-21-14" href="#__codelineno-21-14"></a><span class="p">);</span><span class="c1">// 실행 화면 : (1)</span><span class="w"></span>
+</code></pre></div></p>
+<ol>
+<li><center>
+<img alt="refresh" src="/docs/assets/img/flutter/Theory/scrollable_widget/refresh.gif" width="50%" />
+</center></li>
+</ol>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            맨위로
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../GestureDetector/" class="md-footer__link md-footer__link--prev" aria-label="이전: Gesture Detector" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                이전
+              </span>
+              Gesture Detector
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="scrollListner/" class="md-footer__link md-footer__link--next" aria-label="다음: 현재 scroll 위치 구하기" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                다음
+              </span>
+              현재 scroll 위치 구하기
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tabs", "navigation.tracking", "navigation.prune", "navigation.indexes", "navigation.top", "content.code.annotate", "content.tabs.link"], "search": "../../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "\ud074\ub9bd\ubcf4\ub4dc\uc5d0 \ubcf5\uc0ac\ub428", "clipboard.copy": "\ud074\ub9bd\ubcf4\ub4dc\ub85c \ubcf5\uc0ac", "search.config.lang": "en", "search.config.pipeline": " ", "search.config.separator": "[\\s\\-]+", "search.placeholder": "\uac80\uc0c9", "search.result.more.one": "\uc774 \ubb38\uc11c\uc5d0\uc11c 1\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.more.other": "\uc774 \ubb38\uc11c\uc5d0\uc11c #\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.none": "\uac80\uc0c9\uc5b4\uc640 \uc77c\uce58\ud558\ub294 \ubb38\uc11c\uac00 \uc5c6\uc2b5\ub2c8\ub2e4", "search.result.one": "1\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.other": "#\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.placeholder": "\uac80\uc0c9\uc5b4\ub97c \uc785\ub825\ud558\uc138\uc694", "search.result.term.missing": "\ud3ec\ud568\ub418\uc9c0 \uc54a\uc740 \uac80\uc0c9\uc5b4", "select.version.title": "\ubc84\uc804 \uc120\ud0dd"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d6c3db9e.min.js"></script>
+      
+    
+  </body>
+</html>
