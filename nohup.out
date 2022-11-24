@@ -6899,3 +6899,166 @@ INFO     -  [02:46:56] Browser connected: http://61.102.126.18:8000/docs/Flutter
 [33mWARNING  -  [0m[06:34:50] "GET / HTTP/1.1" code 302
 [33mWARNING  -  [0m[09:07:17] "GET / HTTP/1.1" code 302
 INFO     -  [09:39:07] Browser connected: http://0.0.0.0:8000/docs/Flutter/dartGrammar/formatting/
+[33mWARNING  -  [0m[11:57:17] "GET / HTTP/1.0" code 302
+[33mWARNING  -  [0m[11:57:17] "GET / HTTP/1.1" code 302
+[33mWARNING  -  [0m[11:57:17] "GET /favicon.ico HTTP/1.1" code 404
+[33mWARNING  -  [0m[11:57:18] "GET /robots.txt HTTP/1.1" code 404
+[33mWARNING  -  [0m[11:57:18] "GET /.well-known/security.txt HTTP/1.1" code 404
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  Building documentation...
+INFO     -  Cleaning site directory
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  Documentation built in 0.58 seconds
+INFO     -  [20:01:00] Watching paths for changes: 'docs', 'mkdocs.yml'
+INFO     -  [20:01:00] Serving on http://0.0.0.0:8000/docs/
+INFO     -  [20:01:22] Browser connected: http://0.0.0.0:8000/docs/Flutter/Theory/error_fix/
+INFO     -  [20:04:01] Browser connected: http://61.102.126.18:8000/docs/Flutter/dartGrammar/Date/
+[33mWARNING  -  [0m[20:36:08] " u  q_ÀM©H`~¤yuRYô%=­å0»H  À/À+ÀÀÀÀ	ÀÀ" code 400
+[33mWARNING  -  [0m[21:01:51] "GET / HTTP/1.1" code 302
+[33mWARNING  -  [0m[21:11:49] "GET / HTTP/1.1" code 302
+[33mWARNING  -  [0m[23:45:48] "MGLNDD_61.102.126.18_8000" code 400
+[33mWARNING  -  [0m[00:54:04] " {  w3~ô@p! .zúnöÉ6ø Z9]_Vj®K  À/À+ÀÀÀÀ	ÀÀ" code 400
+[33mWARNING  -  [0m[00:54:05] " {  w¬9á'ùOÌ¨#K¨Ç³Ï3ÑFAiçLî  À/À+ÀÀÀÀ	ÀÀ" code 400
+[33mWARNING  -  [0m[00:54:05] " {  wJaÑ`Sê" code 400
+[33mWARNING  -  [0m[03:20:04] "GET / HTTP/1.1" code 302
+[33mWARNING  -  [0m[05:14:52] "GET / HTTP/1.1" code 302
+----------------------------------------
+Exception occurred during processing of request from ('167.94.146.57', 52786)
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/opt/homebrew/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/wsgiref/simple_server.py", line 118, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 54] Connection reset by peer
+----------------------------------------
+[33mWARNING  -  [0m[07:17:42] "GET / HTTP/1.1" code 302
+[33mWARNING  -  [0m[07:17:43] "GET / HTTP/1.1" code 302
+[33mWARNING  -  [0m[07:17:44] "PRI * HTTP/2.0" code 505
+[33mWARNING  -  [0m[07:17:45] "PRI * HTTP/2.0" code 505
+[33mWARNING  -  [0m[07:17:46] "GET /assets/images/favicon.png HTTP/1.1" code 404
+[33mWARNING  -  [0m[07:17:46] "GET /favicon.ico HTTP/1.1" code 404
+[33mWARNING  -  [0m[07:45:00] "GET / HTTP/1.1" code 302
+[33mWARNING  -  [0m[07:45:00] "GET /favicon.ico HTTP/1.1" code 404
+INFO     -  [07:45:01] Browser connected: http://0.0.0.0:8000/docs/
+INFO     -  [07:46:01] Browser connected: http://0.0.0.0:8000/docs/Flutter/dartGrammar/DartGrammar/
+[33mWARNING  -  [0m[08:11:04] "GET / HTTP/1.1" code 302
+[33mWARNING  -  [0m[08:25:38] "GET / HTTP/1.1" code 302
+[33mWARNING  -  [0m[08:45:10] "GET / HTTP/1.1" code 302
+INFO     -  [08:45:11] Browser connected: http://0.0.0.0:8000/docs/
+[33mWARNING  -  [0m[08:49:21] "GET / HTTP/1.1" code 302
+INFO     -  [08:49:21] Browser connected: http://0.0.0.0:8000/docs/
+INFO     -  [08:50:21] Browser connected: http://0.0.0.0:8000/docs/Flutter/dartGrammar/DartGrammar/
+[33mWARNING  -  [0m[09:13:05] "GET / HTTP/1.1" code 302
+INFO     -  [09:13:07] Browser connected: http://0.0.0.0:8000/docs/
+INFO     -  [09:15:27] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [09:15:28] Reloading browsers
+INFO     -  [09:15:28] Browser connected: http://0.0.0.0:8000/docs/Flutter/Theory/error_fix/
+INFO     -  [09:15:47] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [09:15:47] Reloading browsers
+INFO     -  [09:15:47] Detected file changes
+INFO     -  [09:15:47] Browser connected: http://0.0.0.0:8000/docs/Flutter/Theory/CodeGeneration/
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [09:15:48] Reloading browsers
+INFO     -  [09:15:48] Browser connected: http://0.0.0.0:8000/docs/Flutter/Theory/CodeGeneration/
+INFO     -  [09:15:49] Browser connected: http://0.0.0.0:8000/docs/Flutter/Theory/CodeGeneration/
+INFO     -  [09:15:57] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [09:15:57] Reloading browsers
+INFO     -  [09:15:57] Browser connected: http://0.0.0.0:8000/docs/Flutter/Theory/CodeGeneration/
+INFO     -  [09:15:57] Browser connected: http://0.0.0.0:8000/docs/Flutter/Theory/CodeGeneration/
+INFO     -  [09:15:58] Browser connected: http://0.0.0.0:8000/docs/Flutter/Theory/CodeGeneration/
+[33mWARNING  -  [0m[09:21:38] "GET / HTTP/1.1" code 302
+[33mWARNING  -  [0m[09:21:39] "GET /HNAP1/ HTTP/1.1" code 404
+[33mWARNING  -  [0m[09:28:22] "GET / HTTP/1.1" code 302
+INFO     -  [09:28:22] Browser connected: http://0.0.0.0:8000/docs/
+INFO     -  [09:29:22] Browser connected: http://0.0.0.0:8000/docs/Flutter/dartGrammar/asyncProgramming/
+[33mWARNING  -  [0m[09:32:50] "GET / HTTP/1.1" code 302
+INFO     -  [09:32:50] Browser connected: http://0.0.0.0:8000/docs/
+[33mWARNING  -  [0m[09:33:31] "GET / HTTP/1.1" code 302
+INFO     -  [09:33:32] Browser connected: http://0.0.0.0:8000/docs/
+INFO     -  [09:33:50] Browser connected: http://0.0.0.0:8000/docs/Flutter/dartGrammar/immutable_data/
+[33mWARNING  -  [0m[10:10:33] " {  wQ0U(ø:¼´æxu@-1Õ½Ç¯<¢ÖI  À/À+ÀÀÀÀ	ÀÀ" code 400
+[33mWARNING  -  [0m[11:23:22] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" code 404
+[33mWARNING  -  [0m[11:39:59] "GET / HTTP/1.1" code 302
+[33mWARNING  -  [0m[11:55:41] "GET /admin/ HTTP/1.1" code 404
+[33mWARNING  -  [0m[12:05:48] "GET / HTTP/1.1" code 302
+INFO     -  [12:05:48] Browser connected: http://0.0.0.0:8000/docs/
+INFO     -  [12:06:48] Browser connected: http://0.0.0.0:8000/docs/Flutter/dartGrammar/immutable_data/
+INFO     -  [12:07:00] Browser connected: http://0.0.0.0:8000/docs/Flutter/dartGrammar/asyncProgramming/
+[33mWARNING  -  [0m[12:26:24] "GET / HTTP/1.1" code 302
+[33mWARNING  -  [0m[12:26:50] "GET / HTTP/1.1" code 302
+INFO     -  [12:31:53] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [12:31:53] Reloading browsers
+INFO     -  [12:31:54] Browser connected: http://0.0.0.0:8000/docs/Flutter/dartGrammar/immutable_data/
+INFO     -  [12:31:54] Browser connected: http://0.0.0.0:8000/docs/Flutter/dartGrammar/asyncProgramming/
+INFO     -  [15:02:55] Browser connected: http://0.0.0.0:8000/docs/Flutter/dartGrammar/DartGrammar/
+----------------------------------------
+Exception occurred during processing of request from ('31.171.241.79', 53739)
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/opt/homebrew/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/wsgiref/simple_server.py", line 118, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 54] Connection reset by peer
+----------------------------------------
+[33mWARNING  -  [0m[17:13:31] "GET / HTTP/1.1" code 302
+INFO     -  [17:13:32] Browser connected: http://0.0.0.0:8000/docs/
+INFO     -  [17:14:32] Browser connected: http://0.0.0.0:8000/docs/Flutter/dartGrammar/functionalProgramming/
+INFO     -  [18:32:57] Browser connected: http://0.0.0.0:8000/docs/Flutter/dartGrammar/oopProgramming/
+INFO     -  [18:39:57] Browser connected: http://0.0.0.0:8000/docs/Flutter/dartGrammar/functionalProgramming/
+[33mWARNING  -  [0m[22:20:59] "GET / HTTP/1.1" code 302
+INFO     -  [06:06:47] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [06:06:48] Reloading browsers
+INFO     -  [06:06:48] Browser connected: http://0.0.0.0:8000/docs/Flutter/dartGrammar/asyncProgramming/
+INFO     -  [06:07:48] Browser connected: http://0.0.0.0:8000/docs/Flutter/dartGrammar/formatting/
+INFO     -  [06:15:48] Browser connected: http://0.0.0.0:8000/docs/Flutter/Theory/widget/
+INFO     -  [06:32:49] Browser connected: http://0.0.0.0:8000/docs/Flutter/Theory/SQL/
+INFO     -  [12:02:49] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [12:02:50] Reloading browsers
+INFO     -  [12:02:50] Browser connected: http://0.0.0.0:8000/docs/Flutter/Theory/SQL/
+INFO     -  [19:05:14] Detected file changes
+INFO     -  Building documentation...
+[33mWARNING  -  [0mConfig value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please use a third party production-ready server instead.
+INFO     -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+INFO     -  [19:05:15] Reloading browsers
+INFO     -  [19:05:15] Browser connected: http://0.0.0.0:8000/docs/Flutter/Theory/SQL/

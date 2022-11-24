@@ -16,7 +16,7 @@ SELECT {column} FROM {table}
 ```
 > 출력
 
-```console
+```bash
  List[ {map}, {map} ... {map}] 
 ```
 ### Update : 데이터 업데이트하기

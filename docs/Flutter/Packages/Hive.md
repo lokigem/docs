@@ -36,7 +36,7 @@ class  Users{
 
 작성 완료 했으면 
 
-```console
+```bash
 flutter pub run build_runner build
 ```
 

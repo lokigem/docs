@@ -117,7 +117,7 @@ void example3() {
 
 > 출력값
 
-```console
+```bash
 [1.jpeg, 2.jpeg, 3.jpeg, 4.jpeg, 5.jpeg]
 {Harry Poter Character Harry Potter: 해리포터 캐릭터 해리 포터, Harry Poter Character Ron Weasley: 해리포터 캐릭터 론 위즐리, Harry Poter Character Hermione Granger: 해리포터 캐릭터 헤르미온느 그레인저}
 [HPC Harry Potter, HPC Ron Weasley, HPC Hermione Granger]
